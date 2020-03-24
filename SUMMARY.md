@@ -13,6 +13,8 @@
   * [context](context.md)
   * [垃圾回收](la-ji-hui-shou.md)
   * 栈和堆
+  * 原子性操作
+  * 断言
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
@@ -20,11 +22,11 @@
     * [cluster模式](redis/ji-qun-yuan-li/clustermo-shi.md)
       * [一致性哈希](redis/ji-qun-yuan-li/clustermo-shi/yi-zhi-xing-ha-xi.md)
   * [数据类型+底层原理](redis/shu-ju-lei-578b+-di-ceng-yuan-li.md)
-    * string
-    * list
-    * hash
-    * zet
-    * szet
+    * [string](redis/shu-ju-lei-578b+-di-ceng-yuan-li/string.md)
+    * [list](redis/shu-ju-lei-578b+-di-ceng-yuan-li/list.md)
+    * [hash](redis/shu-ju-lei-578b+-di-ceng-yuan-li/hash.md)
+    * [zet](redis/shu-ju-lei-578b+-di-ceng-yuan-li/zet.md)
+    * [szet](redis/shu-ju-lei-578b+-di-ceng-yuan-li/szet.md)
   * [分布式锁](redis/fen-bu-shi-suo.md)
   * [更新策略](redis/geng-xin-ce-lve.md)
   * [缓存击穿 穿透 雪崩](redis/huan-cun-ji-chuan-chuan-tou-xue-beng.md)
@@ -37,6 +39,7 @@
   * [缓存失效策略](redis/huan-cun-shi-xiao-ce-lve.md)
   * [如何保证操作的原子性](redis/ru-he-bao-zheng-cao-zuo-de-yuan-zi-xing.md)
   * [为什么这么快](redis/wei-shi-yao-zhe-yao-kuai.md)
+  * [Bitmap](redis/bitmap.md)
 * [Mysql](mysql.md)
   * b+树
   * 索引原理
@@ -62,4 +65,6 @@
   * BIO
   * AIO
   * select epoll的区别
+* [算法](chapter1/suan-fa.md)
+  * bitmap
 
