@@ -73,6 +73,12 @@
   * [Netty](other/netty.md)
 * [算法](chapter1/suan-fa.md)
   * bitmap
+  * [动态规划](chapter1/suan-fa/dong-tai-gui-hua.md)
 * [设计模式](she-ji-mo-shi.md)
 * 明日计划
+* 高并发
+  * [解决方案](jie-jue-fang-an.md)
+  * 熔断
+* [每日解题](mei-ri-jie-ti.md)
+  * [2020-03-28](mei-ri-jie-ti/2020-03-28.md)
 
