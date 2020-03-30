@@ -97,8 +97,9 @@
   * [2020--03-29](mei-ri-jie-ti/2020-03-29.md)
   * [2020-03-30](mei-ri-jie-ti/2020-03-30.md)
 * RPC
-  * NETTY
+  * [注册中心](zhu-ce-zhong-xin.md)
   * 序列化/反序列化
+  * NETTY
 * 连路追踪
 * 订单系统
   * [幂等](mi-deng.md)
