@@ -50,12 +50,12 @@
   * [读写分离](mysql/du-xie-fen-li.md)
   * [explain](mysql/explain.md)
   * [事务特性的原理](mysql/shi-wu-te-xing-de-yuan-li.md)
-  * 锁
+  * [锁](mysql/suo.md)
   * [myisam innodb的区别](mysql/myisam-innodbde-qu-bie.md)
-  * MVCC
+  * [MVCC](mysql/mvcc.md)
   * [索引失效](mysql/suo-yin-shi-xiao.md)
   * [auto\_increment](mysql/autoincrement.md)
-  * 经常慢 偶尔慢
+  * [经常慢 偶尔慢](mysql/jing-chang-man-ou-er-man.md)
 * [Other](other.md)
   * [分布式](other/fen-bu-shi.md)
   * [HTTPS](other/https.md)
@@ -75,7 +75,7 @@
   * [select epoll的区别](other/select-epollde-qu-bie.md)
   * [Netty](other/netty.md)
 * [算法](chapter1/suan-fa.md)
-  * bitmap
+  * [bitmap](chapter1/suan-fa/bitmap.md)
   * [动态规划](chapter1/suan-fa/dong-tai-gui-hua.md)
 * [设计模式](she-ji-mo-shi.md)
 * 明日计划
