@@ -84,8 +84,8 @@
   * [动态规划](chapter1/suan-fa/dong-tai-gui-hua.md)
   * [TopK](chapter1/suan-fa/topk.md)
 * [设计模式](she-ji-mo-shi.md)
-* 明日计划
-* 高并发
+* [明日计划](ming-ri-ji-hua.md)
+* [高并发](gao-bing-fa.md)
   * [解决方案](jie-jue-fang-an.md)
   * 三把利器
     * 缓存
@@ -107,8 +107,8 @@
     * JAGER
   * [服务治理](fu-wu-zhi-li.md)
   * [分布式](other/fen-bu-shi.md)
+  * [K8S](k8s.md)
   * NETTY
-  * 序列化/反序列化
 * 订单系统
   * [幂等](mi-deng.md)
 
