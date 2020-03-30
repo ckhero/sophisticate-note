@@ -105,7 +105,7 @@
   * [服务监控](fu-wu-jian-kong.md)
   * [服务追踪](fu-wu-zhui-zong.md)
     * JAGER
-  * 服务治理
+  * [服务治理](fu-wu-zhi-li.md)
   * NETTY
   * 序列化/反序列化
 * 订单系统
