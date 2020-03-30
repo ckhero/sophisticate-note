@@ -45,16 +45,16 @@
   * [为什么这么快](redis/wei-shi-yao-zhe-yao-kuai.md)
   * [☆ Bitmap](redis/bitmap.md)
 * [Mysql](mysql.md)
-  * b+树
-  * 索引原理
+  * [b+树](mysql/bshu.md)
+  * [索引原理](mysql/suo-yin-yuan-li.md)
   * [读写分离](mysql/du-xie-fen-li.md)
   * [explain](mysql/explain.md)
-  * 事务特性的原理
+  * [事务特性的原理](mysql/shi-wu-te-xing-de-yuan-li.md)
   * 锁
-  * myisam innodb的区别
+  * [myisam innodb的区别](mysql/myisam-innodbde-qu-bie.md)
   * MVCC
-  * 索引失效
-  * auto\_increment
+  * [索引失效](mysql/suo-yin-shi-xiao.md)
+  * [auto\_increment](mysql/autoincrement.md)
   * 经常慢 偶尔慢
 * [Other](other.md)
   * [分布式](other/fen-bu-shi.md)
@@ -63,7 +63,7 @@
     * [code](other/http/code.md)
   * [zookeeper](other/zookeeper.md)
   * [TCP/UDP](other/tcpudp.md)
-  * 报文
+  * [报文](other/bao-wen.md)
 * [MQ](xiao-xi-zhong-jian-jian.md)
   * [kafka](xiao-xi-zhong-jian-jian/kafka.md)
   * [RabbitMQ](xiao-xi-zhong-jian-jian/rabbitmq.md)
