@@ -85,7 +85,7 @@
 * 明日计划
 * 高并发
   * [解决方案](jie-jue-fang-an.md)
-  * 熔断
+  * [熔断](rong-duan.md)
 * [每日解题](mei-ri-jie-ti.md)
   * [2020-03-28](mei-ri-jie-ti/2020-03-28.md)
   * [2020--03-29](mei-ri-jie-ti/2020-03-29.md)
