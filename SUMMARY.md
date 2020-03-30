@@ -11,13 +11,13 @@
   * [MPG](mpg.md)
   * [defer](def.md)
   * [runtime](runtime.md)
-  * [为什么快](wei-shi-yao-kuai.md)
   * [context](context.md)
   * [垃圾回收](la-ji-hui-shou.md)
   * [栈和堆](zhan-he-dui.md)
   * [原子性操作](yuan-zi-xing-cao-zuo.md)
   * [反射](fan-she.md)
   * [interface](interface.md)
+  * 坑 
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
@@ -85,7 +85,10 @@
 * 明日计划
 * 高并发
   * [解决方案](jie-jue-fang-an.md)
-  * [熔断](rong-duan.md)
+  * 三把利器
+    * 缓存
+    * [限流 ](xian-liu.md)
+    * 降级
 * [每日解题](mei-ri-jie-ti.md)
   * [2020-03-28](mei-ri-jie-ti/2020-03-28.md)
   * [2020--03-29](mei-ri-jie-ti/2020-03-29.md)
