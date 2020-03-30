@@ -86,7 +86,6 @@
 * [设计模式](she-ji-mo-shi.md)
 * [明日计划](ming-ri-ji-hua.md)
 * [高并发](gao-bing-fa.md)
-  * [解决方案](jie-jue-fang-an.md)
   * 三把利器
     * 缓存
     * [限流 ](xian-liu.md)
@@ -110,6 +109,6 @@
   * [K8S](k8s.md)
   * NETTY
   * Docker
-* 订单系统
+* [订单系统](ding-dan-xi-tong.md)
   * [幂等](mi-deng.md)
 
