@@ -79,6 +79,7 @@
   * [进程](other/jin-cheng.md)
     * [通信](other/jin-cheng/tong-xin.md)
     * [状态](other/jin-cheng/zhuang-tai.md)
+  * [线程](other/xian-cheng.md)
 * [算法](chapter1/suan-fa.md)
   * [bitmap](chapter1/suan-fa/bitmap.md)
   * [动态规划](chapter1/suan-fa/dong-tai-gui-hua.md)
