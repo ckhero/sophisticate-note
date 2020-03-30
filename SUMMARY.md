@@ -103,7 +103,7 @@
   * [服务框架](fu-wu-kuang-jia.md)
     * [GRPC](fu-wu-kuang-jia/grpc.md)
   * [服务监控](fu-wu-jian-kong.md)
-  * 服务追踪
+  * [服务追踪](fu-wu-zhui-zong.md)
     * JAGER
   * 服务治理
   * NETTY
