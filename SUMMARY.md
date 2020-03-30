@@ -59,12 +59,10 @@
   * [经常慢 偶尔慢](mysql/jing-chang-man-ou-er-man.md)
   * [乐观锁/悲观锁](mysql/le-guan-9501-bei-guan-suo.md)
 * [Other](other.md)
-  * [分布式](other/fen-bu-shi.md)
   * [HTTPS](other/https.md)
   * [HTTP](other/http.md)
     * [code](other/http/code.md)
   * [HTTP2](other/http2.md)
-  * [zookeeper](other/zookeeper.md)
   * [TCP/UDP](other/tcpudp.md)
   * [报文](other/bao-wen.md)
 * [MQ](xiao-xi-zhong-jian-jian.md)
@@ -101,12 +99,14 @@
   * [服务描述](fu-wu-miao-shu.md)
   * [注册中心](zhu-ce-zhong-xin.md)
     * [ETCD](zhu-ce-zhong-xin/etcd.md)
+    * [zookeeper](other/zookeeper.md)
   * [服务框架](fu-wu-kuang-jia.md)
     * [GRPC](fu-wu-kuang-jia/grpc.md)
   * [服务监控](fu-wu-jian-kong.md)
   * [服务追踪](fu-wu-zhui-zong.md)
     * JAGER
   * [服务治理](fu-wu-zhi-li.md)
+  * [分布式](other/fen-bu-shi.md)
   * NETTY
   * 序列化/反序列化
 * 订单系统
