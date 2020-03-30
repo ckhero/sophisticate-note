@@ -57,6 +57,7 @@
   * [索引失效](mysql/suo-yin-shi-xiao.md)
   * [auto\_increment](mysql/autoincrement.md)
   * [经常慢 偶尔慢](mysql/jing-chang-man-ou-er-man.md)
+  * [乐观锁/悲观锁](mysql/le-guan-9501-bei-guan-suo.md)
 * [Other](other.md)
   * [分布式](other/fen-bu-shi.md)
   * [HTTPS](other/https.md)
