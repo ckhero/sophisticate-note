@@ -62,15 +62,17 @@
   * [HTTP](other/http.md)
     * [code](other/http/code.md)
   * [zookeeper](other/zookeeper.md)
+  * [TCP/UDP](other/tcpudp.md)
+  * 报文
 * [MQ](xiao-xi-zhong-jian-jian.md)
   * [kafka](xiao-xi-zhong-jian-jian/kafka.md)
   * [RabbitMQ](xiao-xi-zhong-jian-jian/rabbitmq.md)
   * [常见的消息中间件的协议](xiao-xi-zhong-jian-jian/chang-jian-de-xiao-xi-zhong-jian-jian-de-xie-yi.md)
 * [IO模型](iomo-xing.md)
-  * NIO
-  * BIO
-  * AIO
-  * select epoll的区别
+  * [NIO](other/nio.md)
+  * [BIO](other/bio.md)
+  * [AIO](other/aio.md)
+  * [select epoll的区别](other/select-epollde-qu-bie.md)
   * [Netty](other/netty.md)
 * [算法](chapter1/suan-fa.md)
   * bitmap
