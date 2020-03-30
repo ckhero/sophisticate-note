@@ -11,7 +11,7 @@
   * [MPG](mpg.md)
   * [defer](def.md)
   * [runtime](runtime.md)
-  * 为什么快
+  * [为什么快](wei-shi-yao-kuai.md)
   * [context](context.md)
   * [垃圾回收](la-ji-hui-shou.md)
   * [栈和堆](zhan-he-dui.md)
@@ -83,4 +83,5 @@
 * [每日解题](mei-ri-jie-ti.md)
   * [2020-03-28](mei-ri-jie-ti/2020-03-28.md)
   * [2020--03-29](mei-ri-jie-ti/2020-03-29.md)
+  * [2020-03-30](mei-ri-jie-ti/2020-03-30.md)
 
