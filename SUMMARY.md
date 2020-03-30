@@ -80,6 +80,7 @@
 * [算法](chapter1/suan-fa.md)
   * [bitmap](chapter1/suan-fa/bitmap.md)
   * [动态规划](chapter1/suan-fa/dong-tai-gui-hua.md)
+  * [TopK](chapter1/suan-fa/topk.md)
 * [设计模式](she-ji-mo-shi.md)
 * 明日计划
 * 高并发
