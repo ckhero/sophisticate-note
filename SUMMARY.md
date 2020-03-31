@@ -104,7 +104,7 @@
     * [GO-Micro](fu-wu-kuang-jia/go-micro.md)
   * [服务监控](fu-wu-jian-kong.md)
   * [服务追踪](fu-wu-zhui-zong.md)
-    * JAGER
+    * [JAGER](fu-wu-zhui-zong/jager.md)
   * [服务治理](fu-wu-zhi-li.md)
   * [分布式](other/fen-bu-shi.md)
   * [K8S](k8s.md)
