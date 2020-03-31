@@ -101,7 +101,7 @@
     * [zookeeper](other/zookeeper.md)
   * [服务框架](fu-wu-kuang-jia.md)
     * [GRPC](fu-wu-kuang-jia/grpc.md)
-    * GO-Micro
+    * [GO-Micro](fu-wu-kuang-jia/go-micro.md)
   * [服务监控](fu-wu-jian-kong.md)
   * [服务追踪](fu-wu-zhui-zong.md)
     * JAGER
