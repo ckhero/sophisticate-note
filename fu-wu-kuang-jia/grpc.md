@@ -7,6 +7,8 @@
 > [http://jy.xiaoxiangbz.com/?tn=7654](http://jy.xiaoxiangbz.com/?tn=7654)
 >
 > 服务发现和负载均衡 [https://segmentfault.com/a/1190000008672912](https://segmentfault.com/a/1190000008672912)
+>
+> 容错 [https://blog.csdn.net/weiwangchao\_/article/details/82023191](https://blog.csdn.net/weiwangchao_/article/details/82023191)
 
 ## 通讯框架和协议
 
@@ -17,6 +19,10 @@
 ## 序列化/反序列化
 
 > protocol buffers，这是一套google的成熟的序列化机制。支持跨平台语言
+
+## 容错
+
+> FailOver切换
 
 
 
