@@ -13,6 +13,10 @@ slave完成快照载入和缓冲区的命令执行完毕后，完成初始化操
 > master自动同步给slave 读写分离，减轻master的读压力
 >
 > slave也可以同步给其他的salve，减轻master的同步压力
+>
+> maste非阻塞的为slave提供服务，同步期间，可以继续提供读写服务
+>
+> slave非阻塞的同步master的数据，同步期间，可以查询同步前的数据
 
 缺点
 
