@@ -88,7 +88,7 @@
 * [明日计划](ming-ri-ji-hua.md)
 * [高并发](gao-bing-fa.md)
   * 三把利器
-    * 缓存
+    * [缓存](huan-cun.md)
     * [限流 ](xian-liu.md)
     * [降级](jiang-ji.md)
 * [每日解题](mei-ri-jie-ti.md)
