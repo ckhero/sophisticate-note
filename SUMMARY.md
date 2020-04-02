@@ -89,7 +89,8 @@
   * [动态规划](chapter1/suan-fa/dong-tai-gui-hua.md)
   * [TopK](chapter1/suan-fa/topk.md)
   * [贪心算法](chapter1/suan-fa/tan-xin-suan-fa.md)
-  * Raft协议
+  * [Raft协议](chapter1/suan-fa/raftxie-yi.md)
+  * [栈](chapter1/suan-fa/zhan.md)
 * [设计模式](she-ji-mo-shi.md)
 * [明日计划](ming-ri-ji-hua.md)
 * [高并发](gao-bing-fa.md)
