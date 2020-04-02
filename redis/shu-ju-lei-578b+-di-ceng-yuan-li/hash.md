@@ -25,5 +25,9 @@
 >
 > hashtable：OBJ\_ENCODING\_HT（哈希表）
 
+## 扩容
+
+> [https://www.jianshu.com/p/ea5a747ade5d](https://www.jianshu.com/p/ea5a747ade5d)
+
 
 
