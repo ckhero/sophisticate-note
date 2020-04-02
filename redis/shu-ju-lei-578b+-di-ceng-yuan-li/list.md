@@ -4,6 +4,8 @@
 
 > [https://www.cnblogs.com/javazhiyin/p/11063944.html](https://www.cnblogs.com/javazhiyin/p/11063944.html)
 
+> 数据对象小于64字节 & 数据对象个数小于512 使用 ziplist，否则使用双链表
+
 ## 结构
 
 > typedef struct list{
