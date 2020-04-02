@@ -27,6 +27,9 @@
     * [cluster模式](redis/ji-qun-yuan-li/clustermo-shi.md)
       * [☆ 一致性哈希](redis/ji-qun-yuan-li/clustermo-shi/yi-zhi-xing-ha-xi.md)
       * [☆ redis中的哈希槽](redis/ji-qun-yuan-li/clustermo-shi/rediszhong-de-ha-xi-cao.md)
+  * [相关数据结构](redis/xiang-guan-shu-ju-jie-gou.md)
+    * [dictEntry](shu-ju-jie-gou/dictentry.md)
+    * [ziplist](shu-ju-jie-gou/ziplist.md)
   * [数据类型+底层原理](redis/shu-ju-lei-578b+-di-ceng-yuan-li.md)
     * [string](redis/shu-ju-lei-578b+-di-ceng-yuan-li/string.md)
     * [list](redis/shu-ju-lei-578b+-di-ceng-yuan-li/list.md)
@@ -45,7 +48,7 @@
   * [缓存失效策略](redis/huan-cun-shi-xiao-ce-lve.md)
   * [如何保证操作的原子性](redis/ru-he-bao-zheng-cao-zuo-de-yuan-zi-xing.md)
   * [为什么这么快](redis/wei-shi-yao-zhe-yao-kuai.md)
-  * [☆ Bitmap](redis/bitmap.md)
+  * 相关数据结构
 * [Mysql](mysql.md)
   * [b+树](mysql/bshu.md)
   * [索引原理](mysql/suo-yin-yuan-li.md)
