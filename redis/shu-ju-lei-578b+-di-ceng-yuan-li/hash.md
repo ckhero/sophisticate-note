@@ -28,6 +28,18 @@
 ## 扩容
 
 > [https://www.jianshu.com/p/ea5a747ade5d](https://www.jianshu.com/p/ea5a747ade5d)
+>
+> 渐进式rehash 的详细步骤：
+>
+> 　　　　　　1、为ht\[1\] 分配空间，让字典同时持有ht\[0\]和ht\[1\]两个哈希表
+>
+> 　　　　　　2、在几点钟维持一个索引计数器变量rehashidx，并将它的值设置为0，表示rehash 开始
+>
+> 　　　　　　3、在rehash 进行期间，每次对字典执行CRUD操作时，程序除了执行指定的操作以外，还会将ht\[0\]中的数据rehash 到ht\[1\]表中，并且将rehashidx加一
+>
+> 　　　　　　4、当ht\[0\]中所有数据转移到ht\[1\]中时，将rehashidx 设置成-1，表示rehash 结束
+
+
 
 
 
