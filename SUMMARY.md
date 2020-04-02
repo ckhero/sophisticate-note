@@ -99,12 +99,6 @@
     * [缓存](huan-cun.md)
     * [限流 ](xian-liu.md)
     * [降级](jiang-ji.md)
-* [每日解题](mei-ri-jie-ti.md)
-  * [2020-03-28](mei-ri-jie-ti/2020-03-28.md)
-  * [2020--03-29](mei-ri-jie-ti/2020-03-29.md)
-  * [2020-03-30](mei-ri-jie-ti/2020-03-30.md)
-  * [2020-04-01](mei-ri-jie-ti/2020-04-01.md)
-  * [2020-04-02](mei-ri-jie-ti/2020-04-02.md)
 * [微服务](rpc.md)
   * [服务描述](fu-wu-miao-shu.md)
   * [注册中心](zhu-ce-zhong-xin.md)
@@ -125,4 +119,12 @@
   * [幂等](mi-deng.md)
 * [数据结构](shu-ju-jie-gou.md)
   * 哈希表
+* [每日解题](mei-ri-jie-ti.md)
+  * [2020-03](mei-ri-jie-ti/2020-03.md)
+    * [2020-03-28](mei-ri-jie-ti/2020-03-28.md)
+    * [2020--03-29](mei-ri-jie-ti/2020-03-29.md)
+    * [2020-03-30](mei-ri-jie-ti/2020-03-30.md)
+  * 2020-04
+    * [2020-04-01](mei-ri-jie-ti/2020-04-01.md)
+    * [2020-04-02](mei-ri-jie-ti/2020-04-02.md)
 
