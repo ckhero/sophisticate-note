@@ -1,5 +1,9 @@
 # hash
 
+## 资料
+
+> [https://zhuanlan.zhihu.com/p/87803810](https://zhuanlan.zhihu.com/p/87803810)
+
 ## 底层结构
 
 > ziplist或者hashtable
