@@ -6,7 +6,8 @@
 
 ## 题目
 
->
+> * 全排列 https://leetcode-cn.com/problems/permutations/
+> * 单词搜索 https://leetcode-cn.com/problems/word-search/
 
 
 
