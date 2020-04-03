@@ -1,5 +1,7 @@
 {
-    "plugins": ["page-treeview"],
+    "plugins": [
+        "page-treeview"
+    ],
     "pluginsConfig": {
         "page-treeview": {
             "copyright": "Copyright &#169; aleen42",
