@@ -1,6 +1,9 @@
 {
     "plugins": [
-        "page-treeview"
+        "page-treeview",
+         "-lunr", 
+         "-search",
+          "search-pro"
     ],
     "pluginsConfig": {
         "page-treeview": {
