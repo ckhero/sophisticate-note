@@ -94,6 +94,7 @@
   * [栈](chapter1/suan-fa/zhan.md)
     * [单调栈](chapter1/suan-fa/zhan/dan-diao-zhan.md)
   * [堆](chapter1/suan-fa/dui.md)
+  * [回溯](chapter1/suan-fa/hui-su.md)
 * [设计模式](she-ji-mo-shi.md)
 * [明日计划](ming-ri-ji-hua.md)
 * [微服务](rpc.md)
