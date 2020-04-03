@@ -96,11 +96,6 @@
   * [堆](chapter1/suan-fa/dui.md)
 * [设计模式](she-ji-mo-shi.md)
 * [明日计划](ming-ri-ji-hua.md)
-* [高并发](gao-bing-fa.md)
-  * 三把利器
-    * [缓存](huan-cun.md)
-    * [限流 ](xian-liu.md)
-    * [降级](jiang-ji.md)
 * [微服务](rpc.md)
   * [服务描述](fu-wu-miao-shu.md)
   * [注册中心](zhu-ce-zhong-xin.md)
@@ -117,6 +112,11 @@
   * [K8S](k8s.md)
   * NETTY
   * Docker
+* [高并发](gao-bing-fa.md)
+  * 三把利器
+    * [缓存](huan-cun.md)
+    * [限流 ](xian-liu.md)
+    * [降级](jiang-ji.md)
 * [订单系统](ding-dan-xi-tong.md)
   * [幂等](mi-deng.md)
 * [数据结构](shu-ju-jie-gou.md)
