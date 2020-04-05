@@ -96,6 +96,7 @@
   * [堆](chapter1/suan-fa/dui.md)
   * [回溯](chapter1/suan-fa/hui-su.md)
   * [前缀树](chapter1/suan-fa/qian-zhui-shu.md)
+  * [二叉树](chapter1/suan-fa/er-cha-shu.md)
 * [设计模式](she-ji-mo-shi.md)
 * [微服务](rpc.md)
   * [服务描述](fu-wu-miao-shu.md)
