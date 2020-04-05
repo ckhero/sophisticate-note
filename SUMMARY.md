@@ -97,9 +97,6 @@
   * [回溯](chapter1/suan-fa/hui-su.md)
   * [前缀树](chapter1/suan-fa/qian-zhui-shu.md)
 * [设计模式](she-ji-mo-shi.md)
-* [明日计划](ming-ri-ji-hua.md)
-  * [2020-04-05](ming-ri-ji-hua/2020-04-05.md)
-  * [2020-04-06](ming-ri-ji-hua/2020-04-06.md)
 * [微服务](rpc.md)
   * [服务描述](fu-wu-miao-shu.md)
   * [注册中心](zhu-ce-zhong-xin.md)
@@ -136,4 +133,7 @@
     * [2020-04-03](mei-ri-jie-ti/2020-04-03.md)
     * [2020-04-04](mei-ri-jie-ti/2020-04-04.md)
     * [2020-04-05](mei-ri-jie-ti/2020-04-05.md)
+* [明日计划](ming-ri-ji-hua.md)
+  * [2020-04-05](ming-ri-ji-hua/2020-04-05.md)
+  * [2020-04-06](ming-ri-ji-hua/2020-04-06.md)
 
