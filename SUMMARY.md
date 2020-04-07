@@ -97,6 +97,8 @@
   * [回溯](chapter1/suan-fa/hui-su.md)
   * [前缀树](chapter1/suan-fa/qian-zhui-shu.md)
   * [二叉树](chapter1/suan-fa/er-cha-shu.md)
+  * [二分查找](chapter1/suan-fa/er-fen-cha-zhao.md)
+    * [题目](chapter1/suan-fa/er-fen-cha-zhao/ti-mu.md)
 * [设计模式](she-ji-mo-shi.md)
 * [微服务](rpc.md)
   * [服务描述](fu-wu-miao-shu.md)
