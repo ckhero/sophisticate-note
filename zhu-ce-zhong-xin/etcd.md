@@ -5,6 +5,8 @@ ETCD
 > [https://zhuanlan.zhihu.com/p/96428375?from\_voters\_page=true](https://zhuanlan.zhihu.com/p/96428375?from_voters_page=true)
 >
 > [https://segmentfault.com/a/1190000020742981](https://segmentfault.com/a/1190000020742981)
+>
+> [https://www.cnblogs.com/softidea/p/6517959.html](https://www.cnblogs.com/softidea/p/6517959.html)
 
 ## 简述
 
@@ -75,12 +77,12 @@ ETCD
 >
 > ##### 选择奇数节点原因
 >
-> 1.    偶数节点容易出现等额票数，进入下一轮选举
+> 1. 偶数节点容易出现等额票数，进入下一轮选举
 > 2. 偶数节点出现网络分割的时候，如果集群节点对半分的话，无法完成选举。集群无法工作
 >
 > ##### 网络分割
 >
-> *   leader再多数节点，集群可用，少数节点拿不到心跳，也无法完成选举
+> * leader再多数节点，集群可用，少数节点拿不到心跳，也无法完成选举
 > * leader节点在少数节点，集群可用，多数节点侧重新选举
 
 
