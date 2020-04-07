@@ -104,6 +104,7 @@
   * [服务描述](fu-wu-miao-shu.md)
   * [注册中心](zhu-ce-zhong-xin.md)
     * [ETCD](zhu-ce-zhong-xin/etcd.md)
+      * [RAFT协议](zhu-ce-zhong-xin/etcd/raftxie-yi.md)
     * [zookeeper](other/zookeeper.md)
   * [服务框架](fu-wu-kuang-jia.md)
     * [GRPC](fu-wu-kuang-jia/grpc.md)
