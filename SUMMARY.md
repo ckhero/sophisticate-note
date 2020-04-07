@@ -119,6 +119,7 @@
     * [缓存](huan-cun.md)
     * [限流 ](xian-liu.md)
     * [降级](jiang-ji.md)
+      * [hystrix](jiang-ji/hystrix.md)
 * [订单系统](ding-dan-xi-tong.md)
   * [幂等](mi-deng.md)
 * [数据结构](shu-ju-jie-gou.md)
