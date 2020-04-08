@@ -100,6 +100,7 @@
   * [二分查找](chapter1/suan-fa/er-fen-cha-zhao.md)
     * [题目](chapter1/suan-fa/er-fen-cha-zhao/ti-mu.md)
   * 布隆过滤器
+  * [并查集](chapter1/suan-fa/bing-cha-ji.md)
 * [设计模式](she-ji-mo-shi.md)
 * [微服务](rpc.md)
   * [服务描述](fu-wu-miao-shu.md)
