@@ -46,25 +46,45 @@
 >
 > ```
 > type DefaultMetricCollector struct {
-> 	mutex *sync.RWMutex
+>     mutex *sync.RWMutex
 >
-> 	numRequests *rolling.Number
-> 	errors      *rolling.Number
+>     numRequests *rolling.Number
+>     errors      *rolling.Number
 >
-> 	successes               *rolling.Number
-> 	failures                *rolling.Number
-> 	rejects                 *rolling.Number
-> 	shortCircuits           *rolling.Number
-> 	timeouts                *rolling.Number
-> 	contextCanceled         *rolling.Number
-> 	contextDeadlineExceeded *rolling.Number
+>     successes               *rolling.Number
+>     failures                *rolling.Number
+>     rejects                 *rolling.Number
+>     shortCircuits           *rolling.Number
+>     timeouts                *rolling.Number
+>     contextCanceled         *rolling.Number
+>     contextDeadlineExceeded *rolling.Number
 >
-> 	fallbackSuccesses *rolling.Number
-> 	fallbackFailures  *rolling.Number
-> 	totalDuration     *rolling.Timing
-> 	runDuration       *rolling.Timing
+>     fallbackSuccesses *rolling.Number
+>     fallbackFailures  *rolling.Number
+>     totalDuration     *rolling.Timing
+>     runDuration       *rolling.Timing
 > }
 > ```
+>
+> Number保存了10秒内的Buckets数据信息，每个Bucket统计时长1秒
+>
+> ![](/assets/import-hystix.png)
+>
+> 字典字段
+>
+> `Buckets map[int64]*numberBucket`
+>
+> 中的
+>
+> `Key`
+>
+> 保存的是当前时间
+>
+> 每一次熔断器的状态修改都会先回去当前的时间戳 妙级的，没有则创建。修改完后去掉10s外的数据
+
+### 流量控制
+
+> 根据最大并发数，创建令牌桶，能得到令牌就执行，执行完后归还令牌
 
 
 
