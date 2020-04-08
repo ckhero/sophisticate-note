@@ -11,6 +11,7 @@
 > * 子集 [https://leetcode-cn.com/problems/subsets/](#)
 > * 字符串的排列 [https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)
 > * 电话号码的字母组合 [https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+> * 八皇后 [https://leetcode-cn.com/problems/eight-queens-lcci/](#)
 
 
 
