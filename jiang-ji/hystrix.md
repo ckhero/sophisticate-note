@@ -5,6 +5,8 @@
 > [https://segmentfault.com/a/1190000012439580](https://segmentfault.com/a/1190000012439580)
 >
 > [https://blog.csdn.net/loushuiyifan/article/details/82702522](https://blog.csdn.net/loushuiyifan/article/details/82702522)
+>
+> [https://www.cnblogs.com/li-peng/p/11050563.html](https://www.cnblogs.com/li-peng/p/11050563.html)
 
 ## 流程
 
@@ -29,7 +31,40 @@
 
 ## 容错
 
+* ### 资源隔离
+
+> 对线程的隔离，主要通过线程池和信号量进行隔离
+
+* ### 熔断
+* ### 降级
+
+## hystrix-go
+
+#### 统计控制器
+
+> 默认统计控制器记录着熔断器的所有状态，调用次数，失败次数 ，被拒次数
 >
+> ```
+> type DefaultMetricCollector struct {
+> 	mutex *sync.RWMutex
+>
+> 	numRequests *rolling.Number
+> 	errors      *rolling.Number
+>
+> 	successes               *rolling.Number
+> 	failures                *rolling.Number
+> 	rejects                 *rolling.Number
+> 	shortCircuits           *rolling.Number
+> 	timeouts                *rolling.Number
+> 	contextCanceled         *rolling.Number
+> 	contextDeadlineExceeded *rolling.Number
+>
+> 	fallbackSuccesses *rolling.Number
+> 	fallbackFailures  *rolling.Number
+> 	totalDuration     *rolling.Timing
+> 	runDuration       *rolling.Timing
+> }
+> ```
 
 
 
