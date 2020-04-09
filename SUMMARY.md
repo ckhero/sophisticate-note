@@ -104,6 +104,7 @@
   * 布隆过滤器
   * [并查集](chapter1/suan-fa/bing-cha-ji.md)
   * [KMP](chapter1/suan-fa/kmp.md)
+  * [滑动窗口](chapter1/suan-fa/hua-dong-chuang-kou.md)
 * [设计模式](she-ji-mo-shi.md)
   * [工厂](she-ji-mo-shi/gong-chang.md)
 * [微服务](rpc.md)
