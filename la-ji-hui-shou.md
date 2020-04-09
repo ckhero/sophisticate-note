@@ -7,6 +7,9 @@
 > [https://studygolang.com/articles/27243?fr=sidebar](https://studygolang.com/articles/27243?fr=sidebar)
 
 * ## v1.1 STW
+
+> 标记-清除 会刮起用户程序
+
 * ## v1.3 Mark STW, Sweep 并行
 * ## v1.5 三色标记法
 * ## v1.8 hybrid write barrier\(混合写屏障：优化STW\)
