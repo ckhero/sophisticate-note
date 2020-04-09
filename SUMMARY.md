@@ -118,8 +118,8 @@
   * [服务治理](fu-wu-zhi-li.md)
   * [分布式](other/fen-bu-shi.md)
   * [K8S](k8s.md)
-  * NETTY
-  * Docker
+  * [NETTY](netty.md)
+  * [Docker](docker.md)
 * [高并发](gao-bing-fa.md)
   * 三把利器
     * [缓存](huan-cun.md)
