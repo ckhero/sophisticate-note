@@ -71,6 +71,7 @@
   * [HTTP2](other/http2.md)
   * [TCP/UDP](other/tcpudp.md)
   * [报文](other/bao-wen.md)
+  * [语言对比](other/yu-yan-dui-bi.md)
 * [MQ](xiao-xi-zhong-jian-jian.md)
   * [应用场景](xiao-xi-zhong-jian-jian/ying-yong-chang-jing.md)
   * [RabbitMQ](xiao-xi-zhong-jian-jian/rabbitmq.md)
