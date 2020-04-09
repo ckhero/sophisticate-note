@@ -17,9 +17,9 @@
   * [原子性操作](yuan-zi-xing-cao-zuo.md)
   * [反射](fan-she.md)
   * [interface](interface.md)
-  * 坑 
+  * [坑 ](keng.md)
   * [不要通过共享内存来通信，要通过通信来共享内存](bu-yao-tong-guo-gong-xiang-nei-cun-lai-tong-xin-ff0c-yao-tong-guo-tong-xin-lai-gong-xiang-nei-cun.md)
-  * Redis  + Lua
+  * [Redis  + Lua](redis-+-lua.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
@@ -48,7 +48,7 @@
   * [缓存失效策略](redis/huan-cun-shi-xiao-ce-lve.md)
   * [如何保证操作的原子性](redis/ru-he-bao-zheng-cao-zuo-de-yuan-zi-xing.md)
   * [为什么这么快](redis/wei-shi-yao-zhe-yao-kuai.md)
-  * 相关数据结构
+  * [相关数据结构](redis/xiang-guan-shu-ju-jie-gou.md)
   * [Memcache和redis的区别](redis/memcachehe-redis-de-qu-bie.md)
 * [Mysql](mysql.md)
   * [b+树](mysql/bshu.md)
@@ -99,6 +99,8 @@
   * [二叉树](chapter1/suan-fa/er-cha-shu.md)
   * [二分查找](chapter1/suan-fa/er-fen-cha-zhao.md)
     * [题目](chapter1/suan-fa/er-fen-cha-zhao/ti-mu.md)
+  * 布隆过滤器
+  * [并查集](chapter1/suan-fa/bing-cha-ji.md)
 * [设计模式](she-ji-mo-shi.md)
 * [微服务](rpc.md)
   * [服务描述](fu-wu-miao-shu.md)
@@ -140,7 +142,8 @@
     * [2020-04-05](mei-ri-jie-ti/2020-04-05.md)
     * [2020-04-06](mei-ri-jie-ti/2020-04-06.md)
     * [2020-04-07](mei-ri-jie-ti/2020-04-07.md)
-  * [2020-04-08](mei-ri-jie-ti/2020-04-08.md)
+    * [2020-04-08](mei-ri-jie-ti/2020-04-08.md)
+  * [2020-04-09](mei-ri-jie-ti/2020-04-09.md)
 * [明日计划](ming-ri-ji-hua.md)
   * [2020-04-05](ming-ri-ji-hua/2020-04-05.md)
   * [2020-04-06](ming-ri-ji-hua/2020-04-06.md)
