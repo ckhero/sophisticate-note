@@ -13,14 +13,16 @@
 >
 > 如何证明你的贪心思想具有全局最优的效果：可以使用**反证法**来证明。
 
-
-
 ## 
 
 ## 解决的问题类型
 
 > * 找到最某事的最小数量
 > * 找到某些情况的下合适的最大物品数量
+
+## 题目
+
+> * 分发糖果 [https://leetcode-cn.com/problems/candy/](https://leetcode-cn.com/problems/candy/)
 
 
 
