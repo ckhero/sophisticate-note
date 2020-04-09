@@ -49,7 +49,6 @@
   * [缓存失效策略](redis/huan-cun-shi-xiao-ce-lve.md)
   * [如何保证操作的原子性](redis/ru-he-bao-zheng-cao-zuo-de-yuan-zi-xing.md)
   * [为什么这么快](redis/wei-shi-yao-zhe-yao-kuai.md)
-  * [相关数据结构](redis/xiang-guan-shu-ju-jie-gou.md)
   * [Memcache和redis的区别](redis/memcachehe-redis-de-qu-bie.md)
 * [Mysql](mysql.md)
   * [b+树](mysql/bshu.md)
