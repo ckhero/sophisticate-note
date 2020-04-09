@@ -48,7 +48,7 @@
 >
 > API etcd提供 http+json，grpc接口，跨平台语言，zk需要客户端
 >
-> 访问安全 zk支持https，zk这方面缺失
+> 访问安全 etcd支持https，zk这方面缺失
 
 ## 主节点 选举
 
