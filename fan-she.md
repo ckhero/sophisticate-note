@@ -1,5 +1,9 @@
 ## reflect
 
+## 资料
+
+> [https://studygolang.com/articles/2157](https://studygolang.com/articles/2157)
+
 ## 简述
 
 > 在编译时不知道类型的情况下，可更新变量，查看值，调用方法以及对他们的布局机制进行调整的机制
