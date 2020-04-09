@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [笔记](chapter1.md)
 * [golang](golang.md)
   * [data-strcuture](data-strcuture.md)
     * [map](map.md)
