@@ -51,15 +51,17 @@
 
 > ```
 > DefaultSelectors = map[string]func(...selector.Option) selector.Selector{
-> 		"default": selector.NewSelector,
-> 		"dns":     dns.NewSelector,
-> 		"cache":   selector.NewSelector,
-> 		"router":  router.NewSelector,
-> 		"static":  static.NewSelector,
-> 	}
+>         "default": selector.NewSelector,
+>         "dns":     dns.NewSelector,
+>         "cache":   selector.NewSelector,
+>         "router":  router.NewSelector,
+>         "static":  static.NewSelector,
+>     }
 > ```
 
+## Call 过程
 
+> 通过selector获取服务器的信息，然后去client的pool里面找对应的client，没有则创建。再进行数据传输
 
 
 
