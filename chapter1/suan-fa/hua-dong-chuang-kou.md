@@ -3,6 +3,10 @@
 ## 资料
 
 > [https://www.zhihu.com/topic/20746237/intro](https://www.zhihu.com/topic/20746237/intro)
+>
+> [https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/hua-dong-chuang-kou-by-powcai/](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/hua-dong-chuang-kou-by-powcai/)
+
+
 
 ## 题目
 
