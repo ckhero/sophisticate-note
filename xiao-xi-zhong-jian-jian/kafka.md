@@ -3,6 +3,8 @@ kafka
 ## 资料
 
 > 为什么高吞吐？ [https://www.jianshu.com/p/30036748174a](https://www.jianshu.com/p/30036748174a)
+>
+> 消费者的三种模式 [https://baijiahao.baidu.com/s?id=1647192820875012954&wfr=spider&for=pc](https://baijiahao.baidu.com/s?id=1647192820875012954&wfr=spider&for=pc)
 
 ## 优点
 
