@@ -1,5 +1,9 @@
 # RedisObject
 
+## 资料
+
+> [https://blog.csdn.net/qq\_35433716/article/details/82177585](https://blog.csdn.net/qq_35433716/article/details/82177585)
+
 ## 结构体
 
 > ```
@@ -7,8 +11,8 @@
 >         unsigned type:4;// 数据类型 string、hash、list、set、zset
 >         unsigned encoding:4; //物理编码方式
 >         unsigned lru:REDIS_LRU_BITS; /* lru time (relative to server.lruclock) */
->         int refcount;
->         void *ptr;
+>         int refcount;//refcount表示对象的引用计数。
+>         void *ptr; //ptr指针指向真正的存储结构
 >     } robj;
 > ```
 
@@ -24,6 +28,10 @@
 >     #define REDIS_ENCODING_INTSET 6  /* Encoded as intset */
 >     #define REDIS_ENCODING_SKIPLIST 7  /* Encoded as skiplist */
 > ```
+
+
+
+![](/assets/redis-encoding.png)
 
 
 
