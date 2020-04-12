@@ -124,6 +124,7 @@
     * [JAGER](fu-wu-zhui-zong/jager.md)
   * [服务治理](fu-wu-zhi-li.md)
   * [分布式](other/fen-bu-shi.md)
+    * [分布式事务](other/fen-bu-shi/fen-bu-shi-shi-wu.md)
   * [K8S](k8s.md)
   * [NETTY](netty.md)
   * [Docker](docker.md)
