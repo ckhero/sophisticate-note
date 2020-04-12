@@ -7,6 +7,8 @@
 > rocketmq [https://www.jianshu.com/p/286cac4625b6](https://www.jianshu.com/p/286cac4625b6)
 >
 > 2pc [https://www.cnblogs.com/wudimanong/p/10340948.html](https://www.cnblogs.com/wudimanong/p/10340948.html)
+>
+> 消息中间间分布式 [https://www.cnblogs.com/wudimanong/p/10558710.html](https://www.cnblogs.com/wudimanong/p/10558710.html)
 
 ## 简述
 
