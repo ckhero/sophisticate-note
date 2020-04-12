@@ -7,6 +7,8 @@ kafka
 > 消费者的三种模式 [https://baijiahao.baidu.com/s?id=1647192820875012954픴=spider&for=pc](https://baijiahao.baidu.com/s?id=1647192820875012954&wfr=spider&for=pc)
 >
 > 精确一次 [https://blog.csdn.net/lzufeng/article/details/81906031](https://blog.csdn.net/lzufeng/article/details/81906031)
+>
+> [https://cloud.tencent.com/developer/article/1530090](https://cloud.tencent.com/developer/article/1530090)
 
 ## 优点
 
@@ -26,6 +28,11 @@ kafka
 > * 零拷贝
 > * 数据以分区形式存放
 > * 批量压缩
+
+## 精确一次
+
+> * 为每个生产者分配一个PID
+> * 用序列号标记发送的消息，这个序列号严格递增。broker会去校验这个序列号
 
 
 
