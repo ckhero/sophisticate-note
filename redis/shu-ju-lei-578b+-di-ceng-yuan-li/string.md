@@ -5,10 +5,18 @@
 > [https://blog.csdn.net/wj1314250/article/details/92794412](https://blog.csdn.net/wj1314250/article/details/92794412)
 >
 > [https://blog.csdn.net/qq193423571/article/details/81637075](https://blog.csdn.net/qq193423571/article/details/81637075)
+>
+> [https://www.jianshu.com/p/975bd36f68ea](https://www.jianshu.com/p/975bd36f68ea)
 
 ## 简述
 
 > SDS动态字符串，结构体  字段 len，free，buf\[\]
+
+## 编码格式
+
+> * 当存储是64位有符号整型的时候使用 int编码
+> * 当存储的字符串长度 len&lt;= 44 使用 embstr编码，将SDS结构体嵌入RedisObject对象。内存地址连续
+> * 长度大图 len&gt;44 使用raw编码，SDS结构体和RedisObject分开。内存地址不连续
 
 ## 存入int？
 
