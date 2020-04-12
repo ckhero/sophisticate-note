@@ -31,6 +31,7 @@
   * [相关数据结构](redis/xiang-guan-shu-ju-jie-gou.md)
     * [dictEntry](shu-ju-jie-gou/dictentry.md)
     * [ziplist](shu-ju-jie-gou/ziplist.md)
+    * [RedisObject](shu-ju-jie-gou/redisobject.md)
   * [数据类型+底层原理](redis/shu-ju-lei-578b+-di-ceng-yuan-li.md)
     * [string](redis/shu-ju-lei-578b+-di-ceng-yuan-li/string.md)
     * [list](redis/shu-ju-lei-578b+-di-ceng-yuan-li/list.md)
