@@ -21,6 +21,7 @@
   * [不要通过共享内存来通信，要通过通信来共享内存](bu-yao-tong-guo-gong-xiang-nei-cun-lai-tong-xin-ff0c-yao-tong-guo-tong-xin-lai-gong-xiang-nei-cun.md)
   * [Redis  + Lua](redis-+-lua.md)
   * [并发](bing-fa.md)
+  * [资源竞争](zi-yuan-jing-zheng.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
