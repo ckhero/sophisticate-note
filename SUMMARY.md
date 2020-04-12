@@ -138,7 +138,7 @@
 * [订单系统](ding-dan-xi-tong.md)
   * [幂等](mi-deng.md)
 * [数据结构](shu-ju-jie-gou.md)
-  * 哈希表
+  * [哈希表](shu-ju-jie-gou/ha-xi-biao.md)
 * [每日解题](mei-ri-jie-ti.md)
   * [2020-03](mei-ri-jie-ti/2020-03.md)
     * [2020-03-28](mei-ri-jie-ti/2020-03-28.md)
