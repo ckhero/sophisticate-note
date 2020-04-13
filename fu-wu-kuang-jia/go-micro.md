@@ -39,7 +39,7 @@
 
 ## 发现服务
 
-> 1 . 去注册中心取，go-micro默认设置的cache。 DefaultSelectors里的cache对应的就是初始化cacheSelector方法\(cmd.go\)。设置缓存时间，过期重新获取。还会跑一个携程去watch服务的注册。如果有新的节点则添加到缓存当中。如果有故障节点则删除。client获取主机信息还需要通过Strategy去获取，目前只支持随机和轮询。
+> 1 . 去注册中心取，go-micro默认设置的cache。 DefaultSelectors里的cache对应的就是初始化cacheSelector方法\(cmd.go\)。设置缓存时间，过期重新获取。还会跑一个携程去watch服务的注册。如果有新的节点则添加到缓存当中。如果有故障节点则删除。client获取主机信息还需要通过Strategy去获取，目前只支持随机和轮询\(目前就是简单的轮询，一个个试过去\)。
 >
 > 调用失败的时候通过next的Strategy获取新的服务重试
 
