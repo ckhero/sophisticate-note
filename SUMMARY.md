@@ -72,7 +72,7 @@
     * [code](other/http/code.md)
   * [HTTP2](other/http2.md)
   * [TCP/UDP](other/tcpudp.md)
-    * 滑动窗口
+    * [TCP流量控制](other/tcpudp/tcpliu-liang-kong-zhi.md)
   * [报文](other/bao-wen.md)
   * [语言对比](other/yu-yan-dui-bi.md)
   * istio
