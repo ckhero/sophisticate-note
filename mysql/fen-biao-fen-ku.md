@@ -4,7 +4,7 @@
 
 > [https://www.cnblogs.com/aksir/p/9085694.html](https://www.cnblogs.com/aksir/p/9085694.html)
 >
-> [https://www.cnblogs.com/aksir/p/9085694.html](https://www.cnblogs.com/aksir/p/9085694.html)
+> [https://zhuanlan.zhihu.com/p/83674503](https://zhuanlan.zhihu.com/p/83674503)
 
 ## 简述
 
@@ -18,9 +18,11 @@
 > * range 
 >
 > 从0 - 100000， 100000- 20000
+>
 > * hash取模
 >
 > 根据用户id hash取模
+>
 > * 时间
 
 ## 分库分表面临的问题”
