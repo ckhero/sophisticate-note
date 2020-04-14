@@ -31,5 +31,33 @@
 
 ## 分页查询
 
+### 全局视野
+
+> * order by time offset x limit y 改写成order by time offset 0 limit x \* y
+> * 对取出的数据排序
+> * 缺点  随着数据量变大，性能急剧下降
+
+### 业务折中
+
+> * ##### **禁止跳页**
+> * ** **只能 跳下一页。得到前一页的time\_max
+>
+> * 每次跳页的时候 order by time offset x limit y 改写成 where time &gt; time\_max order by time offset x limit y 
+> * 特点  每次就返回一页数据
+> * ##### 允许模糊数据
+> * 每个库分配的数据是均匀的 order by time offset x limit y 改写成 order by time offset x/n limit y/n
+
+### 二次查询
+
+> 1 order by time offset X limit Y 改写成 order by time offset X/N limit Y/N
+>
+> 2 计算出time的范围
+>
+> 3 利用time的最大值和最小值去取数据
+>
+> 4 排序得到结果
+
+
+
 
 
