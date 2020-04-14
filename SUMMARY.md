@@ -66,6 +66,7 @@
   * [auto\_increment](mysql/autoincrement.md)
   * [经常慢 偶尔慢](mysql/jing-chang-man-ou-er-man.md)
   * [乐观锁/悲观锁](mysql/le-guan-9501-bei-guan-suo.md)
+  * [单表最大](mysql/dan-biao-zui-da.md)
 * [Other](other.md)
   * [HTTPS](other/https.md)
   * [HTTP](other/http.md)
