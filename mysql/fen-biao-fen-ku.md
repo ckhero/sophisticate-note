@@ -65,5 +65,9 @@
 
 > * 映射法  把partitio key 和非partitiion key 做映射
 
+## MYCAT
+
+> [https://blog.csdn.net/yinni11/article/details/82707757](https://blog.csdn.net/yinni11/article/details/82707757)
+
 
 
