@@ -8,7 +8,7 @@
 >
 > 分页查询  [https://blog.csdn.net/uiuan00/article/details/102716457](https://blog.csdn.net/uiuan00/article/details/102716457)
 >
-> [https://zhuanlan.zhihu.com/p/83674503](https://zhuanlan.zhihu.com/p/83674503)
+> 简单查询 [https://zhuanlan.zhihu.com/p/83674503](https://zhuanlan.zhihu.com/p/83674503)
 
 ## 简述
 
@@ -47,6 +47,7 @@
 > * 每次跳页的时候 order by time offset x limit y 改写成 where time &gt; time\_max order by time offset x limit y
 >
 > * 特点  每次就返回一页数据
+>
 > * ##### 允许模糊数据
 > * 每个库分配的数据是均匀的 order by time offset x limit y 改写成 order by time offset x/n limit y/n
 
