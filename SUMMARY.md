@@ -54,6 +54,7 @@
   * [Memcache和redis的区别](redis/memcachehe-redis-de-qu-bie.md)
   * [golang](redis/golang.md)
     * [redigo](redis/golang/redigo.md)
+  * [压测](redis/ya-ce.md)
 * [Mysql](mysql.md)
   * [b+树](mysql/bshu.md)
   * [索引原理](mysql/suo-yin-yuan-li.md)
