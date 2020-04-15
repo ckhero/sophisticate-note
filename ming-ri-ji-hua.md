@@ -10,6 +10,7 @@
 > * [x] 旋转字符串 [https://leetcode-cn.com/problems/rotate-string/](https://leetcode-cn.com/problems/rotate-string/)
 > * [ ] 至少有k个重复字符的子串 [https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/)
 > * [ ] atomic用法
+> * [ ] sync包
 
 
 
