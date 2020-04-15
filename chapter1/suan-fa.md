@@ -6,8 +6,6 @@
 
 [https://leetcode-cn.com/problems/last-stone-weight-ii/](https://leetcode-cn.com/problems/last-stone-weight-ii/)
 
-
-
 ## 资料
 
 > [https://github.com/labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm)
