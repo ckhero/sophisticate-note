@@ -3,6 +3,8 @@
 ## 资料
 
 > [https://blog.csdn.net/qq\_34337272/article/details/81072874](https://blog.csdn.net/qq_34337272/article/details/81072874)
+>
+> [https://blog.csdn.net/qq\_35190492/article/details/104691668](https://blog.csdn.net/qq_35190492/article/details/104691668)
 
 ## 悲观锁
 
@@ -16,7 +18,7 @@
 
 > 版本号和CAS算法
 
-## 应用场景 
+## 应用场景
 
 > 乐观锁适合读多写少的场景，冲突少。不加锁减少性能消耗
 >
@@ -29,8 +31,6 @@
 > * ABA问题
 > * 循环时间长 ，开销大
 > * 只能保证一个共享变量的原子性
-
-
 
 
 
