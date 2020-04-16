@@ -1,7 +1,7 @@
 # 计划
 
 > * [ ] 跳跃游戏
-> * [ ] 滑动算法
+> * [x] 滑动算法
 > * [x] KMP
 > * [ ] 中位数 [https://leetcode-cn.com/problems/median-of-two-sorted-arrays/](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
 > * [ ] 布隆过滤器
@@ -12,6 +12,4 @@
 > * [ ] atomic用法
 > * [ ] sync包
 > * [ ] [https://studygolang.com/articles/25563?fr=sidebar](https://studygolang.com/articles/25563?fr=sidebar)
-
-
 
