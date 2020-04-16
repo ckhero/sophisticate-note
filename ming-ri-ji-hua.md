@@ -11,6 +11,7 @@
 > * [ ] 至少有k个重复字符的子串 [https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/)
 > * [ ] atomic用法
 > * [ ] sync包
+> * [ ] [https://studygolang.com/articles/25563?fr=sidebar](https://studygolang.com/articles/25563?fr=sidebar)
 
 
 
