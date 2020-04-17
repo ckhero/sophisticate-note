@@ -13,6 +13,8 @@
 > 把二叉搜索树转为累加树 [https://leetcode-cn.com/problems/convert-bst-to-greater-tree/](#)
 >
 > 二叉树的直径 [https://leetcode-cn.com/problems/diameter-of-binary-tree/](https://leetcode-cn.com/problems/diameter-of-binary-tree/)
+>
+> 二叉树中和为某一值的路径 [https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)
 
 ### 中序遍历
 
