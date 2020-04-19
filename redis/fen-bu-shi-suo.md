@@ -21,6 +21,22 @@
 
 ## 增加重入性， key 线程标识 重入次数
 
+> 最新建议  j加锁  
+>
+> > ```
+> > set  key_name my_random_value NX PX 30000
+> > ```
+>
+> 释放
+>
+> ```
+> if redis.call("get",KEYS[1]) == ARGV[1] then
+>     return redis.call("del",KEYS[1])
+> else
+>     return 0
+> end
+> ```
+>
 > watch
 >
 > multi
