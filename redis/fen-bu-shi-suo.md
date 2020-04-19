@@ -21,6 +21,8 @@
 
 ## 增加重入性， key 线程标识 重入次数
 
+> watch
+>
 > multi
 >
 > setnx key val
