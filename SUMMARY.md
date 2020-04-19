@@ -142,6 +142,7 @@
     * [限流 ](xian-liu.md)
     * [降级](jiang-ji.md)
       * [hystrix](jiang-ji/hystrix.md)
+  * [防止超卖](gao-bing-fa/fang-zhi-chao-mai.md)
 * [订单系统](ding-dan-xi-tong.md)
   * [幂等](mi-deng.md)
 * [数据结构](shu-ju-jie-gou.md)
