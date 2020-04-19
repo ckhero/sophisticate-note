@@ -40,6 +40,7 @@
     * [zet](redis/shu-ju-lei-578b+-di-ceng-yuan-li/zet.md)
     * [szet](redis/shu-ju-lei-578b+-di-ceng-yuan-li/szet.md)
   * [分布式锁](redis/fen-bu-shi-suo.md)
+    * [其他方案](redis/fen-bu-shi-suo/qi-ta-fang-an.md)
   * [更新策略](redis/geng-xin-ce-lve.md)
   * [缓存击穿 穿透 雪崩](redis/huan-cun-ji-chuan-chuan-tou-xue-beng.md)
     * [击穿](redis/ji-chuan.md)
