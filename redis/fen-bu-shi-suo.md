@@ -3,6 +3,10 @@
 ## 资料
 
 > 锁过期 任务没执行完 [https://blog.csdn.net/wutengfei\_java/article/details/100699538](https://blog.csdn.net/wutengfei_java/article/details/100699538)
+>
+> redis官网 分布式锁 [https://redis.io/topics/distlock](https://redis.io/topics/distlock) 
+>
+> redlock [https://www.cnblogs.com/rgcLOVEyaya/p/RGC\_LOVE\_YAYA\_1003days.html](https://www.cnblogs.com/rgcLOVEyaya/p/RGC_LOVE_YAYA_1003days.html)
 
 ## 要求
 
@@ -21,7 +25,7 @@
 
 ## 增加重入性， key 线程标识 重入次数
 
-> 最新建议  j加锁  
+> 最新建议  j加锁
 >
 > > ```
 > > set  key_name my_random_value NX PX 30000
