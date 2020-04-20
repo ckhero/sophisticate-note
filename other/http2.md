@@ -3,6 +3,8 @@
 ## 资料
 
 > [https://developers.google.com/web/fundamentals/performance/http2/?hl=zh-cn](https://developers.google.com/web/fundamentals/performance/http2/?hl=zh-cn)
+>
+> [https://blog.csdn.net/qq\_41635167/article/details/89484445](https://blog.csdn.net/qq_41635167/article/details/89484445)
 
 ## 核心 - 二进制分帧层
 
@@ -38,6 +40,13 @@
 ## 每个来源一个连接 {#%E6%AF%8F%E4%B8%AA%E6%9D%A5%E6%BA%90%E4%B8%80%E4%B8%AA%E8%BF%9E%E6%8E%A5}
 
 > 有了分帧机制，不再依赖多个tcp链接去并行复用数据流
+
+## HTTP2和HTTP的区别
+
+> * http2采用二进制格式而非文本格式
+> * http2 多路复用，而非有序阻塞的，一个连接只处理一个请求
+> * 使用报头压缩，降低开销
+> * http2会主动推送响应到客户端
 
 
 
