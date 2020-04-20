@@ -82,7 +82,7 @@
     * [沾包](other/tcpudp/zhan-bao.md)
   * [报文](other/bao-wen.md)
   * [语言对比](other/yu-yan-dui-bi.md)
-  * istio
+  * [istio](other/istio.md)
   * [socket](other/socket.md)
 * [MQ](xiao-xi-zhong-jian-jian.md)
   * [应用场景](xiao-xi-zhong-jian-jian/ying-yong-chang-jing.md)
