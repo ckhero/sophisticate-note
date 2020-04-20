@@ -44,7 +44,9 @@
 
 ### 脑裂
 
-> https://blog.csdn.net/chdhust/article/details/77829103
+> [https://blog.csdn.net/chdhust/article/details/77829103](https://blog.csdn.net/chdhust/article/details/77829103)
+>
+> 引入一个新的概念, region leader。region leader 是一个逻辑上的概念, 任意时刻对于某一个 region 来说, 一定只拥有一个 region leader, 每个 region leader 在任期之内尝试每隔 t 时间间隔, 在 raft group 内部更新一下 region leader 的 lease. 所有的读写请求都必须通过 region leader 完成，
 
 
 
