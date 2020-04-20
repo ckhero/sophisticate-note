@@ -7,6 +7,8 @@ TCP/UDP
 > 实现可靠的UDP [https://www.jianshu.com/p/6c73a4585eba](https://www.jianshu.com/p/6c73a4585eba)
 >
 > TCP如何实现可靠性的传输 [https://blog.csdn.net/wodewutai17quiet/article/details/82252454](https://blog.csdn.net/wodewutai17quiet/article/details/82252454)
+>
+> [http://c.biancheng.net/view/2358.html](http://c.biancheng.net/view/2358.html)
 
 |  |
 | :--- |
