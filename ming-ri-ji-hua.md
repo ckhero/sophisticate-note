@@ -12,7 +12,5 @@
 > * [ ] atomic用法
 > * [ ] sync包
 > * [ ] [https://studygolang.com/articles/25563?fr=sidebar](https://studygolang.com/articles/25563?fr=sidebar)
-> * [ ] zookeeper
-
-
+> * [x] zookeeper
 
