@@ -7,6 +7,7 @@
     * [map](map.md)
     * [slice](slice.md)
     * [channel](channel.md)
+      * [优雅的关闭](channel/you-ya-de-guan-bi.md)
   * [为什么快](wei-shi-yao-kuai.md)
   * [MPG](mpg.md)
   * [defer](def.md)
