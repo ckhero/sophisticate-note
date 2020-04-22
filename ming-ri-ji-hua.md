@@ -13,4 +13,8 @@
 > * [ ] sync包
 > * [ ] [https://studygolang.com/articles/25563?fr=sidebar](https://studygolang.com/articles/25563?fr=sidebar)
 > * [x] zookeeper
+> * [ ] 5亿数据怎么排
+> * [ ] 1亿数据去重
+
+
 
