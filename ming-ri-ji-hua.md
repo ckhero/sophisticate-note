@@ -15,6 +15,7 @@
 > * [x] zookeeper
 > * [ ] 5亿数据怎么排
 > * [ ] 1亿数据去重
+> * [ ] 408 问题 [golang micro client 报错500 {"id":"go.micro.client","code":408,"detail":"call timeout: context deadline exceeded","status":"Request Timeout"}](https://www.cnblogs.com/Dong-Ge/p/11646555.html)
 
 
 
