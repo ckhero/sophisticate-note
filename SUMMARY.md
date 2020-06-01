@@ -189,6 +189,9 @@
 * [明日计划](ming-ri-ji-hua.md)
   * [2020-04-05](ming-ri-ji-hua/2020-04-05.md)
   * [2020-04-06](ming-ri-ji-hua/2020-04-06.md)
-* 力扣
+* [力扣](li-kou.md)
   * [括号相关](kuo-hao-xiang-guan.md)
+* [Linux](linux.md)
+  * [netstat](linux/netstat.md)
+  * more
 
