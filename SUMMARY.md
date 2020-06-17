@@ -154,6 +154,7 @@
   * [微服务设计完整版](wei-fu-wu-she-ji-wan-zheng-ban.md)
     * [第一章](wei-fu-wu-she-ji-wan-zheng-ban/di-yi-zhang.md)
     * [第三章](wei-fu-wu-she-ji-wan-zheng-ban/di-san-zhang.md)
+    * [第四章](wei-fu-wu-she-ji-wan-zheng-ban/di-si-zhang.md)
 * [订单系统](ding-dan-xi-tong.md)
   * [幂等](mi-deng.md)
 * [数据结构](shu-ju-jie-gou.md)
