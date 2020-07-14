@@ -25,6 +25,7 @@
   * [资源竞争](zi-yuan-jing-zheng.md)
   * [sync](sync.md)
     * [pool](sync/pool.md)
+  * [深浅拷贝](shen-qian-kao-bei.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
