@@ -8,3 +8,9 @@
 
 
 
+## 2  returned a non-zero code: 100
+
+> 出现该问题，一般是执行RUN apt update时，其源无法链接，需要更换源
+
+
+
