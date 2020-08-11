@@ -3,6 +3,8 @@
 ## 资料
 
 > [https://i6448038.github.io/2017/12/04/golang-concurrency-principle/](https://i6448038.github.io/2017/12/04/golang-concurrency-principle/)
+>
+> 调优[https://www.cnblogs.com/linguanh/p/9510746.html](https://www.cnblogs.com/linguanh/p/9510746.html)
 
 M 真正的计算机资源可以理解为 os thread
 
