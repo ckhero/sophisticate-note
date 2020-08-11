@@ -1,12 +1,14 @@
-MPG
+## MPG
+
+## 资料
+
+> [https://i6448038.github.io/2017/12/04/golang-concurrency-principle/](https://i6448038.github.io/2017/12/04/golang-concurrency-principle/)
 
 M 真正的计算机资源可以理解为 os thread
 
 P 逻辑处理，M的上下文，对应一个处理队列
 
-G 调度的最小单位，保存了goroutine的stack新。goroutine运行状态和goroutine执行函数
-
-
+G 调度的最小单位，保存了goroutine的stack。goroutine运行状态和goroutine执行函数
 
 G产生的时候会找一个可用P加入该P的工作队列。P会去寻找一个可用的M 去执行自身队列里面的goroutine
 
