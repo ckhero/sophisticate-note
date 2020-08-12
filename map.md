@@ -16,6 +16,8 @@ overflow 对应0 是工作的bucket数组，1对应旧的bucket数组，因为�
 ## 资料
 
 > [https://blog.csdn.net/bluehawksky/article/details/90448023](https://blog.csdn.net/bluehawksky/article/details/90448023)
+>
+> [https://studygolang.com/articles/23562](https://studygolang.com/articles/23562)
 
 ## 遍历无序？
 
@@ -24,8 +26,6 @@ overflow 对应0 是工作的bucket数组，1对应旧的bucket数组，因为�
 > 遍历前先生成一个数据数，因为不同版本的迭代遍历规则不一致，所以，所以干脆直接无序遍历
 >
 > 可以通过把key放在数组里面变的有序
-
-
 
 
 
