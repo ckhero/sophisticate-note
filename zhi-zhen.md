@@ -1,5 +1,11 @@
 # 指针
 
+## 资料
+
+> Go 普通指针类型、unsafe.Pointer、uintptr之间的关系
+>
+> [https://www.cnblogs.com/-wenli/p/12682477.html](https://www.cnblogs.com/-wenli/p/12682477.html "Go 普通指针类型、unsafe.Pointer、uintptr之间的关系")
+
 ## uintptr
 
 > * 一个足够大的无符号整型，用来表示任意地址
