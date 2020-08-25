@@ -1,7 +1,13 @@
 # 沾包
 
+## 资料
+
+> [https://blog.csdn.net/zhangxinrun/article/details/6721495](https://blog.csdn.net/zhangxinrun/article/details/6721495)
+
 ## 简述
 
+> TCP是流协议，就是一串没有界限的数据
+>
 > 客户端发送的多个包被当做一个数据包去处理。也称数据的无边界性，read/recv不知道数据包的开始和结束标识，只能当做连续的数据流去处理
 >
 > tcp的数据发送和接收是无关。read和recv会尽可能多的从接收缓冲区读取数据，所有发送三次 abc，有可能一次独处abcabcabc。服务器把三次发送的消息当做一次去处理
