@@ -11,6 +11,8 @@
 > [https://www.cnblogs.com/instant7/p/12586334.html](https://www.cnblogs.com/instant7/p/12586334.html)
 >
 > [https://blog.csdn.net/beijing20120926/article/details/16338149](https://blog.csdn.net/beijing20120926/article/details/16338149)
+>
+> [https://blog.csdn.net/qq193423571/article/details/81637075](https://blog.csdn.net/qq193423571/article/details/81637075)
 
 ## 简述
 
@@ -39,6 +41,4 @@
 > * 动态扩容，不用担心内存溢出
 
 ![](/assets/redis-row-embster-import.png)
-
-
 
