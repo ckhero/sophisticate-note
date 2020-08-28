@@ -38,5 +38,7 @@
 > * 预分配空间，减少内存分配次数
 > * 动态扩容，不用担心内存溢出
 
+![](/assets/redis-row-embster-import.png)
+
 
 
