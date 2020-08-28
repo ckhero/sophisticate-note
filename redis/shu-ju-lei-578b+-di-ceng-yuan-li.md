@@ -6,7 +6,7 @@
 
 ## 命令
 
-> boject encoding key //查看底层使用的数据结构
+> oboject encoding key //查看底层使用的数据结构
 
 
 
