@@ -24,9 +24,9 @@
 
 > try confirm cancel
 
-## kafka
+## 消息中间件
 
-> 可靠消息最终一致性
+> kafka 可靠消息最终一致性
 
 
 
