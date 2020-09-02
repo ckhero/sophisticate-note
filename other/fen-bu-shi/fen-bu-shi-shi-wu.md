@@ -20,6 +20,10 @@
 
 > [https://www.cnblogs.com/zengkefu/p/5742617.html](https://www.cnblogs.com/zengkefu/p/5742617.html)
 
+## TCC
+
+> try confirm cancel
+
 ## kafka
 
 > 可靠消息最终一致性
