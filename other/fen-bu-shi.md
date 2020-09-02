@@ -3,6 +3,8 @@
 ## 资料
 
 > [http://www.ruanyifeng.com/blog/2018/07/cap.html](http://www.ruanyifeng.com/blog/2018/07/cap.html)
+>
+> [https://zhuanlan.zhihu.com/p/33999708](https://zhuanlan.zhihu.com/p/33999708)
 
 ## CAP原则
 
