@@ -1,10 +1,12 @@
 MQ
 
-[https://blog.csdn.net/wqc19920906/article/details/82193316](https://blog.csdn.net/wqc19920906/article/details/82193316)
-
-模式资料 [https://www.cnblogs.com/diandianquanquan/p/11966668.html](https://www.cnblogs.com/diandianquanquan/p/11966668.html)
-
-四大mq对比 [https://blog.csdn.net/wqc19920906/article/details/82193316](https://blog.csdn.net/wqc19920906/article/details/82193316)
+> [https://blog.csdn.net/wqc19920906/article/details/82193316](https://blog.csdn.net/wqc19920906/article/details/82193316)
+>
+> 模式资料 [https://www.cnblogs.com/diandianquanquan/p/11966668.html](https://www.cnblogs.com/diandianquanquan/p/11966668.html)
+>
+> 四大mq对比 [https://blog.csdn.net/wqc19920906/article/details/82193316](https://blog.csdn.net/wqc19920906/article/details/82193316)
+>
+> https://www.zhihu.com/search?type=content&q=%E8%A7%A3%E8%80%A6%E5%92%8C%E5%BC%82%E6%AD%A5
 
 ## 四种模型
 
