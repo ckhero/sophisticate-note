@@ -8,19 +8,21 @@
 
 > * array
 >
->     是值类型，固定长度，声明的时候要确定长度
-> *  slice
+>   是值类型，固定长度，声明的时候要确定长度
+>
+> * slice
 >
 > 是引用类型，不定长，指向底层的数据结构
+>
 > ```
 > type slice struct {
-> 	array unsafe.Pointer
-> 	len   int
-> 	cap   int
+>     array unsafe.Pointer
+>     len   int
+>     cap   int
 > }
 > ```
 >
-> 1
+> 在函数中传递的时候，数组传递的是值的副本，而slcie传递的是指针
 
 ## 简述
 
