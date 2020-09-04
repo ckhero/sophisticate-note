@@ -49,9 +49,17 @@
 > * 创建切片
 >
 > ```
-> var a []int
-> b := []int{}
+> var a []int // nill slice. point to nil
+> b := []int{} // empty slice, ponit to empty array
 > c := make([]int, 0)
+> ```
+>
+> * 复制 - 在复制时会按照最少的 Slice 元素个数进行复制
+>
+> ```
+> dst := []int{1, 2, 3}
+>  src := []int{4, 5, 6, 7, 8}
+>  n := copy(dst, src)
 > ```
 
 
