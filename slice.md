@@ -1,5 +1,9 @@
 # slice
 
+## 资料
+
+> https://studygolang.com/articles/16861
+
 ## 简述
 
 > 是数组的抽象。可以理解为动态数组，提供cap len append方法
