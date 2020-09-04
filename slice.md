@@ -25,6 +25,14 @@
 > arr2 := []int{1,2,3}
 > arr2 = append(arr1, arr2...)
 > ```
+>
+> * 创建切片
+>
+> ```
+> var a []int
+> b := []int{}
+> c := make([]int, 0)
+> ```
 
 
 
