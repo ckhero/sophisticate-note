@@ -4,6 +4,24 @@
 
 > [https://studygolang.com/articles/16861](https://studygolang.com/articles/16861)
 
+## slice和array的区别
+
+> * array
+>
+>     是值类型，固定长度，声明的时候要确定长度
+> *  slice
+>
+> 是引用类型，不定长，指向底层的数据结构
+> ```
+> type slice struct {
+> 	array unsafe.Pointer
+> 	len   int
+> 	cap   int
+> }
+> ```
+>
+> 1
+
 ## 简述
 
 > 是数组的抽象。可以理解为动态数组，提供cap len append方法
