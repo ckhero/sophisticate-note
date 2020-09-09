@@ -9,6 +9,8 @@ kafka
 > 精确一次 [https://blog.csdn.net/lzufeng/article/details/81906031](https://blog.csdn.net/lzufeng/article/details/81906031)
 >
 > [https://cloud.tencent.com/developer/article/1530090](https://cloud.tencent.com/developer/article/1530090)
+>
+> https://www.zhihu.com/search?type=content&q=kafka%E5%8E%9F%E7%90%86
 
 ## 优点
 
