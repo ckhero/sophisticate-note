@@ -2,7 +2,11 @@
 
 ## 资料
 
-> https://www.zhihu.com/search?type=content&q=io%E6%A8%A1%E5%9E%8B
+> [https://www.zhihu.com/search?type=content&q=io模型](https://www.zhihu.com/search?type=content&q=io模型)
+
+## 简述
+
+> 两个关键角色 系统内核和进程
 
 
 
