@@ -12,5 +12,9 @@
 >
 > 所有的写操作都通过leader来完成，leader写入本地日志后再同步给所有的follower节点
 
+# zookeeper和kafka关系
+
+> https://www.jianshu.com/p/a036405f989c
+
 
 
