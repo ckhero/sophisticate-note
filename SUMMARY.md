@@ -102,7 +102,7 @@
   * [RabbitMQ](xiao-xi-zhong-jian-jian/rabbitmq.md)
   * [kafka](xiao-xi-zhong-jian-jian/kafka.md)
   * [常见的消息中间件的协议](xiao-xi-zhong-jian-jian/chang-jian-de-xiao-xi-zhong-jian-jian-de-xie-yi.md)
-  * 如何保证消息有序性
+  * [如何保证消息有序性](xiao-xi-zhong-jian-jian/ru-he-bao-zheng-xiao-xi-you-xu-xing.md)
 * [IO模型](iomo-xing.md)
   * [NIO](other/nio.md)
   * [BIO](other/bio.md)
