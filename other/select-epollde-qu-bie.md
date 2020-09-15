@@ -1,5 +1,9 @@
 # select epoll的区别
 
+## 资料
+
+> https://www.cnblogs.com/aspirant/p/9166944.html
+
 ## 区别
 
 > 1. select无差别轮询，epoll只轮询活跃的链接
