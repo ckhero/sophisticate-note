@@ -14,7 +14,7 @@
 
 # zookeeper和kafka关系
 
-> https://www.jianshu.com/p/a036405f989c
+> [https://www.jianshu.com/p/a036405f989c](https://www.jianshu.com/p/a036405f989c)
 
 
 
