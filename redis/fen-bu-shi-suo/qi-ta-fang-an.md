@@ -4,6 +4,8 @@
 
 > zookeeper [http://www.imooc.com/article/284956?block\_id=tuijian\_wz](http://www.imooc.com/article/284956?block_id=tuijian_wz)
 >
+> https://www.zhihu.com/question/65852003/answer/656091418
+>
 > 数据库
 
 ## zookeeper
