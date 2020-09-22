@@ -27,5 +27,9 @@ overflow 对应0 是工作的bucket数组，1对应旧的bucket数组，因为�
 >
 > 可以通过把key放在数组里面变的有序
 
+## key类型
+
+> 任何类型，只要他的key可以比较，除了slice，map，function
+
 
 
