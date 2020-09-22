@@ -34,6 +34,7 @@
   * [迭代器](die-dai-qi.md)
   * [函数和方法的区别](han-shu-he-fang-fa-de-qu-bie.md)
   * [性能分析](xing-neng-fen-xi.md)
+  * [栈和指针](zhan-he-zhi-zhen.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
