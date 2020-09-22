@@ -4,6 +4,10 @@
 
 > atomic原子操作 [https://studygolang.com/articles/3557](https://studygolang.com/articles/3557)
 
+## 简述
+
+> 底层的原子级内存操作
+
 ## 操作
 
 1. 增或删除
