@@ -154,6 +154,7 @@
     * [ETCD](zhu-ce-zhong-xin/etcd.md)
       * [RAFT协议](zhu-ce-zhong-xin/etcd/raftxie-yi.md)
     * [zookeeper](other/zookeeper.md)
+    * [一致性协议](zhu-ce-zhong-xin/yi-zhi-xing-xie-yi.md)
   * [服务框架](fu-wu-kuang-jia.md)
     * [GRPC](fu-wu-kuang-jia/grpc.md)
     * [GO-Micro](fu-wu-kuang-jia/go-micro.md)
