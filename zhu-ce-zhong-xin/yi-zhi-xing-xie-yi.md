@@ -6,5 +6,9 @@
 >
 > 一致性协议就是用来干这事的，用来保证即使在部分\(确切地说是小部分\)副本宕机的情况下，系统仍然能正常对外提供服务。一致性协议通常基于replicated state machines，即所有结点都从同一个state出发，都经过同样的一些操作序列（log），最后到达同样的state。
 
+## raft和zab的区别 
+
+> [https://my.oschina.net/pingpangkuangmo/blog/782702](https://my.oschina.net/pingpangkuangmo/blog/782702)
+
 
 
