@@ -150,6 +150,7 @@
   * [问题](docker/wen-ti.md)
   * [K8S](k8s.md)
     * [仪表盘](k8s/yi-biao-pan.md)
+    * [部署docker](k8s/bu-shu-docker.md)
 * [微服务](rpc.md)
   * [服务描述](fu-wu-miao-shu.md)
   * [注册中心](zhu-ce-zhong-xin.md)
