@@ -12,7 +12,7 @@
 >
 > docker attach &lt;容器id&gt;  // 进入容器
 >
-> docker exec -it &lt;容器id&gt;   /bin/bash //命令行模式进入容器
+> docker exec -it &lt;容器id&gt;   /bin/bash //命令行模式进入容器  【-i是交互式操作，-t 是终端】
 >
 > docker rm -f  &lt;容器id&gt;    // 删除容器
 >
