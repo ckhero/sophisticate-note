@@ -5,6 +5,8 @@
 > docker build -t  &lt;包名&gt;:&lt;版本号&gt;  &lt;Dockerfile路径&gt;   //打包镜像
 >
 > docker images // 镜像列表
+>
+> docker rmi &lt;镜像名字&gt;    // 删除镜像
 
 
 
