@@ -7,6 +7,14 @@
 > docker images // 镜像列表
 >
 > docker rmi &lt;镜像名字&gt;    // 删除镜像
+>
+> docker ps -a   // 查看所有容器
+>
+> docker attach &lt;容器id&gt;  // 进入容器
+>
+> docker exec -it &lt;容器id&gt;   /bin/bash //命令行模式进入容器
+>
+> docker rm -f  &lt;容器id&gt;    // 删除容器
 
 
 
