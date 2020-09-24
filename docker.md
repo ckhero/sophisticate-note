@@ -15,6 +15,8 @@
 > docker exec -it &lt;容器id&gt;   /bin/bash //命令行模式进入容器
 >
 > docker rm -f  &lt;容器id&gt;    // 删除容器
+>
+> docker run -it &lt;镜像名字&gt; /bin/bash    //启动容器并以命令行模式进入容器
 
 
 
