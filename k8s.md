@@ -4,7 +4,7 @@
 
 > [https://my.oschina.net/jamesview/blog/2994112](https://my.oschina.net/jamesview/blog/2994112)
 >
-> https://mp.weixin.qq.com/s/iN2sY7cj\_AGCSqs9JOOCYw
+> [https://mp.weixin.qq.com/s/iN2sY7cj\_AGCSqs9JOOCYw](https://mp.weixin.qq.com/s/iN2sY7cj_AGCSqs9JOOCYw)
 
 ## 集群包括两部分
 
@@ -27,8 +27,6 @@
 > Fluentd 负责收集日志，存储和查询
 >
 > **Pod 是k8s的基本操作单元 ，一个pod代表集群中运行的一个进程，内部分装了一个或者多个亲密关联的容器**
-
-
 
 
 
