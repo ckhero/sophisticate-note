@@ -8,6 +8,10 @@
 
 > Docker是一个容器化平台，以容器的形式把程序以及所有依赖打包在一起，确保程雪能在所有平台运行
 
+## 缩小镜像
+
+> [https://blog.csdn.net/bbwangj/article/details/82178774](https://blog.csdn.net/bbwangj/article/details/82178774)
+
 ## 常用命令
 
 > docker build -t  &lt;包名&gt;:&lt;版本号&gt;  &lt;Dockerfile路径&gt;   //打包镜像
