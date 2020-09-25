@@ -5,6 +5,8 @@
 > [https://my.oschina.net/jamesview/blog/2994112](https://my.oschina.net/jamesview/blog/2994112)
 >
 > [https://mp.weixin.qq.com/s/iN2sY7cj\_AGCSqs9JOOCYw](https://mp.weixin.qq.com/s/iN2sY7cj_AGCSqs9JOOCYw)
+>
+> [https://www.kubernetes.org.cn/doc-44](https://www.kubernetes.org.cn/doc-44)
 
 ## 集群包括两部分
 
