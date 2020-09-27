@@ -10,37 +10,35 @@
 >
 > ```
 > type iface struct {
-> 	tab  *itab
-> 	data unsafe.Pointer
+>     tab  *itab
+>     data unsafe.Pointer
 > }
 > ```
 >
 > itab 里面包含方法集的指针，动态类型的指针，静态类型的指针
 >
+> 静态类型是生命时的类型
+>
+> 动态类型是程序运行时的类型
+>
 > ```
 > type itab struct {
-> 	inter *interfacetype
-> 	_type *_type
-> 	hash  uint32 // copy of _type.hash. Used for type switches.
-> 	_     [4]byte
-> 	fun   [1]uintptr // variable sized. fun[0]==0 means _type does not implement inter.
+>     inter *interfacetype
+>     _type *_type
+>     hash  uint32 // copy of _type.hash. Used for type switches.
+>     _     [4]byte
+>     fun   [1]uintptr // variable sized. fun[0]==0 means _type does not implement inter.
 > }
 > ```
->
->
 >
 > 没有方法的eface
 >
 > ```
 > type eface struct {
-> 	_type *_type
-> 	data  unsafe.Pointer
+>     _type *_type
+>     data  unsafe.Pointer
 > }
 > ```
-
-
-
-
 
 ## 作用
 
