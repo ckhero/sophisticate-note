@@ -222,5 +222,5 @@
   * [括号相关](kuo-hao-xiang-guan.md)
 * [Linux](linux.md)
   * [netstat](linux/netstat.md)
-  * more
+  * [more](linux/more.md)
 
