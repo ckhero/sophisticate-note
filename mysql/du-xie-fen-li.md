@@ -5,6 +5,8 @@
 > [https://blog.csdn.net/liyuxing6639801/article/details/90582565](https://blog.csdn.net/liyuxing6639801/article/details/90582565)
 >
 > [https://blog.csdn.net/hao\_yunfeng/article/details/82392261](https://blog.csdn.net/hao_yunfeng/article/details/82392261)
+>
+> 数据延迟解决 [https://www.cnblogs.com/caicz/p/11009528.html](https://www.cnblogs.com/caicz/p/11009528.html)
 
 ## 主从同步
 
@@ -22,7 +24,7 @@
 
 ## 数据延迟原因
 
-> salve一个线程slave_io_running 负责获取binlong，slave——sql-runiing负责执行binlog，单线程。执行ddl  dml还有可能跟查询语句发生锁竞争
+> salve一个线程slave\_io\_running 负责获取binlong，slave——sql-runiing负责执行binlog，单线程。执行ddl  dml还有可能跟查询语句发生锁竞争
 
 ## 如何防止数据延迟？
 
