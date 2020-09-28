@@ -1,4 +1,4 @@
-# 读写分离
+## 主从同步
 
 ## 资料
 
@@ -8,7 +8,7 @@
 >
 > 数据延迟解决 [https://www.cnblogs.com/caicz/p/11009528.html](https://www.cnblogs.com/caicz/p/11009528.html)
 
-## 主从同步
+## 过程
 
 > * master把变化写入bin\_log
 >

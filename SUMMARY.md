@@ -78,7 +78,7 @@
 * [Mysql](mysql.md)
   * [b+树](mysql/bshu.md)
   * [索引原理](mysql/suo-yin-yuan-li.md)
-  * [读写分离](mysql/du-xie-fen-li.md)
+  * [主从同步](mysql/du-xie-fen-li.md)
   * [explain](mysql/explain.md)
   * [事务特性的原理](mysql/shi-wu-te-xing-de-yuan-li.md)
   * [锁](mysql/suo.md)
