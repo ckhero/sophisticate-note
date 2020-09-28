@@ -7,6 +7,8 @@
 > [https://studygolang.com/articles/11878](https://studygolang.com/articles/26113)
 >
 > [https://studygolang.com/articles/26113](https://studygolang.com/articles/26113)
+>
+> [http://www.huamo.online/2019/06/25/%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6goroutine%E6%A0%88/](http://www.huamo.online/2019/06/25/%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6goroutine%E6%A0%88/)
 
 ## golang
 
