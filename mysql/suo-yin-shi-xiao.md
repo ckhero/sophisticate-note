@@ -1,5 +1,9 @@
 # 索引失效
 
+## 资料
+
+> [https://www.cnblogs.com/wdss/p/11186411.html](https://www.cnblogs.com/wdss/p/11186411.html)
+
 > 1. 列与列对比
 > 2. 存在null条件
 > 3. 有or not r  not != &lt;&gt; in  like "%adfa"
