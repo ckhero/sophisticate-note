@@ -7,6 +7,8 @@
 > [https://blog.csdn.net/loushuiyifan/article/details/82702522](https://blog.csdn.net/loushuiyifan/article/details/82702522)
 >
 > [https://www.cnblogs.com/li-peng/p/11050563.html](https://www.cnblogs.com/li-peng/p/11050563.html)
+>
+> [https://cloud.tencent.com/developer/article/1454740](https://cloud.tencent.com/developer/article/1454740)
 
 ## 流程
 
