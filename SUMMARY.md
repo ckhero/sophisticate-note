@@ -40,6 +40,7 @@
   * [plan9](plan9.md)
   * [逃逸分析](tao-yi-fen-xi.md)
   * [函数内联](han-shu-nei-lian.md)
+  * [go:](go.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
