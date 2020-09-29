@@ -11,6 +11,7 @@
       * [锁还是channel](suo-huanshi-channel.md)
   * [为什么快](wei-shi-yao-kuai.md)
   * [MPG](mpg.md)
+    * [goroutine](mpg/goroutine.md)
   * [defer](def.md)
   * [runtime](runtime.md)
   * [context](context.md)
