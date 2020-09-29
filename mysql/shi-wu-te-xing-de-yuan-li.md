@@ -20,5 +20,13 @@
 
 > 通过其他三个特性来保证一致性
 
+## MVCC幻读
+
+> [https://www.jianshu.com/p/cef49aeff36b](https://www.jianshu.com/p/cef49aeff36b)
+>
+> 事务1 去查询，然后事务2新增数据提交，事务1区更新事务二的数据，出现幻读
+
+
+
 
 
