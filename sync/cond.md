@@ -1,0 +1,14 @@
+# Cond
+
+## 资料
+
+> [https://www.dazhuanlan.com/2019/10/05/5d97f700bd748/?\_\_cf\_chl\_jschl\_tk\_\_=bb5887dfe1cca96d512983dc5e855f0d38e79536-1601368130-0-AUJrUmk-VwxbFP9JLTkVoox48bpsNvCdeX\_zr8NUJNIM9lCwvzKCoB0XVy-PtvaGbveTe2VQcg\_KHUclHF5bnw-JmdZfPQYyWsR9BwakeC3qCwc6QuyZGSkThTIgK4MurQko9ol\_WdaTgkbYq4Xq85hHzyS28S5fgUoBsQlBzO08mJBsA85Umyj\_CSgPPIpxGiGBNR1QKSHuTE0fKejkwkejUAF0j72qooR2o0BKK2AduEFTcU9p6EZ3D2GjkgzZNr9GogC2EIeWCv-fkFL4qiHUEeaw\_qRdKnqudbYOIUmmlm9Mzcdco3rZFvT67BsN2g](https://www.dazhuanlan.com/2019/10/05/5d97f700bd748/?__cf_chl_jschl_tk__=bb5887dfe1cca96d512983dc5e855f0d38e79536-1601368130-0-AUJrUmk-VwxbFP9JLTkVoox48bpsNvCdeX_zr8NUJNIM9lCwvzKCoB0XVy-PtvaGbveTe2VQcg_KHUclHF5bnw-JmdZfPQYyWsR9BwakeC3qCwc6QuyZGSkThTIgK4MurQko9ol_WdaTgkbYq4Xq85hHzyS28S5fgUoBsQlBzO08mJBsA85Umyj_CSgPPIpxGiGBNR1QKSHuTE0fKejkwkejUAF0j72qooR2o0BKK2AduEFTcU9p6EZ3D2GjkgzZNr9GogC2EIeWCv-fkFL4qiHUEeaw_qRdKnqudbYOIUmmlm9Mzcdco3rZFvT67BsN2g)
+>
+> [https://studygolang.com/articles/28072?fr=sidebar](https://studygolang.com/articles/28072?fr=sidebar)
+
+## 简述
+
+> 再sync.Mutex的基础上增加了一个通知队列,通知的线程会从t通知队列中唤醒一个或多个被通知的线程
+
+
+

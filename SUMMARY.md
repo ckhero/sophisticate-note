@@ -27,6 +27,7 @@
   * [资源竞争](zi-yuan-jing-zheng.md)
   * [sync](sync.md)
     * [pool](sync/pool.md)
+    * [Cond](sync/cond.md)
   * [深浅拷贝](shen-qian-kao-bei.md)
   * [指针](zhi-zhen.md)
     * [unsafe](unsafe.md)
