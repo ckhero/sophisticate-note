@@ -172,6 +172,7 @@
       * [sidebar](fu-wu-kuang-jia/go-micro/sidebar.md)
       * [Registy](fu-wu-kuang-jia/go-micro/registy.md)
       * [Transport](fu-wu-kuang-jia/go-micro/transport.md)
+      * [Codec](fu-wu-kuang-jia/go-micro/codec.md)
   * [服务监控](fu-wu-jian-kong.md)
     * [grafana](fu-wu-jian-kong/grafana.md)
     * [elasticsearch](fu-wu-jian-kong/elasticsearch.md)
