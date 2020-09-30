@@ -50,6 +50,7 @@
     * [cluster模式](redis/ji-qun-yuan-li/clustermo-shi.md)
       * [☆ 一致性哈希](redis/ji-qun-yuan-li/clustermo-shi/yi-zhi-xing-ha-xi.md)
       * [☆ redis中的哈希槽](redis/ji-qun-yuan-li/clustermo-shi/rediszhong-de-ha-xi-cao.md)
+  * [HotKey](redis/hotkey.md)
   * [相关数据结构](redis/xiang-guan-shu-ju-jie-gou.md)
     * [dictEntry](shu-ju-jie-gou/dictentry.md)
     * [ziplist](shu-ju-jie-gou/ziplist.md)
