@@ -177,6 +177,7 @@
       * [Broker](fu-wu-kuang-jia/go-micro/broker.md)
       * [Client](fu-wu-kuang-jia/go-micro/client.md)
       * [Server](fu-wu-kuang-jia/go-micro/server.md)
+      * [Service](fu-wu-kuang-jia/go-micro/service.md)
   * [服务监控](fu-wu-jian-kong.md)
     * [grafana](fu-wu-jian-kong/grafana.md)
     * [elasticsearch](fu-wu-jian-kong/elasticsearch.md)
