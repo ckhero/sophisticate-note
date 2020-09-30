@@ -170,6 +170,7 @@
     * [GRPC](fu-wu-kuang-jia/grpc.md)
     * [GO-Micro](fu-wu-kuang-jia/go-micro.md)
       * [sidebar](fu-wu-kuang-jia/go-micro/sidebar.md)
+      * [Registy](fu-wu-kuang-jia/go-micro/registy.md)
   * [服务监控](fu-wu-jian-kong.md)
     * [grafana](fu-wu-jian-kong/grafana.md)
     * [elasticsearch](fu-wu-jian-kong/elasticsearch.md)
