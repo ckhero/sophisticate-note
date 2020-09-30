@@ -96,6 +96,7 @@
   * [乐观锁/悲观锁](mysql/le-guan-9501-bei-guan-suo.md)
   * [单表最大](mysql/dan-biao-zui-da.md)
   * [分表分库](mysql/fen-biao-fen-ku.md)
+  * [count](mysql/count.md)
 * [Other](other.md)
   * [HTTPS](other/https.md)
   * [HTTP](other/http.md)
