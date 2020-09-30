@@ -7,6 +7,8 @@
 > 容错 [https://www.kancloud.cn/linimbus/go-micro/529028](https://www.kancloud.cn/linimbus/go-micro/529028)
 >
 > [https://www.cnblogs.com/li-peng/p/9689786.html](https://www.cnblogs.com/li-peng/p/9689786.html)
+>
+> 深度学习 [https://www.cnblogs.com/li-peng/p/10522084.html](https://www.cnblogs.com/li-peng/p/10522084.html)
 
 ## 简述
 
