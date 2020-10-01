@@ -81,6 +81,7 @@
     * [redigo](redis/golang/redigo.md)
   * [压测](redis/ya-ce.md)
   * [redis 6.0](redis/redis-60.md)
+  * [BigKey](redis/bigkey.md)
 * [Mysql](mysql.md)
   * [b+树](mysql/bshu.md)
   * [索引原理](mysql/suo-yin-yuan-li.md)
