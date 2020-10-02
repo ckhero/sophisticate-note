@@ -7,6 +7,8 @@
 > [https://blog.csdn.net/qq\_41635167/article/details/89484445](https://blog.csdn.net/qq_41635167/article/details/89484445)
 >
 > [https://www.jianshu.com/p/13c68c56a78f](https://www.jianshu.com/p/13c68c56a78f)
+>
+> [https://blog.csdn.net/howgod/article/details/102597450](https://blog.csdn.net/howgod/article/details/102597450)
 
 ## 核心 - 二进制分帧层
 
