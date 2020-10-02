@@ -15,6 +15,8 @@ overflow 对应0 是工作的bucket数组，1对应旧的bucket数组，因为�
 
 ## 资料
 
+> [https://studygolang.com/articles/30516](https://studygolang.com/articles/30516)
+>
 > [https://blog.csdn.net/bluehawksky/article/details/90448023](https://blog.csdn.net/bluehawksky/article/details/90448023)
 >
 > [https://studygolang.com/articles/23562](https://studygolang.com/articles/23562)
@@ -30,6 +32,15 @@ overflow 对应0 是工作的bucket数组，1对应旧的bucket数组，因为�
 ## key类型
 
 > 任何类型，只要他的key可以比较，除了slice，map，function
+
+## 扩容
+
+> ```
+> 扩容因子：loadFactor := count / (2^B)
+> ```
+>
+> 1. 扩容因子大于6.5
+> 2. overflow的bucket过多，B小于15的时候 超过2^B扩容，超过15的时候超过2^15
 
 
 
