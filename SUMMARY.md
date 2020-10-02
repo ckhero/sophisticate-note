@@ -112,6 +112,7 @@
   * [语言对比](other/yu-yan-dui-bi.md)
   * [istio](other/istio.md)
   * [socket](other/socket.md)
+  * [HTTP3](other/http3.md)
 * [MQ](xiao-xi-zhong-jian-jian.md)
   * [应用场景](xiao-xi-zhong-jian-jian/ying-yong-chang-jing.md)
   * [RabbitMQ](xiao-xi-zhong-jian-jian/rabbitmq.md)
