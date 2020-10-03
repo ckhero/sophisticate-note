@@ -118,7 +118,7 @@
 * [MQ](xiao-xi-zhong-jian-jian.md)
   * [应用场景](xiao-xi-zhong-jian-jian/ying-yong-chang-jing.md)
   * [RabbitMQ](xiao-xi-zhong-jian-jian/rabbitmq.md)
-    * 死信队列
+    * [死信队列](xiao-xi-zhong-jian-jian/rabbitmq/si-xin-dui-lie.md)
   * [kafka](xiao-xi-zhong-jian-jian/kafka.md)
   * [常见的消息中间件的协议](xiao-xi-zhong-jian-jian/chang-jian-de-xiao-xi-zhong-jian-jian-de-xie-yi.md)
   * [如何保证消息有序性](xiao-xi-zhong-jian-jian/ru-he-bao-zheng-xiao-xi-you-xu-xing.md)
