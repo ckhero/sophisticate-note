@@ -35,7 +35,7 @@
 
 ### 全局视野
 
-> * order by time offset x limit y 改写成order by time offset 0 limit x \* y
+> * order by time offset x limit y 改写成order by time offset 0 limit x + y
 > * 对取出的数据排序
 > * 缺点  随着数据量变大，性能急剧下降
 
