@@ -160,6 +160,7 @@
     * [里式替换原则](she-ji-mo-shi/she-ji-yuan-ze/li-shi-ti-huan-yuan-ze.md)
     * [依赖倒置原则](she-ji-mo-shi/she-ji-yuan-ze/yi-lai-dao-zhi-yuan-ze.md)
     * [单一原则](she-ji-mo-shi/she-ji-yuan-ze/dan-yi-yuan-ze.md)
+    * [接口隔离原则](she-ji-mo-shi/she-ji-yuan-ze/jie-kou-ge-li-yuan-ze.md)
   * [工厂](she-ji-mo-shi/gong-chang.md)
   * [责任链模式](she-ji-mo-shi/ze-ren-lian-mo-shi.md)
 * [高并发](gao-bing-fa.md)
