@@ -16,6 +16,26 @@
 >
 > topic  根据key 模糊匹配后投递到响应的队列
 
+## QUEUE
+
+> 消息的载体，每个消息都会被投递到一个或者多个队列
+
+## Binding
+
+> 把exchange和queue按照规则绑定起来
+
+## Routing Key
+
+> exchange根据这个关键字进行投递
+
+## vhost
+
+> 一个broker里有多个虚拟机，用作不同的用户的权限管理
+
+## Channel
+
+> 消息通道，在客户端的每个连接里，可以建立多个channel
+
 本身支持很多的协议：AMQP，XMPP, SMTP,STOMP
 
 AMQP是最可靠的协议
