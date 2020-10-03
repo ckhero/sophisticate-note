@@ -10,7 +10,7 @@ kafka
 >
 > [https://cloud.tencent.com/developer/article/1530090](https://cloud.tencent.com/developer/article/1530090)
 >
-> https://www.zhihu.com/search?type=content&q=kafka%E5%8E%9F%E7%90%86
+> [https://www.zhihu.com/search?type=content&q=kafka原理](https://www.zhihu.com/search?type=content&q=kafka原理)
 
 ## 优点
 
