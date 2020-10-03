@@ -155,7 +155,10 @@
   * [滑动窗口](chapter1/suan-fa/hua-dong-chuang-kou.md)
     * [TCP流量控制](chapter1/suan-fa/hua-dong-chuang-kou/tcpliu-liang-kong-zhi.md)
 * [设计模式](she-ji-mo-shi.md)
+  * [设计原则](she-ji-mo-shi/she-ji-yuan-ze.md)
+    * [开闭原则](she-ji-mo-shi/she-ji-yuan-ze/kai-bi-yuan-ze.md)
   * [工厂](she-ji-mo-shi/gong-chang.md)
+  * [责任链模式](she-ji-mo-shi/ze-ren-lian-mo-shi.md)
 * [高并发](gao-bing-fa.md)
   * 三把利器
     * [缓存](huan-cun.md)
