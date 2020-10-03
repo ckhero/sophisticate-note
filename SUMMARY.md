@@ -120,6 +120,8 @@
   * [RabbitMQ](xiao-xi-zhong-jian-jian/rabbitmq.md)
     * [死信队列](xiao-xi-zhong-jian-jian/rabbitmq/si-xin-dui-lie.md)
   * [kafka](xiao-xi-zhong-jian-jian/kafka.md)
+    * [延迟队列](xiao-xi-zhong-jian-jian/kafka/yan-chi-dui-lie.md)
+    * [零拷贝](xiao-xi-zhong-jian-jian/kafka/ling-kao-bei.md)
   * [常见的消息中间件的协议](xiao-xi-zhong-jian-jian/chang-jian-de-xiao-xi-zhong-jian-jian-de-xie-yi.md)
   * [如何保证消息有序性](xiao-xi-zhong-jian-jian/ru-he-bao-zheng-xiao-xi-you-xu-xing.md)
   * [精确一次消费](xiao-xi-zhong-jian-jian/jing-que-yi-ci-xiao-fei.md)
