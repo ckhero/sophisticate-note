@@ -11,6 +11,8 @@
 > 有序性  kafka 分区有序，rabbitmq全局有序
 >
 > 消息持久化  kafka消息被消费后不会被删除，rabbit收到消费确认后会被删除
+>
+> kafka支持消息堆积，rabbit支持阈值内的堆积
 
 
 
