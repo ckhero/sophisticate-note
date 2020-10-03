@@ -14,7 +14,7 @@
 >
 > fanout 将同一个消息发送给所有与他绑定的队列
 >
-> topic  根绝路由的key发送
+> topic  根据key 模糊匹配后投递到响应的队列
 
 本身支持很多的协议：AMQP，XMPP, SMTP,STOMP
 
