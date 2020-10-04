@@ -159,7 +159,7 @@
     * [开闭原则](she-ji-mo-shi/she-ji-yuan-ze/kai-bi-yuan-ze.md)
     * [里式替换原则](she-ji-mo-shi/she-ji-yuan-ze/li-shi-ti-huan-yuan-ze.md)
     * [依赖倒置原则](she-ji-mo-shi/she-ji-yuan-ze/yi-lai-dao-zhi-yuan-ze.md)
-    * [单一原则](she-ji-mo-shi/she-ji-yuan-ze/dan-yi-yuan-ze.md)
+    * [单一责任原则](she-ji-mo-shi/she-ji-yuan-ze/dan-yi-yuan-ze.md)
     * [接口隔离原则](she-ji-mo-shi/she-ji-yuan-ze/jie-kou-ge-li-yuan-ze.md)
     * [创建模型的特点和分类](she-ji-mo-shi/she-ji-yuan-ze/chuang-jian-mo-xing-de-te-dian-he-fen-lei.md)
   * [工厂](she-ji-mo-shi/gong-chang.md)
