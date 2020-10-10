@@ -2,6 +2,8 @@
 
 ## 资料
 
+> 秒杀哦 https://www.zhihu.com/question/54895548/answer/923987542?clicktime=1579081979
+>
 > [https://mp.weixin.qq.com/s/RLeujAj5rwZGNYMD0uLbrg](https://mp.weixin.qq.com/s/RLeujAj5rwZGNYMD0uLbrg)
 
 ## 悲观锁
