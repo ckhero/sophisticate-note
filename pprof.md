@@ -11,6 +11,8 @@
 > go test -bench=. -memprofile=mem.prof
 >
 > go tool pprof -http=:6060 mem.prof
+>
+> go tool pprof http://localhost:6060/debug/pprof/profile   //web
 
 
 
