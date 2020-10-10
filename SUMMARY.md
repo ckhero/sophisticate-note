@@ -168,11 +168,12 @@
   * [工厂](she-ji-mo-shi/gong-chang.md)
   * [责任链模式](she-ji-mo-shi/ze-ren-lian-mo-shi.md)
 * [高并发](gao-bing-fa.md)
-  * 三把利器
+  * [三把利器](gao-bing-fa/san-ba-li-qi.md)
     * [缓存](huan-cun.md)
     * [限流 ](xian-liu.md)
     * [降级](jiang-ji.md)
       * [hystrix](jiang-ji/hystrix.md)
+    * [隔离](ge-li.md)
   * [防止超卖](gao-bing-fa/fang-zhi-chao-mai.md)
 * [Docker](docker.md)
   * [问题](docker/wen-ti.md)
