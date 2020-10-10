@@ -22,7 +22,7 @@
 
 ## TCC
 
-> try confirm cancel
+> try confirm cancel   2PC是数据库层面的两段提交，TCC是业务逻辑层面的两段提交
 
 ## 消息中间件
 
