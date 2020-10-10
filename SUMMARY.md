@@ -5,6 +5,7 @@
 * [golang](golang.md)
   * [data-strcuture](data-strcuture.md)
     * [map](map.md)
+      * [sync.Map](map/syncmap.md)
     * [slice](slice.md)
     * [channel](channel.md)
       * [优雅的关闭](channel/you-ya-de-guan-bi.md)
