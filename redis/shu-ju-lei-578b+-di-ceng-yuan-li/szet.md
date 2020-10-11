@@ -18,5 +18,9 @@
 >
 > zremrangebyrank key start  end
 
+## 应用场景
+
+> 排行榜
+
 
 
