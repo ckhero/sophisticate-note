@@ -1,6 +1,6 @@
 # channel
 
-## 资料
+### 资料
 
 > [https://studygolang.com/articles/19740](https://studygolang.com/articles/19740)
 
@@ -8,11 +8,17 @@
 
 > 协程之间通信通道，优点是通过提供原子的通信原语，避免了竞态情形下复杂的锁机制
 
-buf 缓冲，缓冲数据，是个循环链表
+## buf 
 
-sendx和recvx是buf中的发送和接受的index
+> 有缓冲的channel的特有结构，用存储数据。是个循环列表
 
-sendq和recvq用来接受发送和接受的协程抽象出来的结构体的队列。是个双向链表
+### sendx和recvx
+
+> 循环列表中发送和接收的Index
+
+### sendq和recvq
+
+> 发送发送\(channel &lt;-\)和接收\(&lt;-channel\)的协程 抽象出来的队列，是个循环列表
 
 mutex 互斥锁
 
