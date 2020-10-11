@@ -33,6 +33,7 @@
     * [pool](sync/pool.md)
     * [Cond](sync/cond.md)
     * [Atomic.Value](sync/atomicvalue.md)
+    * [mutex](sync/mutex.md)
   * [深浅拷贝](shen-qian-kao-bei.md)
   * [指针](zhi-zhen.md)
     * [unsafe](unsafe.md)
