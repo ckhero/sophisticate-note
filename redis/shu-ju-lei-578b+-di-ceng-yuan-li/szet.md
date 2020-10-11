@@ -10,5 +10,13 @@
 >
 > 跳表，无法做到快速查找，但能做到排序和范围查找
 
+## 命令
+
+> zadd key scoer member
+>
+> zrange key 0 100  withscores
+>
+> zremrangebyrank key start  end
+
 
 
