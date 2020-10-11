@@ -13,6 +13,7 @@
   * [为什么快](wei-shi-yao-kuai.md)
   * [MPG](mpg.md)
     * [goroutine](mpg/goroutine.md)
+      * [同步](mpg/goroutine/tong-bu.md)
   * [defer](def.md)
     * [1.14](def/114.md)
   * [runtime](runtime.md)
