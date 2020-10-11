@@ -20,6 +20,8 @@
 >   * Pointer可以转成任意类型的指针值
 >   * uintptr均可转成Pointer
 >   * Pointer均可转成uniptr
+>
+> 如果两个数据的内存结构一致，可以通过unsafe.Pointer来进行转换，从而实现一分内存有两种不同的解读方式
 
 
 
