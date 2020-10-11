@@ -48,7 +48,7 @@
 
 ## 命令
 
-> lpush
+> lpush key value
 
 
 
