@@ -38,5 +38,15 @@
 >
 > * 前K个高频元素 [https://leetcode-cn.com/problems/top-k-frequent-elements/](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 
+## 堆排序过程
+
+> 构建大顶堆
+>
+> 首元素和尾元素交换
+>
+> 继续构建
+>
+> 继续交换
+
 
 
