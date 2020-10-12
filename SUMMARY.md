@@ -166,6 +166,7 @@
   * [KMP](chapter1/suan-fa/kmp.md)
   * [滑动窗口](chapter1/suan-fa/hua-dong-chuang-kou.md)
     * [TCP流量控制](chapter1/suan-fa/hua-dong-chuang-kou/tcpliu-liang-kong-zhi.md)
+  * [翻转数字](chapter1/suan-fa/fan-zhuan-shu-zi.md)
 * [设计模式](she-ji-mo-shi.md)
   * [设计原则](she-ji-mo-shi/she-ji-yuan-ze.md)
     * [开闭原则](she-ji-mo-shi/she-ji-yuan-ze/kai-bi-yuan-ze.md)
