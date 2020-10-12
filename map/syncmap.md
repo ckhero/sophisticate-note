@@ -1,6 +1,8 @@
 # sync.Map
 
 > [https://studygolang.com/articles/30515](https://studygolang.com/articles/30515)
+>
+> 坑 https://zhuanlan.zhihu.com/p/198984827?utm\_source=wechat\_session&utm\_medium=social&utm\_oi=597821804883218432&utm\_campaign=shareopn
 
 ## 结构
 
