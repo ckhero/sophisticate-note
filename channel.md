@@ -34,3 +34,13 @@ g1取消费，buf为空，会阻塞，go的调度器让g1让出m，进入等待
 
 g2 send  不加锁，直接把数据从g2  copy到 g1的栈中。g1无需再获取channel的锁，然后再从缓冲中取数据，减少内存操作。提高效率
 
+
+
+## 初始化
+
+> var c chan int
+>
+> c := make\(chan int\)
+
+
+
