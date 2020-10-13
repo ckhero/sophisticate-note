@@ -9,6 +9,7 @@
 > * syslog，这个没记清楚？
 > * channel是同步的还是异步的？
 > * 初始化结构体
+> * 撸一遍好吧 https://blog.csdn.net/ahaotata/article/details/84104437
 > * 下面这段代码有问题吗？有问题的话加一行代码解决
 >
 >   * ```
