@@ -59,6 +59,7 @@
   * [go中没有隐藏的指针](gozhong-mei-you-yin-cang-de-zhi-zhen.md)
   * [练习题](lian-xi-ti.md)
   * [方法集](fang-fa-ji.md)
+  * [type alias](type-alias.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
