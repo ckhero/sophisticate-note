@@ -56,6 +56,7 @@
   * [异常](yi-chang.md)
   * [杂项](za-xiang.md)
   * [序列化/反序列化](xu-lie-5316-fan-xu-lie-hua.md)
+  * [go中没有隐藏的指针](gozhong-mei-you-yin-cang-de-zhi-zhen.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
@@ -279,6 +280,6 @@
   * [netstat](linux/netstat.md)
   * [more](linux/more.md)
 * [GIT](git.md)
-* Interview
+* [Interview](interview.md)
   * [TapTap](taptap.md)
 
