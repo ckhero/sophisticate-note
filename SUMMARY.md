@@ -54,6 +54,7 @@
   * [pprof](pprof.md)
   * [new/make](newmake.md)
   * [异常](yi-chang.md)
+  * [杂项](za-xiang.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
