@@ -53,6 +53,7 @@
   * [1.14的变化](114de-bian-hua.md)
   * [pprof](pprof.md)
   * [new/make](newmake.md)
+  * [异常](yi-chang.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)

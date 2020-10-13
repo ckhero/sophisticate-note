@@ -1,6 +1,6 @@
 # 三次握手/四次挥手
 
-> https://blog.csdn.net/weixin\_32208747/article/details/87842240
+> [https://blog.csdn.net/weixin\_32208747/article/details/87842240](https://blog.csdn.net/weixin_32208747/article/details/87842240)
 
 ## 简述
 
@@ -18,9 +18,11 @@
 
 > 第一次握手异常，客户端在75秒内会重传
 >
-> 第二次异常，客户端没收到，服务端会重传ack，syn，上限5次
+> 第二次异常，客户端没收到，服务端会重传ack，syn，超过指定次数后，服务端关闭
 >
->                  如果客户端收到了，客户端开始发送数据，服务端不接受这数据，继续发送ack，syn
+> ```
+>              如果客户端收到了，客户端开始发送数据，服务端不接受这数据，继续发送ack，syn
+> ```
 >
 > 第三次异常，客户端会继续发送ack
 
