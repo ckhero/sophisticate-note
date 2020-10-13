@@ -5,6 +5,8 @@
 > string和\[\]byte : string\(\[byte\[\]\)    \[\]byte\(str\)
 >
 > string &lt;-&gt; int  strconv.Atoi\(str\),strconv.ParseInt64\(str\),strconv.FormatInt64\(100, 10\), strconv.Itoa\(100\)
+>
+> nil 可以用作 interface、function、pointer、map、slice 和 channel 的“空值”
 
 
 
