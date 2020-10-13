@@ -4,7 +4,7 @@
 >
 > string和\[\]byte : string\(\[byte\[\]\)    \[\]byte\(str\)
 >
-> string &lt;-&gt; int  stroncv.Atoi\(str\),stronvc.ParseInt64\(str\),strocv.FormatInt64\(100\)
+> string &lt;-&gt; int  strconv.Atoi\(str\),strconv.ParseInt64\(str\),strconv.FormatInt64\(100, 10\), strconv.Itoa\(100\)
 
 
 
