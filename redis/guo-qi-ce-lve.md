@@ -1,6 +1,8 @@
 # 过期key的删除策略
 
 > [https://blog.csdn.net/weixin\_37589896/article/details/78744765](https://blog.csdn.net/weixin_37589896/article/details/78744765)
+>
+> 淘汰策略 [https://blog.csdn.net/ligupeng7929/article/details/79603060](#)
 
 ## 三种策略
 
