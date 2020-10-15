@@ -11,6 +11,8 @@
 > 消息中间间分布式 [https://www.cnblogs.com/wudimanong/p/10558710.html](https://www.cnblogs.com/wudimanong/p/10558710.html)
 >
 > [https://zhuanlan.zhihu.com/p/93008976](https://zhuanlan.zhihu.com/p/93008976)
+>
+> 详细 https://xiaomi-info.github.io/2020/01/02/distributed-transaction/
 
 ## 简述
 
