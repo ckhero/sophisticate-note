@@ -116,7 +116,7 @@
   * [单表最大](mysql/dan-biao-zui-da.md)
   * [分表分库](mysql/fen-biao-fen-ku.md)
   * [count](mysql/count.md)
-  * 锁表场景
+  * [锁表场景](mysql/suo-biao-chang-jing.md)
     * [大表DDL](mysql/da-biao-ddl.md)
 * [Other](other.md)
   * [HTTPS](other/https.md)
