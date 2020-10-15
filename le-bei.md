@@ -22,6 +22,8 @@
 >
 > rdb和aof对过期key的处理
 >
+> rdb和aof流程
+>
 > hotkey，bigkey
 >
 > redis 怎么发现bigkey
