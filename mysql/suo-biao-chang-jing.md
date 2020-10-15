@@ -29,18 +29,18 @@
 
 | 操作 | 5.6 | 5.7 | 8.0 |
 | :--- | :--- | :--- | :--- |
-| 增加字段 |  | No\*\[添加自增字段锁表\] | No |
-| 删除字段 |  | No | No |
-| 修改字段名字 |  | No\*\[仅仅改变名字的时候不锁表\] | No |
-| 字段重排序 |  | No | No |
-| 设置默认值 |  | No | No |
-| 更改字段类型 |  | Yes | Yes |
-| 修改varchar size |  | No | No |
-| 删除默认值 |  | No | No |
-| 修改auto-increment 的值 |  | No | No |
-| making column NULL |  | No | No |
-| making column NOT NULL |  | No | No |
-| 修改enum和set的字段 |  | No | No |
+| 增加字段 | No\*\[添加自增字段锁表\] | No\*\[添加自增字段锁表\] | No\*\[添加自增字段锁表\] |
+| 删除字段 | No | No | No |
+| 修改字段名字 | No\*\[仅仅改变名字的时候不锁表\] | No\*\[仅仅改变名字的时候不锁表\] | No\*\[仅仅改变名字的时候不锁表\] |
+| 字段重排序 | No | No | No |
+| 设置默认值 | No | No | No |
+| 更改字段类型 | Yes | Yes | Yes |
+| 修改varchar size | No | No | No |
+| 删除默认值 | No | No | No |
+| 修改auto-increment 的值 | No | No | No |
+| making column NULL | No | No | No |
+| making column NOT NULL | No | No | No |
+| 修改enum和set的字段 | No | No | No |
 
 
 
