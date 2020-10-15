@@ -18,6 +18,10 @@
 >
 > redis string会有什么问题
 >
+> redis key的过期策略，
+>
+> rdb和aof对过期key的处理
+>
 > hotkey，bigkey
 >
 > redis 怎么发现bigkey
