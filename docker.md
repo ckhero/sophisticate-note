@@ -4,12 +4,14 @@
 
 > [https://www.runoob.com/docker/docker-dockerfile.html](https://www.runoob.com/docker/docker-dockerfile.html)
 >
-> 三大组件 http://dockone.io/article/9249
+> 三大组件 [http://dockone.io/article/9249](http://dockone.io/article/9249)
 
 ## 三大组件
 
 > * 镜像
+>   * 包含可以运行在linux内核的程序和数据
 > * 容器
+>   * 容器通过镜像创建，容器是独立于宿主机的隔离进程
 > * 仓库
 
 ## Docker是什么
