@@ -1,6 +1,6 @@
 # 大表DDL
 
-> [https://zvv.me/amp/1313.html](https://blog.csdn.net/eagle89/article/details/105735204?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduend~default-1-105735204.nonecase&utm_term=mysql%20%E5%A4%A7%E8%A1%A8%E6%94%B9%E5%AD%97%E6%AE%B5&spm=1000.2123.3001.4430)
+> [https://zvv.me/amp/1313.html](https://blog.csdn.net/eagle89/article/details/105735204?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduend~default-1-105735204.nonecase&utm_term=mysql 大表改字段&spm=1000.2123.3001.4430)
 
 ## pt-online-schema-change流程
 

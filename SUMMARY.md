@@ -91,6 +91,7 @@
     * [AOF](redis/chi-jiu-hua-fang-an/aof.md)
     * [RDB](redis/chi-jiu-hua-fang-an/rds.md)
   * [缓存失效策略](redis/huan-cun-shi-xiao-ce-lve.md)
+  * [过期key的删除策略](redis/guo-qi-ce-lve.md)
   * [如何保证操作的原子性](redis/ru-he-bao-zheng-cao-zuo-de-yuan-zi-xing.md)
   * [为什么这么快](redis/wei-shi-yao-zhe-yao-kuai.md)
   * [Memcache和redis的区别](redis/memcachehe-redis-de-qu-bie.md)
