@@ -29,7 +29,9 @@
 >    1. 每次读写请求都会触发redis.c/freeMemoryIfNeeded\(void\)处理超出内存的请求，这个过程是阻塞的。
 >    2. 同时还会触发清理策略，清理策略不是针对所有key，而是抽样形式，抽取maxmemory-samples个key然后进行处理。默认是5个
 
+## **Replication link和AOF文件中的过期处理**
 
+> 统一由master处理，然后传递下去
 
 
 
