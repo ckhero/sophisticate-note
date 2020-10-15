@@ -1,6 +1,14 @@
 # 过期key的删除策略
 
-> https://blog.csdn.net/weixin\_37589896/article/details/78744765
+> [https://blog.csdn.net/weixin\_37589896/article/details/78744765](https://blog.csdn.net/weixin_37589896/article/details/78744765)
+
+## 三种策略
+
+> 1. 被动删除
+>    1. 读写一个key的时候，会出发惰性删除，直接删除掉这个key，对cpu友好
+> 2. 主动删除
+>    1. 由于惰性删除无法保证冷数据及时删除，所以redis会定期主动淘汰过期的key
+> 3. 超maxmemory的时候，触发主动清理策略
 
 
 
