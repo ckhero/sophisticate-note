@@ -3,6 +3,14 @@
 ## 资料
 
 > [https://www.runoob.com/docker/docker-dockerfile.html](https://www.runoob.com/docker/docker-dockerfile.html)
+>
+> 三大组件 http://dockone.io/article/9249
+
+## 三大组件
+
+> * 镜像
+> * 容器
+> * 仓库
 
 ## Docker是什么
 
