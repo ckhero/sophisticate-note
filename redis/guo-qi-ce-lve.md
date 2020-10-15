@@ -15,6 +15,14 @@
 >    3. hz设置频率，默认每秒10次
 >    4. 主从模式，只有主节点进行该策略
 > 3. 超maxmemory的时候，触发主动清理策略
+>    1. 永不删除
+>    2. valatile-lru  设置过期时间的keyj进行lru
+>    3. allkeys-lru  所有的key进行lru
+>    4. volatile-random  设置了过期的key进行随机删除
+>    5. allkeys-random 所有key随机删除
+>    6. volatile-ttl 设置过期key的里面删除最快过期的
+
+## 注意事项
 
 
 
