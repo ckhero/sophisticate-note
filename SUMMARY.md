@@ -101,6 +101,7 @@
   * [redis 6.0](redis/redis-60.md)
   * [HotKey](redis/hotkey.md)
   * [BigKey](redis/bigkey.md)
+  * [阿里开发规范](redis/a-li-kai-fa-gui-fan.md)
 * [Mysql](mysql.md)
   * [索引](mysql/suo-yin.md)
     * [b+树](mysql/bshu.md)
