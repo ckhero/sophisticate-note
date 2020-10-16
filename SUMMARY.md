@@ -143,7 +143,7 @@
   * [应用场景](xiao-xi-zhong-jian-jian/ying-yong-chang-jing.md)
   * [RabbitMQ](xiao-xi-zhong-jian-jian/rabbitmq.md)
     * [死信队列](xiao-xi-zhong-jian-jian/rabbitmq/si-xin-dui-lie.md)
-    * [重复消费](xiao-xi-zhong-jian-jian/rabbitmq/zhong-fu-xiao-fei.md)
+    * [重复消费-消息丢失](xiao-xi-zhong-jian-jian/rabbitmq/zhong-fu-xiao-fei.md)
   * [kafka](xiao-xi-zhong-jian-jian/kafka.md)
     * [延迟队列](xiao-xi-zhong-jian-jian/kafka/yan-chi-dui-lie.md)
     * [零拷贝](xiao-xi-zhong-jian-jian/kafka/ling-kao-bei.md)
