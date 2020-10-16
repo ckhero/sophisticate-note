@@ -1,6 +1,8 @@
-Cluster 模式
+# Cluster 模式
 
-资料 [https://blog.csdn.net/hguisu/article/details/82979320](https://blog.csdn.net/hguisu/article/details/82979320)
+> 资料 [https://blog.csdn.net/hguisu/article/details/82979320](https://blog.csdn.net/hguisu/article/details/82979320)
+>
+> https://zhuanlan.zhihu.com/p/142843518
 
 哨兵模式的缺点是每个slave都存了全部的数据，比较浪费空间
 
