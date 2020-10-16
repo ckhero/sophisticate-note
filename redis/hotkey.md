@@ -11,7 +11,7 @@
 > 1. 通过具体业务判断
 > 2. client端统计
 > 3. 代理层统计
-> 4. redis-cli统计
+> 4. redis-cli --hostkeys
 
 ## 问题？
 
