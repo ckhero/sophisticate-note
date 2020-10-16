@@ -1,4 +1,6 @@
-小结
+# 主从同步
+
+## 小结
 
 slave启动后向master发起sync请求，master收到后开启bgsave，然后向slave发送快照数据。bgsave和发送阶段使用缓冲区记录操写命令。salve收到快照后，载入快照。master在快照发送完后会将缓冲区的命令同步给slave。
 
