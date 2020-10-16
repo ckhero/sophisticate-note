@@ -107,6 +107,7 @@
     * [原理](mysql/yuan-li.md)
     * [explain](mysql/explain.md)
   * [主从同步](mysql/du-xie-fen-li.md)
+    * [高可用](mysql/du-xie-fen-li/gao-ke-yong.md)
   * [事务特性的原理](mysql/shi-wu-te-xing-de-yuan-li.md)
   * [myisam innodb的区别](mysql/myisam-innodbde-qu-bie.md)
   * [锁](mysql/suo.md)
