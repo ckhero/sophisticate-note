@@ -1,4 +1,4 @@
-# BigKey
+## BigKey
 
 > [https://www.cnblogs.com/os-linux/p/11928930.html](https://www.cnblogs.com/os-linux/p/11928930.html)
 >
@@ -17,6 +17,10 @@
 > 1. redis-cli -h -a --bigkeys
 > 2. 下载rdb文件本地复原，在查看
 > 3. d第三方工具redis-rbd-cli
+
+## memory usage
+
+> 循环抽样累加方式获取的key的大小，
 
 ## redis4.0之后大key的发现和删除
 
