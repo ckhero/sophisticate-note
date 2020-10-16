@@ -1,8 +1,8 @@
 # 事务
 
-> https://blog.csdn.net/hzw19920329/article/details/54340711
+> [https://blog.csdn.net/hzw19920329/article/details/54340711](https://blog.csdn.net/hzw19920329/article/details/54340711)
 >
-> https://blog.csdn.net/hzw19920329/article/details/54315940
+> [https://blog.csdn.net/hzw19920329/article/details/54315940](https://blog.csdn.net/hzw19920329/article/details/54315940)
 
 ## 基于AMQP的事务
 
@@ -14,8 +14,8 @@
 >
 > * 普通confirm
 >   * 串行的，发送失败重试
-> * 批量发送
->   * 批量发送后，失败重试，会导致重复消息
+> * 批量发送，每个消息分配单调递增的序列号
+>   * 批量发送后，失败重试，选择性重试，会导致重复消息
 
 
 
