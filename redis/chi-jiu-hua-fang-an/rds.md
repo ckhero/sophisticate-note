@@ -15,6 +15,12 @@
 > 3. 执行debug reload
 > 4. 执行shutdown
 
+## 压缩？
+
+> rdbccompression yes
+>
+> 不建议开始，redis本身就是CPU密集型服务器，开启压缩会带来更多的CPU消耗，相比硬盘来说，成本太高
+
 ## 优点
 
 > * 文件紧凑，全量备份。适合灾备和恢复
