@@ -6,7 +6,9 @@
 
 > always 每个写命令立即同步，很慢，但很安全
 >
-> everysec 每秒一次，比较这种
+> everysec 每秒一次，比较折中
+>
+> no   redis不处理，交个OS来处理，很快，但不安全
 
 ```
   appendfsync everysec ：
