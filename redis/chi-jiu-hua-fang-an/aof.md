@@ -1,6 +1,6 @@
 # AOF
 
-> [https://segmentfault.com/a/1190000015983518](https://segmentfault.com/a/1190000015983518)
+
 
 AOF 记录每次的写操作命令，重启的时候会重新执行这些命令恢复数据
 
