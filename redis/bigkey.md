@@ -4,8 +4,6 @@
 >
 > [https://www.cnblogs.com/evakang/p/11610087.html](https://www.cnblogs.com/evakang/p/11610087.html)
 
-
-
 ## 问题
 
 > 数据倾斜，部分实例内存不够用
@@ -23,6 +21,10 @@
 ## memory usage
 
 > 循环抽样累加方式获取的key的大小，用较小的 代价获取key'的内存
+
+## lazyfree机制
+
+> 使用unlink删除，会有一个backGround I/O 在后台异步删除，不会阻塞主线程
 
 ## redis4.0之后大key的发现和删除
 
