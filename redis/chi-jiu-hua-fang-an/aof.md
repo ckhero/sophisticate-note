@@ -1,6 +1,4 @@
-AOF
-
-## 资料
+# AOF
 
 > [https://segmentfault.com/a/1190000015983518](https://segmentfault.com/a/1190000015983518)
 
