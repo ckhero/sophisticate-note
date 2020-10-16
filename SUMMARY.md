@@ -38,6 +38,7 @@
     * [mutex](sync/mutex.md)
     * [once](sync/once.md)
     * [rwmutex](sync/rwmutex.md)
+    * [waitGroup](sync/waitgroup.md)
   * [深浅拷贝](shen-qian-kao-bei.md)
   * [指针](zhi-zhen.md)
     * [unsafe](unsafe.md)
