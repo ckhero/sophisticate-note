@@ -148,7 +148,7 @@
     * [延迟队列](xiao-xi-zhong-jian-jian/kafka/yan-chi-dui-lie.md)
     * [零拷贝](xiao-xi-zhong-jian-jian/kafka/ling-kao-bei.md)
     * [精确一次消费](xiao-xi-zhong-jian-jian/jing-que-yi-ci-xiao-fei.md)
-    * [重复消费](xiao-xi-zhong-jian-jian/kafka/zhong-fu-xiao-fei.md)
+    * [重复消费-消息丢失](xiao-xi-zhong-jian-jian/kafka/zhong-fu-xiao-fei.md)
   * [常见的消息中间件的协议](xiao-xi-zhong-jian-jian/chang-jian-de-xiao-xi-zhong-jian-jian-de-xie-yi.md)
   * [kafka和rabbitmq对比](xiao-xi-zhong-jian-jian/kafkahe-rabbitmq-dui-bi.md)
 * [IO模型](iomo-xing.md)

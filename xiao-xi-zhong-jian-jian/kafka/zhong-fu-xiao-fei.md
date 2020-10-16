@@ -1,10 +1,10 @@
-## 重复消费
+## 重复消费-消息丢失
 
 > [https://zhuanlan.zhihu.com/p/112745985](https://zhuanlan.zhihu.com/p/112745985)
 >
 > [https://blog.csdn.net/qq\_29493353/article/details/88535092](https://blog.csdn.net/qq_29493353/article/details/88535092)
 >
-> https://segmentfault.com/a/1190000023282843
+> [https://segmentfault.com/a/1190000023282843](https://segmentfault.com/a/1190000023282843)
 
 ## 消息提交
 
