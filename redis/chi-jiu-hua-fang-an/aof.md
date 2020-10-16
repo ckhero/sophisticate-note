@@ -10,15 +10,7 @@
 >
 > no   redis不处理，交个OS来处理，很快，但不安全
 
-```
-  appendfsync everysec ：
 
-        always 把每个写命令立即同步到aof，非常慢
-
-       everysec 每一秒同步一次，比较折中（通常的方案，最多丢失一秒的数据）
-
-        no redis不处理，交给os处理，非常快也不安全
-```
 
 > 命令写入 -&gt; aof 重写
 >
