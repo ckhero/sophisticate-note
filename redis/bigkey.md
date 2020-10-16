@@ -20,5 +20,7 @@
 
 ## redis4.0之后大key的发现和删除
 
->
+> memory usage命令和lazyfree机制
+
+
 
