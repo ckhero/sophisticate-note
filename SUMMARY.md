@@ -64,6 +64,9 @@
   * [type alias](type-alias.md)
   * [redigo](redis/golang/redigo.md)
   * [组合和继承](zu-he-he-ji-cheng.md)
+  * GoMock
+  * [版本](ban-ben.md)
+    * [1.15](ban-ben/115.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)

@@ -1,8 +1,6 @@
 # go中没有隐藏的指针
 
-> https://blog.csdn.net/ma2595162349/article/details/108632865
-
-
+> [https://blog.csdn.net/ma2595162349/article/details/108632865](https://blog.csdn.net/ma2595162349/article/details/108632865)
 
 ## 简述
 
