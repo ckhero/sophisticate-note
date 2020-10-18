@@ -63,6 +63,7 @@
   * [方法集](fang-fa-ji.md)
   * [type alias](type-alias.md)
   * [redigo](redis/golang/redigo.md)
+  * [组合和继承](zu-he-he-ji-cheng.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
