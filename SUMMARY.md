@@ -67,6 +67,7 @@
   * GoMock
   * [版本](ban-ben.md)
     * [1.15](ban-ben/115.md)
+  * [恐慌恢复](kong-huang.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
