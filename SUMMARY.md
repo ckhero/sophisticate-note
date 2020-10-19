@@ -50,7 +50,6 @@
   * [性能分析](xing-neng-fen-xi.md)
   * [栈和指针](zhan-he-zhi-zhen.md)
   * [plan9](plan9.md)
-  * [逃逸分析](tao-yi-fen-xi.md)
   * [函数内联](han-shu-nei-lian.md)
   * [go:](go.md)
   * [1.14的变化](114de-bian-hua.md)
