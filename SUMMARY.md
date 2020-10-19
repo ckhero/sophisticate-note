@@ -22,6 +22,7 @@
   * [runtime](runtime.md)
   * [context](context.md)
   * [垃圾回收](la-ji-hui-shou.md)
+    * [触发时机](la-ji-hui-shou/hong-fa-shi-ji.md)
   * [栈和堆](zhan-he-dui.md)
     * [逃逸分析](tao-yi-fen-xi.md)
   * [原子性操作](yuan-zi-xing-cao-zuo.md)
