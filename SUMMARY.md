@@ -126,6 +126,7 @@
   * [count](mysql/count.md)
   * [myisam innodb的区别](mysql/myisam-innodbde-qu-bie.md)
   * [UUID/自增ID](mysql/uuidzi-zeng-id.md)
+    * [雪花ID](mysql/uuidzi-zeng-id/xue-hua-id.md)
 * [Other](other.md)
   * [HTTPS](other/https.md)
     * [TLS1.2/TLS1.3](other/https/tls12tls13.md)

@@ -1,6 +1,6 @@
 # UUID/自增ID
 
-> https://www.cnblogs.com/mrszhou/p/10036159.html
+> [https://www.cnblogs.com/mrszhou/p/10036159.html](https://www.cnblogs.com/mrszhou/p/10036159.html)
 
 ## UUID
 
@@ -10,6 +10,7 @@
 > * 缺点
 >   * 16字节，占用的存储空间大
 >   * 插入查询速度慢
+>   * 无序
 
 ## 自增ID
 
