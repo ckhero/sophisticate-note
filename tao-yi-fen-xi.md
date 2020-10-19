@@ -4,7 +4,7 @@
 
 > [https://www.cnblogs.com/sunsky303/p/11121657.html](https://www.cnblogs.com/sunsky303/p/11121657.html)
 >
-> https://cloud.tencent.com/developer/article/1422376
+> [https://cloud.tencent.com/developer/article/1422376](https://cloud.tencent.com/developer/article/1422376)
 
 ## 为什么要分析
 
@@ -12,13 +12,13 @@
 >
 > 栈与栈之间内存不共享
 
-## 逃逸的三种类型
+## 逃逸场景
 
-> 不定长的变量
->
-> 共享变量
->
-> 需要申请大内存的变量
+> 1. 容量未知，make\(\[\]int, L\)
+> 2. 大容量对象
+> 3. 函数字面量
+> 4. 动态类型\(interface\) ，编译期间无法确定类型
+> 5. 局部变量指针类型
 
 
 
