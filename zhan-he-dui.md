@@ -2,6 +2,10 @@
 
 > 直接通过 go build -gcflags ‘-m -l’ 就可以看到逃逸分析的过程和结果
 
+## 简述 
+
+> 栈 分配廉价，堆分配昂贵
+
 ## 资料
 
 > [https://studygolang.com/articles/11878](https://studygolang.com/articles/26113)
@@ -10,7 +14,7 @@
 >
 > [http://www.huamo.online/2019/06/25/%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6goroutine%E6%A0%88/](http://www.huamo.online/2019/06/25/深入研究goroutine栈/)
 >
-> 好 https://studygolang.com/articles/19386
+> 好 [https://studygolang.com/articles/19386](https://studygolang.com/articles/19386)
 
 ## golang
 
