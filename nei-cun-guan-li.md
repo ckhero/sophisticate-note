@@ -2,7 +2,9 @@
 
 > [https://tonybai.com/2020/03/10/visualizing-memory-management-in-golang/](https://tonybai.com/2020/03/10/visualizing-memory-management-in-golang/)
 >
-> https://studygolang.com/articles/24349
+> [https://studygolang.com/articles/24349](https://studygolang.com/articles/24349)
+>
+> http://legendtkl.com/2017/04/02/golang-alloc/
 
 ## 简述
 
