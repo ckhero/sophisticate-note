@@ -4,7 +4,9 @@
 >
 > [https://studygolang.com/articles/24349](https://studygolang.com/articles/24349)
 >
-> http://legendtkl.com/2017/04/02/golang-alloc/
+> [http://legendtkl.com/2017/04/02/golang-alloc/](http://legendtkl.com/2017/04/02/golang-alloc/)
+>
+> 回收 https://studygolang.com/articles/17532
 
 ## 简述
 
