@@ -7,6 +7,8 @@
 > [https://cloud.tencent.com/developer/article/1422376](https://cloud.tencent.com/developer/article/1422376)
 >
 > 避免内存逃逸 [https://chai2010.cn/advanced-go-programming-book/ch3-asm/ch3-05-control-flow.html](https://chai2010.cn/advanced-go-programming-book/ch3-asm/ch3-05-control-flow.html)
+>
+> https://www.jianshu.com/p/dcd87431a8af
 
 ## 为什么要分析
 
