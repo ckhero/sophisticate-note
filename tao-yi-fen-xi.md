@@ -5,6 +5,8 @@
 > [https://www.cnblogs.com/sunsky303/p/11121657.html](https://www.cnblogs.com/sunsky303/p/11121657.html)
 >
 > [https://cloud.tencent.com/developer/article/1422376](https://cloud.tencent.com/developer/article/1422376)
+>
+> 避免内存逃逸 https://chai2010.cn/advanced-go-programming-book/ch3-asm/ch3-05-control-flow.html
 
 ## 为什么要分析
 
@@ -19,6 +21,10 @@
 > 3. 函数字面量
 > 4. 动态类型\(interface\) ，编译期间无法确定类型
 > 5. 局部变量指针类型
+
+## 避免
+
+> unsafe.Pointer 是一个真实的指针，但是对编译器而言是一个int类型，通过这个把指针隐藏起来。达到避免逃逸
 
 
 
