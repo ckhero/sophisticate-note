@@ -139,6 +139,7 @@
     * [队首阻塞](other/http/dui-shou-zu-sai.md)
     * [RTT](other/http/rtt.md)
     * [content-length](other/http/content-length.md)
+    * [报文](other/http/bao-wen.md)
   * [TCP/UDP](other/tcpudp.md)
     * [TCP流量控制](other/tcpudp/tcpliu-liang-kong-zhi.md)
     * [沾包](other/tcpudp/zhan-bao.md)
