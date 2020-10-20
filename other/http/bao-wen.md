@@ -4,7 +4,7 @@
 >
 > [https://hit-alibaba.github.io/interview/basic/network/HTTP.html](https://hit-alibaba.github.io/interview/basic/network/HTTP.html)
 
-## 结构
+## 请求结构
 
 > 1. 请求行
 >    1. 方法
@@ -14,7 +14,7 @@
 >    1. Host
 >    2. User-Agent
 >    3. Connection:keep-ALive
->    4. Content-type:https://hit-alibaba.github.io/interview/basic/network/HTTP.html
+>    4. Content-type:[https://hit-alibaba.github.io/interview/basic/network/HTTP.html](https://hit-alibaba.github.io/interview/basic/network/HTTP.html)
 >    5. Content-length:100
 > 3. 请求数据
 
