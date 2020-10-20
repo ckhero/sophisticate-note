@@ -117,6 +117,7 @@
   * [主从同步](mysql/du-xie-fen-li.md)
     * [高可用](mysql/du-xie-fen-li/gao-ke-yong.md)
   * [事务特性的原理](mysql/shi-wu-te-xing-de-yuan-li.md)
+    * [RedoLog](mysql/shi-wu-te-xing-de-yuan-li/redolog.md)
   * [myisam innodb的区别](mysql/myisam-innodbde-qu-bie.md)
   * [锁](mysql/suo.md)
     * [乐观锁/悲观锁](mysql/le-guan-9501-bei-guan-suo.md)
