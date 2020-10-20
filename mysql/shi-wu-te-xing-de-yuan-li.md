@@ -3,6 +3,8 @@
 ## 资料
 
 > [https://www.cnblogs.com/kismetv/p/10331633.html](https://www.cnblogs.com/kismetv/p/10331633.html)
+>
+> https://www.cnblogs.com/f-ck-need-u/archive/2018/05/08/9010872.html
 
 ## 持久性
 
