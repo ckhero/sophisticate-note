@@ -1,6 +1,20 @@
 # 树
 
-> https://zhuanlan.zhihu.com/p/27700617
+> [https://zhuanlan.zhihu.com/p/27700617](https://zhuanlan.zhihu.com/p/27700617)
+>
+> https://zhuanlan.zhihu.com/p/31805309
+
+## 简述
+
+> * 二叉查找树
+>   * 有可能会退化成O\(n\)查找
+> * 平衡二叉树
+>   * 左右树高相差不超过1
+> * 红黑树
+>   * 不存在两个连续的红色节点
+>   * 每个节点到他的可达叶子节点的黑色节点数相等
+>     * 自平衡
+>   * * 变色，左旋转，右旋转
 
 
 
