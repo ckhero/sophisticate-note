@@ -71,6 +71,7 @@
   * [恐慌恢复](kong-huang.md)
   * [内存泄漏](nei-cun-xie-lou.md)
   * [bitmap](bitmap.md)
+  * [内存管理](nei-cun-guan-li.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
