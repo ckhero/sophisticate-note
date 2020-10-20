@@ -4,7 +4,7 @@
 >
 > [https://hit-alibaba.github.io/interview/basic/network/HTTP.html](https://hit-alibaba.github.io/interview/basic/network/HTTP.html)
 >
-> put 和post https://blog.fundebug.com/2018/11/09/http-method-put-vs-post/
+> put 和post [https://blog.fundebug.com/2018/11/09/http-method-put-vs-post/](https://blog.fundebug.com/2018/11/09/http-method-put-vs-post/)
 
 ## 请求结构
 
@@ -16,7 +16,7 @@
 >    1. Host
 >    2. User-Agent
 >    3. Connection:keep-ALive
->    4. Content-type:[https://hit-alibaba.github.io/interview/basic/network/HTTP.html](https://hit-alibaba.github.io/interview/basic/network/HTTP.html)
+>    4. Content-type:
 >    5. Content-length:100
 >    6. Cookie
 >    7. Accept:iamge/git....
