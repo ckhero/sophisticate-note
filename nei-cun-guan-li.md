@@ -6,7 +6,7 @@
 >
 > [http://legendtkl.com/2017/04/02/golang-alloc/](http://legendtkl.com/2017/04/02/golang-alloc/)
 >
-> 回收 https://studygolang.com/articles/17532
+> 回收 [https://studygolang.com/articles/17532](https://studygolang.com/articles/17532)
 
 ## 简述
 
@@ -42,6 +42,12 @@
 >   * 分配在machace对应的mspan size class 上
 > * 大于32KB
 >   * 直接分配在堆上面
+
+## 回收
+
+> * 大对象直接直接还给mheap
+> * 小对象还个中间部件mcentral
+>   * mcentral持有的内存块回收全部空间的话，需要还个mheap
 
 
 
