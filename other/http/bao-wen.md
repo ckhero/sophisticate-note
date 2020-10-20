@@ -3,6 +3,8 @@
 > [https://www.cnblogs.com/biyeymyhjob/archive/2012/07/28/2612910.html](https://www.cnblogs.com/biyeymyhjob/archive/2012/07/28/2612910.html)
 >
 > [https://hit-alibaba.github.io/interview/basic/network/HTTP.html](https://hit-alibaba.github.io/interview/basic/network/HTTP.html)
+>
+> put 和post
 
 ## 请求结构
 
@@ -16,7 +18,13 @@
 >    3. Connection:keep-ALive
 >    4. Content-type:[https://hit-alibaba.github.io/interview/basic/network/HTTP.html](https://hit-alibaba.github.io/interview/basic/network/HTTP.html)
 >    5. Content-length:100
+>    6. Cookie
+>    7. Accept:iamge/git....
 > 3. 请求数据
+
+## PUT/POST
+
+> 主要是语义上的区别，http规范中是PUT是幂等
 
 
 
