@@ -2,7 +2,7 @@
 
 > [https://zhuanlan.zhihu.com/p/27700617](https://zhuanlan.zhihu.com/p/27700617)
 >
-> https://zhuanlan.zhihu.com/p/31805309
+> [https://zhuanlan.zhihu.com/p/31805309](https://zhuanlan.zhihu.com/p/31805309)
 
 ## 简述
 
@@ -15,6 +15,15 @@
 >   * 每个节点到他的可达叶子节点的黑色节点数相等
 >     * 自平衡
 >   * * 变色，左旋转，右旋转
+> * b树
+>   * 多路查找树
+>   * 遍历要层级遍历
+> * b+树
+>   * 非叶子节点只存储关键字，不存储数据
+>   * 相比b树层级更少，减少io
+>   * 每次查找都到叶子节点，更稳定
+>   * 遍历只需要遍历叶子节点
+>   * 叶子节点有序
 
 
 
