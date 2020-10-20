@@ -1,6 +1,8 @@
 # 内存管理
 
 > [https://tonybai.com/2020/03/10/visualizing-memory-management-in-golang/](https://tonybai.com/2020/03/10/visualizing-memory-management-in-golang/)
+>
+> https://studygolang.com/articles/24349
 
 ## 简述
 
