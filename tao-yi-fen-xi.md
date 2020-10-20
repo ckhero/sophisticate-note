@@ -8,7 +8,7 @@
 >
 > 避免内存逃逸 [https://chai2010.cn/advanced-go-programming-book/ch3-asm/ch3-05-control-flow.html](https://chai2010.cn/advanced-go-programming-book/ch3-asm/ch3-05-control-flow.html)
 >
-> https://www.jianshu.com/p/dcd87431a8af
+> [https://www.jianshu.com/p/dcd87431a8af](https://www.jianshu.com/p/dcd87431a8af)
 
 ## 为什么要分析
 
@@ -25,6 +25,7 @@
 > 5. 局部变量指针类型
 >    1. channel,map和slice里面放指针会逃逸
 >    2. 简单取址后，如果不发生函数外的调用不会逃逸
+>    3. 局部变量被外部引用，生命周期大于栈
 
 ## 避免
 
