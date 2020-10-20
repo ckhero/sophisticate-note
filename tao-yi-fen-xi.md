@@ -6,13 +6,19 @@
 >
 > [https://cloud.tencent.com/developer/article/1422376](https://cloud.tencent.com/developer/article/1422376)
 >
-> 避免内存逃逸 https://chai2010.cn/advanced-go-programming-book/ch3-asm/ch3-05-control-flow.html
+> 避免内存逃逸 [https://chai2010.cn/advanced-go-programming-book/ch3-asm/ch3-05-control-flow.html](https://chai2010.cn/advanced-go-programming-book/ch3-asm/ch3-05-control-flow.html)
 
 ## 为什么要分析
 
 > 最好处是减少gc的压力，不逃逸的分配在栈上，函数返回时回收资源，不需要标记清除
 >
 > 栈与栈之间内存不共享
+
+## 注意点
+
+> map和slice里面放指针会逃逸
+>
+> 简单取址后，如果不发生函数外的调用不会逃逸
 
 ## 逃逸场景
 
