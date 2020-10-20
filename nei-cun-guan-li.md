@@ -25,6 +25,7 @@
 >   * 用于存储小对象 &lt;= 32KB 
 >   * 包含scan和noscann
 >   * G可以从mcache中无锁的情况下读取内存，因为P是单线程
+>   * mcache从mcentral中申请span
 
 
 
