@@ -2,7 +2,7 @@
 
 > [https://www.cnblogs.com/biyeymyhjob/archive/2012/07/28/2612910.html](https://www.cnblogs.com/biyeymyhjob/archive/2012/07/28/2612910.html)
 >
-> https://hit-alibaba.github.io/interview/basic/network/HTTP.html
+> [https://hit-alibaba.github.io/interview/basic/network/HTTP.html](https://hit-alibaba.github.io/interview/basic/network/HTTP.html)
 
 ## 结构
 
@@ -13,6 +13,10 @@
 > 2. 头部字段
 >    1. Host
 >    2. User-Agent
+>    3. Connection:keep-ALive
+>    4. Content-type:https://hit-alibaba.github.io/interview/basic/network/HTTP.html
+>    5. Content-length:100
+> 3. 请求数据
 
 
 
