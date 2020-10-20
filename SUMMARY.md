@@ -25,6 +25,7 @@
     * [触发时机](la-ji-hui-shou/hong-fa-shi-ji.md)
   * [栈和堆](zhan-he-dui.md)
     * [逃逸分析](tao-yi-fen-xi.md)
+    * [内存调优](nei-cun-diao-you.md)
   * [原子性操作](yuan-zi-xing-cao-zuo.md)
   * [反射](fan-she.md)
   * [interface](interface.md)
