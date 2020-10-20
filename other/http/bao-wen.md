@@ -4,7 +4,7 @@
 >
 > [https://hit-alibaba.github.io/interview/basic/network/HTTP.html](https://hit-alibaba.github.io/interview/basic/network/HTTP.html)
 >
-> put 和post
+> put 和post https://blog.fundebug.com/2018/11/09/http-method-put-vs-post/
 
 ## 请求结构
 
