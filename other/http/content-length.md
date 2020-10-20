@@ -15,6 +15,7 @@
 >    3. 如果不是keep alive  ，后续一直被截取
 > 5. 不确定content-length
 >    1. 使用Transfer-Encoding: chunked，content-lenght会被忽略
+>    2. 每个chunked数据块都是数据+长度 ，换行符结尾
 
 
 
