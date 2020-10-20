@@ -1,6 +1,8 @@
 # 内存调优
 
-> https://blog.csdn.net/weixin\_44024220/article/details/104212225
+> [https://blog.csdn.net/weixin\_44024220/article/details/104212225](https://blog.csdn.net/weixin_44024220/article/details/104212225)
+>
+> https://studygolang.com/articles/22875
 
 ## 简述
 
