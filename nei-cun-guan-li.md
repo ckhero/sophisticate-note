@@ -27,5 +27,15 @@
 >   * G可以从mcache中无锁的情况下读取内存，因为P是单线程
 >   * mcache从mcentral中申请span
 
+## 内存分配
+
+> * 小于16B
+>   * 直接使用mcache的微小分配器分配
+>   * 在单个16字节块上可以分配多个微小分配
+> * 大于16B小于32KB
+>   * 分配在machace对应的mspan size class 上
+> * 大于32KB
+>   * 直接分配在堆上面
+
 
 
