@@ -70,6 +70,7 @@
     * [1.15](ban-ben/115.md)
   * [恐慌恢复](kong-huang.md)
   * [内存泄漏](nei-cun-xie-lou.md)
+  * [bitmap](bitmap.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
