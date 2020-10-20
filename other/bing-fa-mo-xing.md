@@ -1,6 +1,6 @@
 # 并发模型
 
-> https://cloud.tencent.com/developer/article/1349213
+> [https://cloud.tencent.com/developer/article/1349213](https://cloud.tencent.com/developer/article/1349213)
 
 ## 类型
 
@@ -11,6 +11,8 @@
 > 3. 多线程
 > 4. 单线程 加 回调（callback）和事件轮询
 >    1. nginx 多进程（单线程） & 多路复用
+> 5. 协程
+> 6. actor 和GSP
 
 
 
