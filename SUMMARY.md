@@ -49,6 +49,7 @@
   * [迭代器](die-dai-qi.md)
   * [函数和方法的区别](han-shu-he-fang-fa-de-qu-bie.md)
   * [性能分析](xing-neng-fen-xi.md)
+    * [压测](xing-neng-fen-xi/ya-ce.md)
   * [栈和指针](zhan-he-zhi-zhen.md)
   * [plan9](plan9.md)
   * [函数内联](han-shu-nei-lian.md)
