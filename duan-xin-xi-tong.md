@@ -1,12 +1,10 @@
 # 短链系统
 
-> https://www.cnblogs.com/wanghui-garcia/p/10421659.html
-
-
+> [https://www.cnblogs.com/wanghui-garcia/p/10421659.html](https://www.cnblogs.com/wanghui-garcia/p/10421659.html)
 
 ## 短链生成
 
-> * 发号器策略
+> * **发号器策略**
 > * uuid.New4\(\).String
 >   * 利用本var Reader io.Reader 强随机商户生成器生成随机数
 >   * 然后利用version  ，variant对随机数变体
@@ -19,6 +17,8 @@
 > 1. 重复问题
 >    1. 利用uuid将此概率降到最低
 >    2. 数据做唯一索引
+> 2. 单长对多短
+>    1. redis保存一天的key value对
 
 
 
