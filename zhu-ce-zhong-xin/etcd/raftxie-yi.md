@@ -48,5 +48,15 @@
 
 > 引入一个新的概念, region leader。region leader 是一个逻辑上的概念, 任意时刻对于某一个 region 来说, 一定只拥有一个 region leader, 每个 region leader 在任期之内尝试每隔 t 时间间隔, 在 raft group 内部更新一下 region leader 的 lease. 所有的读写请求都必须通过 region leader 完成，
 
+# 流程
+
+> 1. follower把自己的term + 1，然后状态变为候选者
+> 2. 发送投票消息给其他的服务器
+> 3. 受到多数投票者变为leader，并且不定期给其他follower发送信条
+> 4. 投票结束后，候选者收到来自leader的消息的时候，把本地term 更新为leader的term
+>    1. 选票瓜分候选者等待leader的信息超时，这个超时时间会随机取，第一个超时的人会得到其他人的投票，成为leader，然后发送心跳
+
+
+
 
 
