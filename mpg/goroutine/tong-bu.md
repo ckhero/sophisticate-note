@@ -1,6 +1,8 @@
 # 同步
 
 > [https://studygolang.com/articles/96](https://studygolang.com/articles/21533)
+>
+> https://studygolang.com/articles/21533
 
 ## 为什么要同步
 
