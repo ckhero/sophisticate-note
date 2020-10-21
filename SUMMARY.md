@@ -235,6 +235,7 @@
       * [sidebar](fu-wu-kuang-jia/go-micro/sidebar.md)
       * [Registy](fu-wu-kuang-jia/go-micro/registy.md)
       * [Transport](fu-wu-kuang-jia/go-micro/transport.md)
+        * [Stream](fu-wu-kuang-jia/go-micro/transport/stream.md)
       * [Codec](fu-wu-kuang-jia/go-micro/codec.md)
       * [Selecor](fu-wu-kuang-jia/go-micro/selecor.md)
       * [Broker](fu-wu-kuang-jia/go-micro/broker.md)
