@@ -261,6 +261,7 @@
   * [service mesh](service-mesh.md)
 * [一些实战案例](ding-dan-xi-tong.md)
   * [幂等](mi-deng.md)
+  * [短信系统](duan-xin-xi-tong.md)
 * [数据结构](shu-ju-jie-gou.md)
   * [哈希表](shu-ju-jie-gou/ha-xi-biao.md)
   * [树](shu-ju-jie-gou/shu.md)
