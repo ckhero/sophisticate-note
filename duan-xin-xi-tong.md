@@ -1,6 +1,8 @@
 # 短链系统
 
 > [https://www.cnblogs.com/wanghui-garcia/p/10421659.html](https://www.cnblogs.com/wanghui-garcia/p/10421659.html)
+>
+> 美团发号器https://tech.meituan.com/2017/04/21/mt-leaf.html
 
 ## 短链生成
 
