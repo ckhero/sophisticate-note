@@ -2,6 +2,10 @@
 
 > [https://zhuanlan.zhihu.com/p/126548782](https://zhuanlan.zhihu.com/p/126548782)
 
+# 简述
+
+> 这两个是内置函数，不是关键字
+
 ## new
 
 > 返回类型的指针，初始化为零值
