@@ -1,6 +1,6 @@
 # Go Mod
 
-> https://colobu.com/2018/08/27/learn-go-module/
+> [https://colobu.com/2018/08/27/learn-go-module/](https://colobu.com/2018/08/27/learn-go-module/)
 
 ## 简述
 

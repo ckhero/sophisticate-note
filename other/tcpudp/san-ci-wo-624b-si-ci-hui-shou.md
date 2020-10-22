@@ -1,6 +1,8 @@
 # 三次握手/四次挥手
 
 > [https://blog.csdn.net/weixin\_32208747/article/details/87842240](https://blog.csdn.net/weixin_32208747/article/details/87842240)
+>
+> https://blog.csdn.net/qzcsu/article/details/72861891
 
 ## 简述
 
@@ -26,5 +28,5 @@
 >
 > 第三次异常，客户端会继续发送ack
 
-
+四次挥手客户端2MSL
 
