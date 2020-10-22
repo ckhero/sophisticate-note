@@ -2,7 +2,7 @@
 
 > [https://blog.csdn.net/weixin\_32208747/article/details/87842240](https://blog.csdn.net/weixin_32208747/article/details/87842240)
 >
-> https://blog.csdn.net/qzcsu/article/details/72861891
+> [https://blog.csdn.net/qzcsu/article/details/72861891](https://blog.csdn.net/qzcsu/article/details/72861891)
 
 ## 简述
 
@@ -28,5 +28,13 @@
 >
 > 第三次异常，客户端会继续发送ack
 
-四次挥手客户端2MSL
+## 四次挥手客户端2MSL
+
+> 防止服务端没有接受到客户端的ACK，服务会重发关闭请求
+
+## 意外断开
+
+> 保活机制，两小时，如果两小时后还没接收到请求，开始嗅探，嗅探失败断开连接
+
+
 
