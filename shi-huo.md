@@ -20,6 +20,7 @@
 > 18. redolog和binlog
 > 19. 索引失效，select \* from user where a = 1, a为字符串
 > 20. explain，哪两个字段判断 是全表扫描。type-all， rows -行数
+> 21. 内存对其，两个结构体字段一样，顺序不同，大小一样吗
 
 
 
