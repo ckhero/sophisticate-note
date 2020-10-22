@@ -112,6 +112,7 @@
   * [HotKey](redis/hotkey.md)
   * [BigKey](redis/bigkey.md)
   * [阿里开发规范](redis/a-li-kai-fa-gui-fan.md)
+  * [慢日志](redis/man-ri-zhi.md)
 * [Mysql](mysql.md)
   * [索引](mysql/suo-yin.md)
     * [b+树](mysql/bshu.md)
