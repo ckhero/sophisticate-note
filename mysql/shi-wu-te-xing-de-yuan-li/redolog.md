@@ -23,9 +23,9 @@
 
 > innodb\_flush\_log\_at\_trx\_commit
 >
-> 1.  1  事务提交会把 log buffer 中的数据写入 os buffer
-> 2.  0 事务提交不会把log buffer 写入 os buffer，而是每秒写入 os buffer
-> 3.  2 每次提交都仅仅写入到 os buffer，然后 每秒写入 log file
+> 1. 1  事务提交会把 log buffer 中的数据写入 os buffer
+> 2. 0 事务提交不会把log buffer 写入 os buffer，而是每秒写入 os buffer
+> 3. 2 每次提交都仅仅写入到 os buffer，然后 每秒写入 log file
 
 
 
