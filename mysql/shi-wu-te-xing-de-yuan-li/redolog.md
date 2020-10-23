@@ -2,7 +2,7 @@
 
 > [https://www.cnblogs.com/f-ck-need-u/archive/2018/05/08/9010872.html](https://www.cnblogs.com/f-ck-need-u/archive/2018/05/08/9010872.html)
 >
-> https://database.51cto.com/art/202008/624307.htm
+> [https://database.51cto.com/art/202008/624307.htm](https://database.51cto.com/art/202008/624307.htm)
 
 ## 简述
 
@@ -46,7 +46,9 @@
 
 ## 有binlog为什么还要redolog
 
-> 1. inndodb是以页单位
+> 1. inndodb是以页单位进行磁盘交互，而一个事务很可能只修改了一个数据页里的几个字节，这时候将完整的数据页刷到磁盘的话。浪费资源
+> 2. 一个事务可能修改多个数据页，这些数据页在磁盘上不连续，随机IO写入性能太差
+> 3. redolog只记录事务对数据页做了哪些修改，相对而言文件较小也是顺序IO
 
 
 
