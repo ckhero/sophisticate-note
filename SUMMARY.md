@@ -87,6 +87,7 @@
     * [ziplist](shu-ju-jie-gou/ziplist.md)
     * [RedisObject](shu-ju-jie-gou/redisobject.md)
     * [skiplist](shu-ju-jie-gou/skiplist.md)
+    * [容量估算](shu-ju-jie-gou/rong-liang-gu-suan.md)
   * [数据类型+底层原理](redis/shu-ju-lei-578b+-di-ceng-yuan-li.md)
     * [string](redis/shu-ju-lei-578b+-di-ceng-yuan-li/string.md)
     * [list](redis/shu-ju-lei-578b+-di-ceng-yuan-li/list.md)
