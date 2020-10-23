@@ -1,6 +1,8 @@
 # RedoLog
 
 > [https://www.cnblogs.com/f-ck-need-u/archive/2018/05/08/9010872.html](https://www.cnblogs.com/f-ck-need-u/archive/2018/05/08/9010872.html)
+>
+> https://database.51cto.com/art/202008/624307.htm
 
 ## 简述
 
@@ -41,6 +43,10 @@
 > 4. 内容不同
 >    1. redo log 是物理日志，记录的是个每个物理页的变化
 >    2. binlog是逻辑性的语句
+
+## 有binlog为什么还要redolog
+
+> 1. inndodb是以页单位
 
 
 
