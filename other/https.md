@@ -2,7 +2,7 @@
 
 > [https://blog.csdn.net/cout\_\_waht/article/details/80859369](https://blog.csdn.net/cout__waht/article/details/80859369)
 >
-> https://segmentfault.com/a/1190000021494676
+> [https://segmentfault.com/a/1190000021494676](https://segmentfault.com/a/1190000021494676)
 
 加密方式
 
@@ -23,6 +23,7 @@
 > 1. 对称加密
 >    1. 需要维护大量的秘钥
 >    2. 不同服务器的安全等级不一样，秘钥容易泄露
+>    3. 优点是加密效率高
 
 
 
