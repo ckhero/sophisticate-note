@@ -27,5 +27,10 @@
 > 2. 0 事务提交不会把log buffer 写入 os buffer，而是每秒写入 os buffer
 > 3. 2 每次提交都仅仅写入到 os buffer，然后 每秒写入 log file
 
+## RedoLog与binLog的区别
+
+> 1. binlog由引擎层的上层产生，RedoLog由innnodb产生
+> 2. binlog是在commit的写入缓冲，redolog在数据准备修改前开始写入缓存，再binlog的commit前进行提交
+
 
 
