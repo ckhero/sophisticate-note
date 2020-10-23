@@ -35,9 +35,12 @@
 > 2. 层次不同
 >    1. binlog由引擎层的上层mysql服务器
 >    2. redolog是innodb存储引擎实现的
-> 3. ，
-> 4. binlog是在commit的一次性写入缓冲，redolog在数据准备修改前开始写入缓存，再binlog的commit前进行提交
-> 5. binlog因为是提交的时候一次性写入，binlog的的记录方式和提交顺序有关。redolog记录的是物理页的变化，索引redo log中同个事务可能有多个提交记录
+> 3. 写入时机不同
+>    1. binglog在提交的时候一次性写入缓存
+>    2. redolog在准备数据的时候就开始写入缓存，在binglog提交前提交
+> 4. 内容不同
+>    1. redo log 是物理日志，记录的是个每个物理页的变化
+>    2. binlog是逻辑性的语句
 
 
 
