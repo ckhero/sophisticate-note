@@ -1,12 +1,12 @@
-HTTPS
+# HTTPS
 
-资料
+> [https://blog.csdn.net/cout\_\_waht/article/details/80859369](https://blog.csdn.net/cout__waht/article/details/80859369)
+>
+> https://segmentfault.com/a/1190000021494676
 
-[https://blog.csdn.net/cout\_\_waht/article/details/80859369](https://blog.csdn.net/cout__waht/article/details/80859369)
+加密方式
 
-加密方式 
-
-  不对称 + 对称 （对称效率高于不对称）
+不对称 + 对称 （对称效率高于不对称）
 
 客户端发起请求后服务端利用ca的私钥把服务器的公钥 + 颁发机构等信息  加密后传递给客户端。
 
@@ -18,7 +18,11 @@ HTTPS
 
 后续利用随机数进行对称加密 传输
 
+## 发展过程
 
+> 1. 对称加密
+>    1. 需要维护大量的秘钥
+>    2. 不同服务器的安全等级不一样，秘钥容易泄露
 
 
 
