@@ -30,7 +30,7 @@
 ## RedoLog与binLog的区别
 
 > 1. binlog由引擎层的上层产生，RedoLog由innnodb产生
-> 2. binlog是在commit的写入缓冲，redolog在数据准备修改前开始写入缓存，再binlog的commit前进行提交
+> 2. binlog是在commit的一次性写入缓冲，redolog在数据准备修改前开始写入缓存，再binlog的commit前进行提交
 
 
 
