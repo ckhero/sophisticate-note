@@ -29,8 +29,15 @@
 
 ## RedoLog与binLog的区别
 
-> 1. binlog由引擎层的上层产生，RedoLog由innnodb产生
-> 2. binlog是在commit的一次性写入缓冲，redolog在数据准备修改前开始写入缓存，再binlog的commit前进行提交
+> 1. 作用不同
+>    1. binlog用于基于时间点的回复，和主从复制
+>    2. redolog适用于崩溃恢复，保证数据持久性
+> 2. 层次不同
+>    1. binlog由引擎层的上层mysql服务器
+>    2. redolog是innodb存储引擎实现的
+> 3. ，
+> 4. binlog是在commit的一次性写入缓冲，redolog在数据准备修改前开始写入缓存，再binlog的commit前进行提交
+> 5. binlog因为是提交的时候一次性写入，binlog的的记录方式和提交顺序有关。redolog记录的是物理页的变化，索引redo log中同个事务可能有多个提交记录
 
 
 
