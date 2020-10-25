@@ -1,6 +1,8 @@
 # 重传
 
 > [https://www.jianshu.com/p/62940de97ca5](https://www.jianshu.com/p/62940de97ca5)
+>
+> https://www.cnblogs.com/xiaolincoding/p/12732052.html
 
 ## 简述
 
