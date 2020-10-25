@@ -1,6 +1,6 @@
 # 快速重传
 
-> https://www.jianshu.com/p/62940de97ca5
+> [https://www.jianshu.com/p/62940de97ca5](https://www.jianshu.com/p/62940de97ca5)
 
 ## 简述
 
@@ -13,7 +13,7 @@
 
 ## 冗余ACK
 
-> 服务端如果接受的消息序列号大于最后一次ACK的值，则会把重新发送ACK，客户端接收到四次同一个ACK的时候，会触发重传
+> 服务端如果接受的消息序列号大于最后一次ACK的值，则会把重新发送ACK，客户端接收到四次同一个ACK的时候，会触发重传。
 
 
 
