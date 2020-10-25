@@ -3,6 +3,8 @@
 > [https://blog.csdn.net/weixin\_32208747/article/details/87842240](https://blog.csdn.net/weixin_32208747/article/details/87842240)
 >
 > [https://blog.csdn.net/qzcsu/article/details/72861891](https://blog.csdn.net/qzcsu/article/details/72861891)
+>
+> time-out https://draveness.me/whys-the-design-tcp-time-wait/
 
 ## 简述
 
