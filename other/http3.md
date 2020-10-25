@@ -5,8 +5,8 @@
 > [https://blog.csdn.net/howgod/article/details/102597450](https://blog.csdn.net/howgod/article/details/102597450)
 >
 > [http://xiaorui.cc/archives/6117](http://xiaorui.cc/archives/6117)
-
-
+>
+> https://zhuanlan.zhihu.com/p/32553477
 
 ## Quic
 
@@ -18,6 +18,18 @@
 ## 前向纠错
 
 > 发送数据包AB的时候会增发，AB的异或C，发生丢包的时候利用其中任意两个包，来得到第三个包，减少重传
+
+## 几个点
+
+> 1. 有序性，可靠性，单调递增的seq + offset
+> 2. 重传的sack范围更大，减少不必要的重传，向前容错等
+
+## 链接迁移
+
+> * tcp
+>   * ip和端口四元组（目标地址，目标端口，源地址，源端口）组成
+> * quic
+>   * 以64位的唯一标识符 表示，不需要重连
 
 
 
