@@ -4,7 +4,7 @@
 >
 > [https://blog.csdn.net/qzcsu/article/details/72861891](https://blog.csdn.net/qzcsu/article/details/72861891)
 >
-> time-out https://draveness.me/whys-the-design-tcp-time-wait/
+> time-out [https://draveness.me/whys-the-design-tcp-time-wait/](https://draveness.me/whys-the-design-tcp-time-wait/)
 
 ## 简述
 
@@ -33,7 +33,7 @@
 ## 四次挥手客户端2MSL
 
 > * 保证TCP被正确的关闭，等待被动关闭的一方收到FIN的ACK，被动关闭一方的FIN没收到ACK的情况下会重传
-> * 阻止延迟数据段
+> * 阻止延迟数据段，被相同的源地址，源端口号，目标地址，目标端口号的TCP接收到
 >   * 如果不等2MSL的话，服务端重发的FIN可能会被新打开的同一个端口号的TCP链接接收到
 
 ## 意外断开
