@@ -1,11 +1,13 @@
-# 快速重传
+# 重传
 
 > [https://www.jianshu.com/p/62940de97ca5](https://www.jianshu.com/p/62940de97ca5)
 
 ## 简述
 
-> 1. 重传定时器
-> 2. 冗余ACK
+> 1. 超时重传
+>    1. 重传定时器
+> 2. 快速重传
+>    1. 冗余ACK
 
 ## 为什么要用冗余ACK
 
