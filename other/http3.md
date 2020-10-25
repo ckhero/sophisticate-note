@@ -8,13 +8,14 @@
 >
 > 详细 [https://zhuanlan.zhihu.com/p/32553477](https://zhuanlan.zhihu.com/p/32553477)
 >
-> 0RTT https://cloud.tencent.com/developer/article/1594468
+> 0RTT [https://cloud.tencent.com/developer/article/1594468](https://cloud.tencent.com/developer/article/1594468)
 
 ## Quic
 
 > 1. 解决队首阻塞，面向数据报文，宝举报之间没有阻塞，丢包只会影响对应的stream，前向纠错，减少重传
 > 2. 可靠性，前向纠错，失败重传，单调递增seq
 > 3. 0RTT 规避三次握手，一次server config的缓存，后面只要缓存不失效，重连无序TLS交互
+>    1. 利用第一次握手得到的服务端公钥 + 本地的私钥 通过DH 算法得到加密对
 > 4. 拥塞窗口，网络质量检测，避免流量浪费
 
 ## 前向纠错
