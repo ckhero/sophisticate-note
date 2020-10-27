@@ -56,7 +56,6 @@
   * [go:](go.md)
   * [pprof](pprof.md)
   * [new/make](newmake.md)
-  * [异常](yi-chang.md)
   * [杂项](za-xiang.md)
   * [序列化/反序列化](xu-lie-5316-fan-xu-lie-hua.md)
   * [go中没有隐藏的指针](gozhong-mei-you-yin-cang-de-zhi-zhen.md)
