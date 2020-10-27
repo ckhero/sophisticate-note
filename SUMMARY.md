@@ -92,6 +92,7 @@
     * [容量估算](shu-ju-jie-gou/rong-liang-gu-suan.md)
   * [数据类型+底层原理](redis/shu-ju-lei-578b+-di-ceng-yuan-li.md)
     * [string](redis/shu-ju-lei-578b+-di-ceng-yuan-li/string.md)
+      * [mget](redis/shu-ju-lei-578b+-di-ceng-yuan-li/string/mget.md)
     * [list](redis/shu-ju-lei-578b+-di-ceng-yuan-li/list.md)
     * [hash](redis/shu-ju-lei-578b+-di-ceng-yuan-li/hash.md)
     * [zet](redis/shu-ju-lei-578b+-di-ceng-yuan-li/zet.md)
