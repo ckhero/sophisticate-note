@@ -21,7 +21,8 @@ map
 >
 > [https://blog.csdn.net/bluehawksky/article/details/90448023](https://blog.csdn.net/bluehawksky/article/details/90448023)
 >
-> [https://studygolang.com/articles/23562](https://studygolang.com/articles/23562)
+> [https://studygolang.com/articles/23562](https://studygolang.com/articles/23562)  
+> painc 无法捕捉 https://stackoverflow.com/questions/39288741/how-to-recover-from-concurrent-map-writes
 
 ## 遍历无序？
 
@@ -73,6 +74,11 @@ map
 > 4. 会触发扩容
 > 5. 扩容后迁移是渐进式扩容，每次最多迁移两个桶，插入，删除，更新都会触发
 > 6. 遍历的时候杀出元素会报错
+
+## 线程安全
+
+> * panic无法被recover
+> *
 
 
 
