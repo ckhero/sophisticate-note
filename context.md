@@ -17,5 +17,21 @@
 
 > 不是在原来的ctx上直接添加。而是以原来的作为父节点。添加一个valueCtx
 
+## WithCancel
+
+> 1. cancelCtx
+>
+>    1. done channel，用来传递关闭信号
+>
+>    2. children  map  存储当前节点的子节点
+>
+> 2. withCancel
+>
+>    1. 基于父节点创建 cancelCtx
+>
+>    2. 然后把当前节点加入到最近的cancelCtx的祖先节点的child当中
+>
+>    3. 节点取消的时候会遍历 children map  进行取消操作
+
 
 
