@@ -1,6 +1,8 @@
 # 恐慌恢复
 
 > [https://gfw.go101.org/article/panic-and-recover-more.html](https://gfw.go101.org/article/panic-and-recover-more.html)
+>
+> 好文 https://xiaomi-info.github.io/2020/01/20/go-trample-panic-recover/
 
 ## Recover Nil
 
