@@ -1,10 +1,10 @@
 # 方法集
 
-> https://studygolang.com/articles/15249?fr=sidebar
+> [https://studygolang.com/articles/15249?fr=sidebar](https://studygolang.com/articles/15249?fr=sidebar)
 >
-> https://www.jianshu.com/p/d93656cdce0a
+> [https://www.jianshu.com/p/d93656cdce0a](https://www.jianshu.com/p/d93656cdce0a)
 >
-> https://studygolang.com/articles/5072
+> [https://studygolang.com/articles/5072](https://studygolang.com/articles/5072)
 
 ## 简单method
 

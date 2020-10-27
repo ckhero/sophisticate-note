@@ -217,6 +217,7 @@
     * [创建模型的特点和分类](she-ji-mo-shi/she-ji-yuan-ze/chuang-jian-mo-xing-de-te-dian-he-fen-lei.md)
   * [工厂](she-ji-mo-shi/gong-chang.md)
   * [责任链模式](she-ji-mo-shi/ze-ren-lian-mo-shi.md)
+  * [策略模式](she-ji-mo-shi/ce-lve-mo-shi.md)
 * [高并发](gao-bing-fa.md)
   * [三把利器](gao-bing-fa/san-ba-li-qi.md)
     * [缓存](huan-cun.md)
