@@ -1,6 +1,8 @@
 # 调试工具
 
-> https://github.com/fullstorydev/grpcui
+> [https://github.com/fullstorydev/grpcui](https://github.com/fullstorydev/grpcui)
+>
+> https://chai2010.cn/advanced-go-programming-book/ch4-rpc/ch4-08-grpcurl.html
 
 ## 步骤
 
