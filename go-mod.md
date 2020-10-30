@@ -13,7 +13,7 @@
 
 > git私有仓库配置:
 >
-> golang 环境变量配置\(根据自己的操作系统来\):     
+> golang 环境变量配置\(根据自己的操作系统来\):
 >
 > \# 私有仓库跳过https验证
 >
@@ -23,7 +23,7 @@
 >
 > export GO111MODULE=on
 >
-> export GOPROXY=https://goproxy.io,direct
+> export GOPROXY=[https://goproxy.io,direct](https://goproxy.io,direct)
 >
 > \# 私有仓库的配置
 >

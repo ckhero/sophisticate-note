@@ -243,7 +243,7 @@
   * [服务框架](fu-wu-kuang-jia.md)
     * [GRPC](fu-wu-kuang-jia/grpc.md)
       * [调试工具](fu-wu-kuang-jia/grpc/diao-shi-gong-ju.md)
-      * 负载均衡
+      * [负载均衡](fu-wu-kuang-jia/grpc/fu-zai-jun-heng.md)
     * [GO-Micro](fu-wu-kuang-jia/go-micro.md)
       * [sidebar](fu-wu-kuang-jia/go-micro/sidebar.md)
       * [Registy](fu-wu-kuang-jia/go-micro/registy.md)
