@@ -166,6 +166,7 @@
   * Nginx
     * [限流](other/xian-liu.md)
   * [并发模型](other/bing-fa-mo-xing.md)
+  * [命名](other/ming-ming.md)
 * [MQ](xiao-xi-zhong-jian-jian.md)
   * [应用场景](xiao-xi-zhong-jian-jian/ying-yong-chang-jing.md)
   * [RabbitMQ](xiao-xi-zhong-jian-jian/rabbitmq.md)
