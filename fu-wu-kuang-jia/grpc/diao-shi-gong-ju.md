@@ -4,7 +4,9 @@
 >
 > [https://chai2010.cn/advanced-go-programming-book/ch4-rpc/ch4-08-grpcurl.html](https://chai2010.cn/advanced-go-programming-book/ch4-rpc/ch4-08-grpcurl.html)
 >
-> https://github.com/uw-labs/bloomrpc
+> [https://github.com/uw-labs/bloomrpc](https://github.com/uw-labs/bloomrpc)
+>
+> https://github.com/uw-labs/bloomrpc/releases
 
 ## 步骤
 
