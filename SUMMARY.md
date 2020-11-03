@@ -76,6 +76,7 @@
   * [Go Mod](go-mod.md)
   * [单元测试](dan-yuan-ce-shi.md)
   * [cpu100%](cpu100.md)
+  * [gorm](gorm.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
