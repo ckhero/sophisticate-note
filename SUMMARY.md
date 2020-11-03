@@ -246,6 +246,7 @@
     * [GRPC](fu-wu-kuang-jia/grpc.md)
       * [调试工具](fu-wu-kuang-jia/grpc/diao-shi-gong-ju.md)
       * [负载均衡](fu-wu-kuang-jia/grpc/fu-zai-jun-heng.md)
+      * [连接池](fu-wu-kuang-jia/grpc/lian-jie-chi-he.md)
     * [GO-Micro](fu-wu-kuang-jia/go-micro.md)
       * [sidebar](fu-wu-kuang-jia/go-micro/sidebar.md)
       * [Registy](fu-wu-kuang-jia/go-micro/registy.md)
