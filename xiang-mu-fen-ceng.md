@@ -33,11 +33,21 @@
 >    3. 目录位置:pkg/mgr
 > 4. DAO
 >    1. 与数据库交互
+>    2. sql语句
+>    3. 目录位置:pkg/dao
 
 ## 层级关系
 
 > 1. Resetful-&gt;Service-&gt;Manger-&gt;RPC
->    1. servicek
+>    1. service可以直接调用RPC
+>    2. manager可以调用RPC
+>    3. service可以调用manager
+>    4. manager不能调用service，包括结构体
+> 2. Rpc-&gt;Service-&gt;Manager-&gt;DAO
+>    1. service 可以调用DAO
+>    2. manager可以调用DAO
+>    3. service 可以调用manager
+>    4. manager不能调用service
 
 
 
