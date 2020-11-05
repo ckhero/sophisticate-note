@@ -51,8 +51,9 @@
 
 ## Protos规范
 
-> 1. proto写在http://git.zk020.cn/youmi-wx-apps/common-protos.git 项目里
+> 1. proto写在[http://git.zk020.cn/youmi-wx-apps/common-protos.git](http://git.zk020.cn/youmi-wx-apps/common-protos.git) 项目里
 > 2. 按照 {项目名字}/{版本号}/{模块名字} 格式新建目录
+> 3. 目前因为版本遗留问题，老的不用管，新建的proto可以逐步使用这个方案
 
 
 
