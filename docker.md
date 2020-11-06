@@ -50,6 +50,8 @@
 > 2. -v 本机目录: 容器目录
 >
 > docker logs 容器id // 查看日志
+>
+> docker rmi -f \`docker image ls -f dangling=true -q\` //删除无效的版本
 
 ## Dockerfile
 
