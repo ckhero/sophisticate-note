@@ -34,11 +34,11 @@
 >
 > docker attach &lt;容器id&gt;  // 进入容器
 >
-> docker exec -it &lt;容器id&gt;   /bin/bash //命令行模式进入容器  【-i是交互式操作，-t 是终端】
+> docker exec -it &lt;容器id&gt;   /bin/bash //命令行模式进入容器  【-i表述输入方式交互，-t 是伪终端】
 >
 > docker rm -f  &lt;容器id&gt;    // 删除容器
 >
-> docker run -it &lt;镜像名字&gt; /bin/bash    //启动容器并以命令行模式进入容器
+> docker run -it &lt;镜像名字&gt; /bin/bash    //启动容器并以命令行模式进入容器 \]
 >
 > docker history &lt;镜像名字&gt;  //可以看到 构建了几层
 
