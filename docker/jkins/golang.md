@@ -11,12 +11,9 @@
 >     export GIT_TERMINAL_PROMPT=1
 >     go env 
 >     echo "GOROOT: ${GOROOT}"
->
 >     git config --global user.name "188801613198@163.com"
 >     git config --global user.password "suanni123"
->
 >     git config --global credential.helper store
->
 >     cd /var/jenkins_home/go-project/rebate/
 >     pwd
 >     go mod tidy
