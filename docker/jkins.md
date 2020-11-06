@@ -1,6 +1,6 @@
 # jkins
 
-> https://cloud.tencent.com/developer/article/1433233
+> 如何构建golang项目  [https://cloud.tencent.com/developer/article/1433233](https://cloud.tencent.com/developer/article/1433233)
 
 ## docker安装
 
