@@ -43,6 +43,11 @@
 > docker history &lt;镜像名字&gt;  //可以看到 构建了几层
 >
 > docker run --rm  //docker推出容器的时候默认保存文件系统，-rm就是清楚这些数据
+>
+> docker run 
+>
+> 1. -p 容器端口:本季端口
+> 2. -v 本机目: 容器目录
 
 ## Dockerfile
 
