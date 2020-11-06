@@ -41,6 +41,8 @@
 > docker run -it &lt;镜像名字&gt; /bin/bash    //启动容器并以命令行模式进入容器 \]
 >
 > docker history &lt;镜像名字&gt;  //可以看到 构建了几层
+>
+> docker run --rm  //docker推出容器的时候默认保存文件系统，-rm就是清楚这些数据
 
 ## Dockerfile
 
