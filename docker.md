@@ -6,7 +6,9 @@
 >
 > 三大组件 [http://dockone.io/article/9249](http://dockone.io/article/9249)
 >
-> https://docs.docker.com/engine/reference/commandline/run/
+> [https://docs.docker.com/engine/reference/commandline/run/](https://docs.docker.com/engine/reference/commandline/run/)
+>
+> 删除 无效镜像 https://blog.csdn.net/jiangeeq/article/details/79499324
 
 ## 三大组件
 

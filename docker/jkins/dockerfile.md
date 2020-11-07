@@ -15,8 +15,6 @@
 > #CMD cat $WORKDIR/config/dev.yaml
 > RUN ln -sf /dev/stdout /var/log/rebate.log
 > CMD $WORKDIR/rebate.o --serviceId=0 --config=$WORKDIR/config/dev.yaml | tee $WORKDIR/log/rebate.log
->
->
 > ```
 
 
