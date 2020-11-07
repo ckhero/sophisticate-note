@@ -4,6 +4,7 @@
 
 > FROM golang:1.15.2 AS buildImage
 >
+>     FROM golang:1.15.2 AS buildImage
 >     #some env
 >     #work file
 >     WORKDIR /go/src/
