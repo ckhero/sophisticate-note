@@ -1,6 +1,7 @@
 ## Demo1
 
-> #go env
+> # go env
+>
 >     go version
 >     export GOROOT=/var/jenkins_home/go
 >     export GOPATH=/var/jenkins_home/go-project
