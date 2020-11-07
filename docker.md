@@ -5,6 +5,8 @@
 > [https://www.runoob.com/docker/docker-dockerfile.html](https://www.runoob.com/docker/docker-dockerfile.html)
 >
 > 三大组件 [http://dockone.io/article/9249](http://dockone.io/article/9249)
+>
+> https://docs.docker.com/engine/reference/commandline/run/
 
 ## 三大组件
 
