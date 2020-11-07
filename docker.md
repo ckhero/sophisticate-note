@@ -8,7 +8,7 @@
 >
 > [https://docs.docker.com/engine/reference/commandline/run/](https://docs.docker.com/engine/reference/commandline/run/)
 >
-> 删除 无效镜像 https://blog.csdn.net/jiangeeq/article/details/79499324
+> 删除 无效镜像 [https://blog.csdn.net/jiangeeq/article/details/79499324](https://blog.csdn.net/jiangeeq/article/details/79499324)
 
 ## 三大组件
 
@@ -57,6 +57,8 @@
 > docker logs 容器id // 查看日志
 >
 > docker rmi -f \`docker image ls -f dangling=true -q\` //删除无效的版本
+>
+> sudo docker rm $\(sudo docker ps -a -q\)  // 删除无效容器
 
 ## Dockerfile
 
