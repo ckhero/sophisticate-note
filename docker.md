@@ -54,8 +54,6 @@
 >
 > docker rmi -f \`docker image ls -f dangling=true -q\` //删除无效的版本
 
-
-
 ## Dockerfile
 
 > FROM    基于什么镜像
