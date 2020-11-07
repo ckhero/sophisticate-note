@@ -48,10 +48,13 @@
 >
 > 1. -p 容器端口:本机端口
 > 2. -v 本机目录: 容器目录
+> 3. -d 后台运行docker，并且答应 容器id
 >
 > docker logs 容器id // 查看日志
 >
 > docker rmi -f \`docker image ls -f dangling=true -q\` //删除无效的版本
+
+
 
 ## Dockerfile
 
@@ -87,7 +90,7 @@
 >
 > VOLUME \[&lt;路径&gt;，&lt;路径&gt;\]   // 或者docker run -v
 >
-> EXPOSE  &lt;port1&gt;  &lt;port2&gt;   //docker run -P 会随机映射到EXPOSE的端口
+> EXPOSE  &lt;port1&gt;  &lt;port2&gt;   //1.docker run -P 会随机映射到EXPOSE的端口，  2.只是生命docker提供的服务端口，方便理解。
 >
 > WORKDIR   &lt;工作目录&gt;
 
