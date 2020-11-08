@@ -13,7 +13,7 @@
 > 1. golang 文件 linux 运行
 >    1. CGO\_ENABLED=0 GOOS=linux GOARCH=amd64 
 > 2. github需要账号密码登陆
->    1. echo http://18801613198%40163.com:suanni123@git.zk020.cn &gt; git-credentials.txt && mv git-credentials.txt ~/.git-credentials
+>    1. echo [http://18801613198%40163.com:suanni123@git.zk020.cn](http://18801613198%40163.com:suanni123@git.zk020.cn) &gt; git-credentials.txt && mv git-credentials.txt ~/.git-credentials
 > 3. 容器间通信问题
 >    1. docker的四种网络模式
 
