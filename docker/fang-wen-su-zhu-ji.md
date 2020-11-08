@@ -1,6 +1,6 @@
 # 四种网络模式
 
-> https://blog.csdn.net/huanongying123/article/details/73556634
+> [https://blog.csdn.net/huanongying123/article/details/73556634](https://blog.csdn.net/huanongying123/article/details/73556634)
 
 ## 简述
 
@@ -16,11 +16,10 @@
 >    2. 不设置网络配置，需要手动配置
 >    3. 拥有独立的命名空间
 > 4. container
->    1. –net =container:containerNmae
+>
+>    1. --net=container:containerNmae
 >
 >    2. 与已经存在的容器共享网络配置
-
-
 
 
 
