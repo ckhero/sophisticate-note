@@ -7,6 +7,8 @@
 > [https://mp.weixin.qq.com/s/iN2sY7cj\_AGCSqs9JOOCYw](https://mp.weixin.qq.com/s/iN2sY7cj_AGCSqs9JOOCYw)
 >
 > [https://www.kubernetes.org.cn/doc-44](https://www.kubernetes.org.cn/doc-44)
+>
+> https://juejin.im/post/6844903950496301063
 
 ## 集群包括两部分
 
