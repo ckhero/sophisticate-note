@@ -8,7 +8,7 @@
 >
 > [https://www.kubernetes.org.cn/doc-44](https://www.kubernetes.org.cn/doc-44)
 >
-> https://juejin.im/post/6844903950496301063
+> startiing [https://juejin.im/post/6844903950496301063](https://juejin.im/post/6844903950496301063)
 
 ## 集群包括两部分
 
