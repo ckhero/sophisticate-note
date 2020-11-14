@@ -234,6 +234,7 @@
   * [K8S](k8s.md)
     * [仪表盘](k8s/yi-biao-pan.md)
     * [部署docker](k8s/bu-shu-docker.md)
+    * [外部访问](k8s/wai-bu-fang-wen.md)
   * [包压缩](docker/bao-ya-suo.md)
   * [jkins](docker/jkins.md)
     * [golang](docker/jkins/golang.md)

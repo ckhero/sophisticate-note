@@ -4,7 +4,7 @@
 >
 > ssh key 添加 [https://www.cnblogs.com/xiaoxi-3-/p/9680205.html](https://www.cnblogs.com/xiaoxi-3-/p/9680205.html)
 >
-> https://www.qikqiak.com/k8s-book/docs/37.Jenkins%20Pipeline.html
+> [https://www.qikqiak.com/k8s-book/docs/37.Jenkins Pipeline.html](https://www.qikqiak.com/k8s-book/docs/37.Jenkins Pipeline.html)
 
 ## docker安装
 
