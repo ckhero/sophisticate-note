@@ -5,6 +5,8 @@
 > 端口转发
 >
 > [https://kubernetes.io/zh/docs/tasks/access-application-cluster/port-forward-access-application-cluster/](https://kubernetes.io/zh/docs/tasks/access-application-cluster/port-forward-access-application-cluster/)
+>
+> https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html
 
 ## 对比
 
