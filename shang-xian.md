@@ -9,11 +9,17 @@
 | card | features-cron-v1 | 1 | 1 | card port 8002-&gt;8001 |
 | user | features-cron-v1 | 1 | 1 |  |
 
-
-
 数据库
 
 1 statistics
 
 2 area，management\_centre
+
+
+
+## 店铺
+
+> 1. 新增 mobile，shop\_keeper 店主
+
+
 
