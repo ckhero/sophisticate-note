@@ -242,6 +242,7 @@
     * [Docker + gloang](docker/jkins/docker-+-gloang.md)
       * [Demo3](docker/jkins/docker-+-gloang/demo3.md)
     * [Pipeline](docker/jkins/pipeline.md)
+    * [k8s](docker/jkins/k8s.md)
   * [四种网络模式](docker/fang-wen-su-zhu-ji.md)
 * [微服务](rpc.md)
   * [服务描述](fu-wu-miao-shu.md)

@@ -12,7 +12,7 @@
 
 > 废弃:docker run -u root --rm -d -p 8080:8080 -p 50000:50000 -v jenkins-data:/var/jenkins\_home -v /var/run/docker.sock:/var/run/docker.sock  jenkinsci/blueocean
 >
-> docker run -u root --rm -d -p 8080:8080 -p 50000:50000 -v jenkins-data:/var/jenkins\_home -v /var/run/docker.sock:/var/run/docker.sock  jenkins/jenkins
+> docker run -u root --rm -d -p 8080:8080 -p 50000:50000 -v /Users/ckhero/jenkins/jenkins-data:/var/jenkins\_home -v /var/run/docker.sock:/var/run/docker.sock  jenkins/jenkins
 
 ## 几个问题
 
