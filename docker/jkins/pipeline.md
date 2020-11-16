@@ -37,9 +37,9 @@
 >         BUILD_TAG = 'vr'
 >     }
 >   stages {
->   /*	stage('Pull') {
+>   /*    stage('Pull') {
 >       steps {
->       	git branch: 'features-docker', url: 'http://18801613198%40163.com:suanni123@git.zk020.cn/youmi-wx-apps/rebate.git'
+>           git branch: 'features-docker', url: 'http://18801613198%40163.com:suanni123@git.zk020.cn/youmi-wx-apps/rebate.git'
 >       }
 >     }
 >
