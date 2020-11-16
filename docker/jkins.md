@@ -6,7 +6,7 @@
 >
 > [https://www.qikqiak.com/k8s-book/docs/37.Jenkins Pipeline.html](https://www.qikqiak.com/k8s-book/docs/37.Jenkins Pipeline.html)
 >
-> 插件地址 https://plugins.jenkins.io/ui/search/?sort=relevance&categories=&labels=&view=Tiles&page=1&query=kubernetes
+> 插件地址 [https://plugins.jenkins.io/ui/search/?sort=relevance&categories=&labels=&view=Tiles&page=1&query=kubernetes](https://plugins.jenkins.io/ui/search/?sort=relevance&categories=&labels=&view=Tiles&page=1&query=kubernetes)
 
 ## docker安装
 
