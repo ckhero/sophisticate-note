@@ -23,5 +23,11 @@
 > 3. 容器间通信问题
 >    1. docker的四种网络模式
 
+密码
+
+> ```
+> /Users/ckhero/.jenkins/secrets/initialAdminPassword
+> ```
+
 
 
