@@ -65,5 +65,45 @@
 > }
 > ```
 
+demo3
+
+> ```
+> pipeline {
+>   agent any
+>   environment {
+>     BUILD_TAG = 'vr'
+>     PROJECT_NAME = 'rebate'
+>   }
+>   stages {
+>     stage('Pull') {
+>       steps {
+>          
+>         git branch: 'features-docker', url: 'http://18801613198%40163.com:suanni123@git.zk020.cn/youmi-wx-apps/rebate.git'
+>         script {
+>             env.BUILD_TAG = '$(git rev-parse --short HEAD) '
+>         }
+>       }
+>     }
+>
+>     stage('Build') {
+>       steps {
+>         sh '/usr/local/bin/docker build -t rebate:${env.BUILD_TAG} .'
+>       }
+>     }
+>
+>     stage('Yaml') {
+>       steps {
+>         sh "sed -i.bak 's/TAG/${env.BUILD_TAG}/' Deployment.yaml"
+>       }
+>     }
+>     stage('Deploy2') {
+>       steps {
+>         sh "/usr/local/bin/kubectl apply -f Deployment.yaml"
+>       }
+>     }
+>   }
+> }
+> ```
+
 
 
