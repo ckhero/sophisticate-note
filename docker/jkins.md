@@ -29,5 +29,13 @@
 > /Users/ckhero/.jenkins/secrets/initialAdminPassword
 > ```
 
+## Centos 配置修改
+
+> https://medium.com/@nazishalam07/change-jenkins-default-port-8080-in-centos-7-a3d1873276d7
+>
+> ```
+> sudo vim /etc/sysconfig/jenkins
+> ```
+
 
 
