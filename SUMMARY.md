@@ -235,6 +235,7 @@
     * [仪表盘](k8s/yi-biao-pan.md)
     * [部署docker](k8s/bu-shu-docker.md)
     * [外部访问](k8s/wai-bu-fang-wen.md)
+    * [minikube](k8s/minikube.md)
   * [包压缩](docker/bao-ya-suo.md)
   * [jkins](docker/jkins.md)
     * [golang](docker/jkins/golang.md)
@@ -267,6 +268,7 @@
       * [Client](fu-wu-kuang-jia/go-micro/client.md)
       * [Server](fu-wu-kuang-jia/go-micro/server.md)
       * [Service](fu-wu-kuang-jia/go-micro/service.md)
+    * GO-KIT
   * [服务监控](fu-wu-jian-kong.md)
     * [grafana](fu-wu-jian-kong/grafana.md)
     * [elasticsearch](fu-wu-jian-kong/elasticsearch.md)
