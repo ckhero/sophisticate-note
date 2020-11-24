@@ -250,6 +250,7 @@
   * [注册中心](zhu-ce-zhong-xin.md)
     * [ETCD](zhu-ce-zhong-xin/etcd.md)
       * [RAFT协议](zhu-ce-zhong-xin/etcd/raftxie-yi.md)
+      * [etcd-manager](zhu-ce-zhong-xin/etcd/etcd-manager.md)
     * [zookeeper](other/zookeeper.md)
     * [一致性协议](zhu-ce-zhong-xin/yi-zhi-xing-xie-yi.md)
   * [服务框架](fu-wu-kuang-jia.md)
@@ -268,7 +269,8 @@
       * [Client](fu-wu-kuang-jia/go-micro/client.md)
       * [Server](fu-wu-kuang-jia/go-micro/server.md)
       * [Service](fu-wu-kuang-jia/go-micro/service.md)
-    * GO-KIT
+    * [GO-KIT](fu-wu-kuang-jia/go-kit.md)
+      * [kit](fu-wu-kuang-jia/go-kit/kit.md)
   * [服务监控](fu-wu-jian-kong.md)
     * [grafana](fu-wu-jian-kong/grafana.md)
     * [elasticsearch](fu-wu-jian-kong/elasticsearch.md)
