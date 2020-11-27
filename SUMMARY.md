@@ -255,6 +255,7 @@
       * [etcd-manager](zhu-ce-zhong-xin/etcd/etcd-manager.md)
     * [zookeeper](other/zookeeper.md)
     * [一致性协议](zhu-ce-zhong-xin/yi-zhi-xing-xie-yi.md)
+    * [Consul](zhu-ce-zhong-xin/consul.md)
   * [服务框架](fu-wu-kuang-jia.md)
     * [GRPC](fu-wu-kuang-jia/grpc.md)
       * [调试工具](fu-wu-kuang-jia/grpc/diao-shi-gong-ju.md)
