@@ -5,11 +5,9 @@
 ## 命令
 
 > 1. kompose --file docker-voting.yml convert // compose 转成 k8s yml
-> 2. kompose -f file up   //部署到k8s
+> 2. kompose -f file up --namespace \[指定的命名空间\]  //部署到k8s
 >
-> 3.  brew install kompose   // mac 安装
-
-
+> 3. brew install kompose   // mac 安装
 
 
 
