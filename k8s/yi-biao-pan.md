@@ -3,6 +3,8 @@
 ## 资料
 
 > [https://cloud.tencent.com/developer/article/1580358](https://cloud.tencent.com/developer/article/1580358)
+>
+> 地址  http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/\#/overview?namespace=default
 
 ## 简介
 

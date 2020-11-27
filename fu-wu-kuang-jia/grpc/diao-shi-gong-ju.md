@@ -6,7 +6,7 @@
 >
 > [https://github.com/uw-labs/bloomrpc](https://github.com/uw-labs/bloomrpc)
 >
-> https://github.com/uw-labs/bloomrpc/releases
+> [https://github.com/uw-labs/bloomrpc/releases](https://github.com/uw-labs/bloomrpc/releases)
 
 ## 步骤
 
