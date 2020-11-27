@@ -236,6 +236,7 @@
     * [部署docker](k8s/bu-shu-docker.md)
     * [外部访问](k8s/wai-bu-fang-wen.md)
     * [minikube](k8s/minikube.md)
+    * [kompose](k8s/kompose.md)
   * [包压缩](docker/bao-ya-suo.md)
   * [jkins](docker/jkins.md)
     * [golang](docker/jkins/golang.md)
@@ -245,6 +246,7 @@
     * [Pipeline](docker/jkins/pipeline.md)
     * [k8s](docker/jkins/k8s.md)
   * [四种网络模式](docker/fang-wen-su-zhu-ji.md)
+  * dokcer-compose
 * [微服务](rpc.md)
   * [服务描述](fu-wu-miao-shu.md)
   * [注册中心](zhu-ce-zhong-xin.md)
