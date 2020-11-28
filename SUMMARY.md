@@ -277,6 +277,7 @@
       * [kit](fu-wu-kuang-jia/go-kit/kit.md)
   * [服务监控](fu-wu-jian-kong.md)
     * [grafana](fu-wu-jian-kong/grafana.md)
+      * [docker 账号密码问题](fu-wu-jian-kong/grafana/docker-zhang-hao-mi-ma-wen-ti.md)
     * [elasticsearch](fu-wu-jian-kong/elasticsearch.md)
     * [Prometheus](fu-wu-jian-kong/prometheus.md)
   * [服务追踪](fu-wu-zhui-zong.md)
