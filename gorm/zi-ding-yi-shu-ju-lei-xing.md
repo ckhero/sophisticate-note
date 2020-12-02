@@ -1,6 +1,6 @@
 # 自定义数据类型
 
-> https://gorm.io/zh\_CN/docs/data\_types.html
+> [https://gorm.io/zh\_CN/docs/data\_types.html](https://gorm.io/zh_CN/docs/data_types.html)
 
 ## 简述
 
@@ -29,6 +29,10 @@
 >      return json.RawMessage(j).MarshalJSON()
 >    }
 >    ```
+
+## 查询
+
+> https://blog.csdn.net/moshowgame/article/details/81016482
 
 
 
