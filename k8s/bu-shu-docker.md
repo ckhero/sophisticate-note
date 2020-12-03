@@ -8,7 +8,7 @@
 
 ## 常用命令
 
-> kubectl create namesapce &lt;namespace&gt;  //创建命名空间
+> kubectl create namespace &lt;namespace&gt;  //创建命名空间
 >
 > kubectl create secret docker-registry regcred --docker-server=hub.docker.com --docker-username=ckhero --docker-password=suanni123 --docker-email=18801613198@163.com -n cl-test    //创建镜像仓库密码
 >
