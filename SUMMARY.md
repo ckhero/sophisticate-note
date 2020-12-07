@@ -251,6 +251,7 @@
       * [Demo3](docker/jkins/docker-+-gloang/demo3.md)
     * [Pipeline](docker/jkins/pipeline.md)
     * [k8s](docker/jkins/k8s.md)
+    * [binding-credentials](docker/jkins/binding-credentials.md)
   * [四种网络模式](docker/fang-wen-su-zhu-ji.md)
   * dokcer-compose
 * [微服务](rpc.md)
