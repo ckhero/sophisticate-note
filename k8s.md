@@ -10,7 +10,7 @@
 >
 > startiing [https://juejin.im/post/6844903950496301063](https://juejin.im/post/6844903950496301063)
 >
-> 版本选择 https://github.com/AliyunContainerService/k8s-for-docker-desktop/tree/v1.18.8
+> 版本选择 [https://github.com/AliyunContainerService/k8s-for-docker-desktop/tree/v1.18.8](https://github.com/AliyunContainerService/k8s-for-docker-desktop/tree/v1.18.8)
 
 ## 集群包括两部分
 
