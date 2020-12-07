@@ -105,5 +105,29 @@ demo3
 > }
 > ```
 
+demo4
+
+> ```
+> node {
+>     stage('PULL') {
+>         git branch: 'master', url: 'http://18801613198%40163.com:suanni123@git.zk020.cn/youmi-micro/youmi-micro-cluster.git'
+>         env.ENV = 'test'
+>         env.VERSION = '$(git rev-parse --short HEAD).toString()'
+>         env.BUILD_TAG = 'registry.cn-shanghai.aliyuncs.com/youmi-go/youmi-micro-cluster:coupon-${ENV}-v${BUILD_NUMBER}'
+>     }
+>     stage('BUILD') {
+>         sh(returnStdout: true, script: "docker login --username=中快文化传媒 registry.cn-shanghai.aliyuncs.com -pZku123456")
+>         docker.build("${BUILD_TAG}", "-f ./src/youmi_micro_coupon/Dockerfile .").push()
+>     }
+>     stage('DEPLOY') {
+>         withCredentials([kubeconfigFile(credentialsId: 'aliyun-k8s',variable: 'KUBECONFIG')]) {
+>           sh(returnStdout: true, script: "sed -i 's/\${ENV}/${ENV}/' ./src/youmi_micro_coupon/coupon.yaml")
+>           sh(returnStdout: true, script: "sed -i 's/\${VERSION}/${BUILD_NUMBER}/' ./src/youmi_micro_coupon/coupon.yaml")
+>           sh 'kubectl apply -f  ./src/youmi_micro_coupon/coupon.yaml'
+>         }
+>     }
+> }
+> ```
+
 
 
