@@ -129,5 +129,39 @@ demo4
 > }
 > ```
 
+demo5
+
+> node {
+>         stage('PULL') {
+>             git branch: 'master', url: 'http://18801613198%40163.com:suanni123@git.zk020.cn/youmi-micro/youmi-micro-cluster.git'
+>             env.ENV = 'test'
+>             env.VERSION = '$(git rev-parse --short HEAD).toString()'
+>             env.BUILD_TAG = 'registry.cn-shanghai.aliyuncs.com/youmi-go/youmi-micro-cluster:coupon-${ENV}-v${BUILD_NUMBER}'
+>             env.PROJECT_NAME = "coupon"
+>             env.PROJECT_FILE = "youmi_micro_coupon"
+>             env.PORT = "5063"
+>             env.NODE_PORT = "31063"
+>         }
+>         stage('BUILD') {
+>             sh "sed -i 's/\${ENV}/${ENV}/' ./deploy/Dockerfile"
+>             sh "sed -i 's/\${PROJECT_NAME}/${PROJECT_NAME}/' ./deploy/Dockerfile"
+>             sh "sed -i 's/\${PROJECT_FILE}/${PROJECT_FILE}/' ./deploy/Dockerfile"
+>             sh "sed -i 's/\${PORT}/${PORT}/' ./deploy/Dockerfile"
+>             sh(returnStdout: true, script: "docker login --username=中快文化传媒 registry.cn-shanghai.aliyuncs.com -pZku123456")
+>             docker.build("${BUILD_TAG}", "-f ./deploy/Dockerfile .").push()
+>         }
+>         stage('DEPLOY') {
+>             withCredentials([kubeconfigFile(credentialsId: 'aliyun-k8s',variable: 'KUBECONFIG')]) {
+>               sh(returnStdout: true, script: "sed -i 's/\${ENV}/${ENV}/' ./deploy/Deployment.yaml")
+>               sh(returnStdout: true, script: "sed -i 's/\${PROJECT_NAME}/${PROJECT_NAME}/' ./deploy/Deployment.yaml")
+>               sh(returnStdout: true, script: "sed -i 's/\${PORT}/${PORT}/' ./deploy/Deployment.yaml")
+>               sh(returnStdout: true, script: "sed -i 's/\${NODE_PORT}/${NODE_PORT}/' ./deploy/Deployment.yaml")
+>               sh(returnStdout: true, script: "sed -i 's/\${VERSION}/${BUILD_NUMBER}/' ./deploy/Deployment.yaml")
+>               sh 'kubectl apply -f  ./deploy/Deployment.yaml'
+>             }
+>             sh 'docker rmi -f `docker image ls -f dangling=true -q`'
+>         }
+>     }
+
 
 
