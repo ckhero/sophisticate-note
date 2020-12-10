@@ -232,6 +232,7 @@
   * [防止超卖](gao-bing-fa/fang-zhi-chao-mai.md)
 * [Docker](docker.md)
   * [问题](docker/wen-ti.md)
+    * [cache 机制](docker/wen-ti/cache-ji-zhi.md)
   * [K8S](k8s.md)
     * [仪表盘](k8s/yi-biao-pan.md)
     * [部署docker](k8s/bu-shu-docker.md)
@@ -244,6 +245,7 @@
       * [ContainerCreating](k8s/wen-ti/containercreating.md)
     * [常用命令](k8s/chang-yong-ming-ling.md)
     * [日志采集方案](k8s/ri-zhi-cai-ji-fang-an.md)
+    * 指定节点发布
   * [包压缩](docker/bao-ya-suo.md)
   * [jkins](docker/jkins.md)
     * [golang](docker/jkins/golang.md)
