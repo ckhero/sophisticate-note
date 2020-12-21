@@ -248,6 +248,8 @@
     * [常用命令](k8s/chang-yong-ming-ling.md)
     * [日志采集方案](k8s/ri-zhi-cai-ji-fang-an.md)
     * 指定节点发布
+    * 学习日记
+      * [是什么](k8s/shi-shi-yao.md)
   * [包压缩](docker/bao-ya-suo.md)
   * [jkins](docker/jkins.md)
     * [golang](docker/jkins/golang.md)
