@@ -60,6 +60,10 @@
 >
 > docker rmi -f \`docker image ls -f dangling=true -q\` //删除无效的版本
 >
+> docker rmi -f \`docker image ls -q registry.cn-shanghai.aliyuncs.com/youmi-go/youmi-micro-cluster\`
+>
+> // 根据镜像仓库删除
+>
 > sudo docker rm $\(sudo docker ps -a -q\)  // 删除无效容器
 
 ## Dockerfile
