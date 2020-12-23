@@ -252,6 +252,9 @@
       * [是什么](k8s/shi-shi-yao.md)
     * 配置文件
     * [configMap](k8s/configmap.md)
+    * 卷
+    * ingress
+      * [阿里云](k8s/a-li-yun.md)
   * [包压缩](docker/bao-ya-suo.md)
   * [jkins](docker/jkins.md)
     * [golang](docker/jkins/golang.md)
