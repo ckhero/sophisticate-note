@@ -9,6 +9,10 @@
 > RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 > RUN echo 'Asia/Shanghai' >/etc/timezone
 > ```
+>
+> 查看时间
+>
+> date -R
 
 
 
