@@ -253,9 +253,10 @@
     * 配置文件
     * [configMap](k8s/configmap.md)
     * 卷
-    * ingress
+    * [ingress](k8s/ingress.md)
       * [阿里云](k8s/a-li-yun.md)
     * [添加新节点](k8s/tian-jia-xin-jie-dian.md)
+    * [istio](k8s/istio.md)
   * [包压缩](docker/bao-ya-suo.md)
   * [jkins](docker/jkins.md)
     * [golang](docker/jkins/golang.md)
