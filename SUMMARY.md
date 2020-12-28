@@ -255,6 +255,7 @@
     * 卷
     * ingress
       * [阿里云](k8s/a-li-yun.md)
+    * [添加新节点](k8s/tian-jia-xin-jie-dian.md)
   * [包压缩](docker/bao-ya-suo.md)
   * [jkins](docker/jkins.md)
     * [golang](docker/jkins/golang.md)
