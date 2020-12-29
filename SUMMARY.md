@@ -80,6 +80,8 @@
     * [自定义数据类型](gorm/zi-ding-yi-shu-ju-lei-xing.md)
   * [热重启](re-zhong-qi.md)
     * [linux 信号详解](re-zhong-qi/linux-xin-hao-xiang-jie.md)
+  * gin
+    * [参数校验](can-shu-xiao-yan.md)
 * [Redis](redis.md)
   * [集群方案](redis/ji-qun-yuan-li.md)
     * [主从同步](redis/ji-qun-yuan-li/zhu-cong-tong-bu.md)
@@ -257,6 +259,7 @@
       * [阿里云](k8s/a-li-yun.md)
     * [添加新节点](k8s/tian-jia-xin-jie-dian.md)
     * [istio](k8s/istio.md)
+    * [services](k8s/services.md)
   * [包压缩](docker/bao-ya-suo.md)
   * [jkins](docker/jkins.md)
     * [golang](docker/jkins/golang.md)
