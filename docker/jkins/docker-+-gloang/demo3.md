@@ -9,7 +9,7 @@
 >     COPY . .
 >     # go env && git env
 >     ENV GO111MODULE=on GOPROXY=https://goproxy.io,direct GOPRIVATE=*.zk020.cn PATH=$PATH:$GOROOT/bin:$GOPATH/bin GOINSECURE=git.zk020.cn GIT_TERMINAL_PROMPT=1
->     RUN echo http://18801613198%40163.com:suanni123@git.zk020.cn > git-credentials.txt && mv git-credentials.txt ~/.git-credentials
+>     RUN echo http://18801613198%40163.com:mima@git.test.cn > git-credentials.txt && mv git-credentials.txt ~/.git-credentials
 >     RUN git config --global credential.helper 'store --file ~/.git-credentials'
 >     RUN go mod tidy
 >     #build golang project
