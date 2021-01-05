@@ -121,9 +121,9 @@ demo4
 >     }
 >     stage('DEPLOY') {
 >         withCredentials([kubeconfigFile(credentialsId: 'aliyun-k8s',variable: 'KUBECONFIG')]) {
->           sh(returnStdout: true, script: "sed -i 's/\${ENV}/${ENV}/' ./src/youmi_micro_coupon/coupon.yaml")
->           sh(returnStdout: true, script: "sed -i 's/\${VERSION}/${BUILD_NUMBER}/' ./src/youmi_micro_coupon/coupon.yaml")
->           sh 'kubectl apply -f  ./src/youmi_micro_coupon/coupon.yaml'
+>           sh(returnStdout: true, script: "sed -i 's/\${ENV}/${ENV}/' ./src//coupon.yaml")
+>           sh(returnStdout: true, script: "sed -i 's/\${VERSION}/${BUILD_NUMBER}/' ./src//coupon.yaml")
+>           sh 'kubectl apply -f  ./src//coupon.yaml'
 >         }
 >     }
 > }
@@ -138,7 +138,7 @@ node {
             env.VERSION = '$\(git rev-parse --short HEAD\).toString\(\)'  
             env.BUILD\_TAG = ':coupon-${ENV}-v${BUILD\_NUMBER}'  
             env.PROJECT\_NAME = "coupon"  
-            env.PROJECT\_FILE = "youmi\_micro\_coupon"  
+            env.PROJECT\_FILE = ""  
             env.PORT = "5063"  
             env.NODE\_PORT = "31063"  
         }  
