@@ -13,12 +13,12 @@
 >         export GOPROXY=https://goproxy.io,direct && \
 >         export GOPRIVATE=*.zk020.cn && \
 >         export PATH=$PATH:$GOROOT/bin:$GOPATH/bin && \
->         export GOINSECURE=git.zk020.cn && \
+>         export GOINSECURE= && \
 >         export GIT_TERMINAL_PROMPT=1 && \
 >         export GOOS=linux && \
 >         export GOARCH=amd64  && \
->         git config --global user.name "188801613198@163.com" && \
->         git config --global user.password "suanni123" && \
+>         git config --global user.name "" && \
+>         git config --global user.password "" && \
 >     #build golang project
 >     CMD CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build  -v -ldflags="-X main.VERSION=1.0.0 -X 'main.BUILD_TIME=`date`' -X 'main.GO_VERSION=`go version`'" -o ./rebate.o ./cmd/main.go
 >
@@ -49,8 +49,8 @@
 >     # go env && git env
 >     ENV GO111MODULE=on GOPROXY=https://goproxy.io,direct GOPRIVATE=*.zk020.cn PATH=$PATH:$GOROOT/bin:$GOPATH/bin GOINSECURE=git.zk020.cn GIT_TERMINAL_PROMPT=1
 >
->     RUN git config --global user.name "188801613198@163.com"
->     RUN git config --global user.password "suanni123"
+>     RUN git config --global user.name ""
+>     RUN git config --global user.password ""
 >     RUN git config credential.helper store
 >     #build golang project
 >     CMD CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build  -v -ldflags="-X main.VERSION=1.0.0 -X 'main.BUILD_TIME=`date`' -X 'main.GO_VERSION=`go version`'" -o ./rebate.o ./cmd/main.go

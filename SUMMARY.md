@@ -243,7 +243,7 @@
     * [外部访问](k8s/wai-bu-fang-wen.md)
     * [minikube](k8s/minikube.md)
     * [kompose](k8s/kompose.md)
-    * 节点亲和性
+    * [节点亲和性](k8s/jie-dian-qin-he-xing.md)
     * [apiVersion](k8s/apiversion.md)
     * [问题](k8s/wen-ti.md)
       * [ContainerCreating](k8s/wen-ti/containercreating.md)

@@ -16,8 +16,8 @@
 >     export GOOS=linux
 >     export GOARCH=amd64 
 >     echo "GOROOT: ${GOROOT}"
->     git config --global user.name "188801613198@163.com"
->     git config --global user.password "suanni123"
+>     git config --global user.name ""
+>     git config --global user.password ""
 >     cd ${GOPATH}/rebate/
 >     pwd
 >     CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build  -v -ldflags="-X main.VERSION=1.0.0 -X 'main.BUILD_TIME=`date`' -X 'main.GO_VERSION=`go version`'" -o ${GOPATH}/rebate/rebate.o ${GOPATH}/rebate/cmd/main.go
