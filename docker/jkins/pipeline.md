@@ -39,7 +39,7 @@
 >   stages {
 >   /*    stage('Pull') {
 >       steps {
->           git branch: 'features-docker', url: 'http://18801613198%40163.com:mima@git.test.cn/test.git'
+>           git branch: 'features-docker', url: 'http://18613198%40163.com:mima@git.test.cn/test.git'
 >       }
 >     }
 >
