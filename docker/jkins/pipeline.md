@@ -8,7 +8,7 @@
 >   stages {
 >       stage('Pull') {
 >       steps {
->           git branch: 'features-docker', url: 'http://18801613198%40163.com:suanni123@git.zk020.cn/youmi-wx-apps/rebate.git'
+>           git branch: 'features-docker', url: 'http://18801613198%40163.com:mima@git.test.cn/test.git'
 >       }
 >     }
 >
@@ -39,7 +39,7 @@
 >   stages {
 >   /*    stage('Pull') {
 >       steps {
->           git branch: 'features-docker', url: 'http://18801613198%40163.com:suanni123@git.zk020.cn/youmi-wx-apps/rebate.git'
+>           git branch: 'features-docker', url: 'http://18801613198%40163.com:mima@git.test.cn/test.git'
 >       }
 >     }
 >
@@ -78,7 +78,7 @@ demo3
 >     stage('Pull') {
 >       steps {
 >          
->         git branch: 'features-docker', url: 'http://18801613198%40163.com:suanni123@git.zk020.cn/youmi-wx-apps/rebate.git'
+>         git branch: 'features-docker', url: 'http://18801613198%40163.com:mima@git.test.cn/test.git'
 >         script {
 >             env.BUILD_TAG = '$(git rev-parse --short HEAD) '
 >         }
@@ -110,13 +110,13 @@ demo4
 > ```
 > node {
 >     stage('PULL') {
->         git branch: 'master', url: 'http://18801613198%40163.com:suanni123@git.zk020.cn/youmi-micro/youmi-micro-cluster.git'
+>         git branch: 'master', url: 'http://188%40163.com:mima@git.test.cn/test.git'
 >         env.ENV = 'test'
 >         env.VERSION = '$(git rev-parse --short HEAD).toString()'
->         env.BUILD_TAG = 'registry.cn-shanghai.aliyuncs.com/youmi-go/youmi-micro-cluster:coupon-${ENV}-v${BUILD_NUMBER}'
+>         env.BUILD_TAG = 'TAG'
 >     }
 >     stage('BUILD') {
->         sh(returnStdout: true, script: "docker login --username=中快文化传媒 registry.cn-shanghai.aliyuncs.com -pZku123456")
+>         sh(returnStdout: true, script: "docker login --username=username registry.cn-shanghai.aliyuncs.com -pmima")
 >         docker.build("${BUILD_TAG}", "-f ./src/youmi_micro_coupon/Dockerfile .").push()
 >     }
 >     stage('DEPLOY') {
@@ -131,111 +131,113 @@ demo4
 
 demo5
 
-> node {  
->         stage\('PULL'\) {  
->             git branch: 'master', url: '[http://18801613198%40163.com:suanni123@git.zk020.cn/youmi-micro/youmi-micro-cluster.git](http://18801613198%40163.com:suanni123@git.zk020.cn/youmi-micro/youmi-micro-cluster.git)'  
->             env.ENV = 'test'  
->             env.VERSION = '$\(git rev-parse --short HEAD\).toString\(\)'  
->             env.BUILD\_TAG = 'registry.cn-shanghai.aliyuncs.com/youmi-go/youmi-micro-cluster:coupon-${ENV}-v${BUILD\_NUMBER}'  
->             env.PROJECT\_NAME = "coupon"  
->             env.PROJECT\_FILE = "youmi\_micro\_coupon"  
->             env.PORT = "5063"  
->             env.NODE\_PORT = "31063"  
->         }  
->         stage\('BUILD'\) {  
->             sh "sed -i 's/${ENV}/${ENV}/' ./deploy/Dockerfile"  
->             sh "sed -i 's/${PROJECT\_NAME}/${PROJECT\_NAME}/' ./deploy/Dockerfile"  
->             sh "sed -i 's/${PROJECT\_FILE}/${PROJECT\_FILE}/' ./deploy/Dockerfile"  
->             sh "sed -i 's/${PORT}/${PORT}/' ./deploy/Dockerfile"  
->             sh\(returnStdout: true, script: "docker login --username=中快文化传媒 registry.cn-shanghai.aliyuncs.com -pZku123456"\)  
->             docker.build\("${BUILD\_TAG}", "-f ./deploy/Dockerfile ."\).push\(\)  
->         }  
->         stage\('DEPLOY'\) {  
->             withCredentials\(\[kubeconfigFile\(credentialsId: 'aliyun-k8s',variable: 'KUBECONFIG'\)\]\) {  
->               sh\(returnStdout: true, script: "sed -i 's/${ENV}/${ENV}/' ./deploy/Deployment.yaml"\)  
->               sh\(returnStdout: true, script: "sed -i 's/${PROJECT\_NAME}/${PROJECT\_NAME}/' ./deploy/Deployment.yaml"\)  
->               sh\(returnStdout: true, script: "sed -i 's/${PORT}/${PORT}/' ./deploy/Deployment.yaml"\)  
->               sh\(returnStdout: true, script: "sed -i 's/${NODE\_PORT}/${NODE\_PORT}/' ./deploy/Deployment.yaml"\)  
->               sh\(returnStdout: true, script: "sed -i 's/${VERSION}/${BUILD\_NUMBER}/' ./deploy/Deployment.yaml"\)  
->               sh 'kubectl apply -f  ./deploy/Deployment.yaml'  
->             }  
->             sh 'docker rmi -f `docker image ls -f dangling=true -q`'  
->         }  
->     }
+node {  
+        stage\('PULL'\) {  
+            git branch: 'master', url: ''  
+            env.ENV = 'test'  
+            env.VERSION = '$\(git rev-parse --short HEAD\).toString\(\)'  
+            env.BUILD\_TAG = ':coupon-${ENV}-v${BUILD\_NUMBER}'  
+            env.PROJECT\_NAME = "coupon"  
+            env.PROJECT\_FILE = "youmi\_micro\_coupon"  
+            env.PORT = "5063"  
+            env.NODE\_PORT = "31063"  
+        }  
+        stage\('BUILD'\) {  
+            sh "sed -i 's/${ENV}/${ENV}/' ./deploy/Dockerfile"  
+            sh "sed -i 's/${PROJECT\_NAME}/${PROJECT\_NAME}/' ./deploy/Dockerfile"  
+            sh "sed -i 's/${PROJECT\_FILE}/${PROJECT\_FILE}/' ./deploy/Dockerfile"  
+            sh "sed -i 's/${PORT}/${PORT}/' ./deploy/Dockerfile"  
+            sh\(returnStdout: true, script: "docker login --username=username registry.cn-shanghai.aliyuncs.com -pmima"\)  
+            docker.build\("${BUILD\_TAG}", "-f ./deploy/Dockerfile ."\).push\(\)  
+        }  
+        stage\('DEPLOY'\) {  
+            withCredentials\(\[kubeconfigFile\(credentialsId: 'aliyun-k8s',variable: 'KUBECONFIG'\)\]\) {  
+              sh\(returnStdout: true, script: "sed -i 's/${ENV}/${ENV}/' ./deploy/Deployment.yaml"\)  
+              sh\(returnStdout: true, script: "sed -i 's/${PROJECT\_NAME}/${PROJECT\_NAME}/' ./deploy/Deployment.yaml"\)  
+              sh\(returnStdout: true, script: "sed -i 's/${PORT}/${PORT}/' ./deploy/Deployment.yaml"\)  
+              sh\(returnStdout: true, script: "sed -i 's/${NODE\_PORT}/${NODE\_PORT}/' ./deploy/Deployment.yaml"\)  
+              sh\(returnStdout: true, script: "sed -i 's/${VERSION}/${BUILD\_NUMBER}/' ./deploy/Deployment.yaml"\)  
+              sh 'kubectl apply -f  ./deploy/Deployment.yaml'  
+            }  
+            sh 'docker rmi -f `docker image ls -f dangling=true -q`'  
+        }  
+    }
 
 ## Demo6
 
 > node {
 >
->     stage\('PULL'\) {
+> ```
+> stage\('PULL'\) {
 >
->         checkout\(\[$class: 'GitSCM', 
+>     checkout\(\[$class: 'GitSCM', 
 >
->                           branches: \[\[name: "${params.BRANCH}"\]\], 
+>                       branches: \[\[name: "${params.BRANCH}"\]\], 
 >
->                           doGenerateSubmoduleConfigurations: false, 
+>                       doGenerateSubmoduleConfigurations: false, 
 >
->                           extensions: \[\], 
+>                       extensions: \[\], 
 >
->                           gitTool: 'Default', 
+>                       gitTool: 'Default', 
 >
->                           submoduleCfg: \[\], 
+>                       submoduleCfg: \[\], 
 >
->                           userRemoteConfigs: \[\[url: 'http://git.zk020.cn/youmi-micro/youmi-micro-cluster.git',credentialsId: 'git'\]\]
+>                       userRemoteConfigs: \[\[url: '',credentialsId: 'git'\]\]
 >
->                         \]\)
+>                     \]\)
 >
->         env.ENV = 'test'
+>     env.ENV = 'test'
 >
->         env.VERSION = '$\(git rev-parse --short HEAD\).toString\(\)'
+>     env.VERSION = '$\(git rev-parse --short HEAD\).toString\(\)'
 >
->         env.BUILD\_TAG = 'registry.cn-shanghai.aliyuncs.com/youmi-go/youmi-micro-cluster:coupon-${ENV}-v${BUILD\_NUMBER}'
+>     env.BUILD\_TAG = ''
 >
->         env.PROJECT\_NAME = "coupon"
+>     env.PROJECT\_NAME = "coupon"
 >
->         env.PROJECT\_FILE = "youmi\_micro\_coupon"
+>     env.PROJECT\_FILE = ""
 >
->         env.PORT = "5063"
+>     env.PORT = "5063"
 >
->         env.NODE\_PORT = "31063"
+>     env.NODE\_PORT = "31063"
+>
+> }
+>
+> stage\('BUILD'\) {
+>
+>     sh "sed -i 's/\${ENV}/${ENV}/' ./deploy/Dockerfile"
+>
+>     sh "sed -i 's/\${PROJECT\_NAME}/${PROJECT\_NAME}/' ./deploy/Dockerfile"
+>
+>     sh "sed -i 's/\${PROJECT\_FILE}/${PROJECT\_FILE}/' ./deploy/Dockerfile"
+>
+>     sh "sed -i 's/\${PORT}/${PORT}/' ./deploy/Dockerfile"
+>
+>     sh\(returnStdout: true, script: "docker login --username=账号 registry.cn-shanghai.aliyuncs.com -pmima"\)
+>
+>     docker.build\("${BUILD\_TAG}", "-f ./deploy/Dockerfile ."\).push\(\)
+>
+> }
+>
+> stage\('DEPLOY'\) {
+>
+>     withCredentials\(\[kubeconfigFile\(credentialsId: 'aliyun-k8s',variable: 'KUBECONFIG'\)\]\) {
+>
+>       sh\(returnStdout: true, script: "sed -i 's/\${ENV}/${ENV}/' ./deploy/Deployment.yaml"\)
+>
+>       sh\(returnStdout: true, script: "sed -i 's/\${PROJECT\_NAME}/${PROJECT\_NAME}/' ./deploy/Deployment.yaml"\)
+>
+>       sh\(returnStdout: true, script: "sed -i 's/\${PORT}/${PORT}/' ./deploy/Deployment.yaml"\)
+>
+>       sh\(returnStdout: true, script: "sed -i 's/\${NODE\_PORT}/${NODE\_PORT}/' ./deploy/Deployment.yaml"\)
+>
+>       sh\(returnStdout: true, script: "sed -i 's/\${VERSION}/v${BUILD\_NUMBER}/' ./deploy/Deployment.yaml"\)
+>
+>       sh 'kubectl apply -f  ./deploy/Deployment.yaml'
 >
 >     }
 >
->     stage\('BUILD'\) {
->
->         sh "sed -i 's/\${ENV}/${ENV}/' ./deploy/Dockerfile"
->
->         sh "sed -i 's/\${PROJECT\_NAME}/${PROJECT\_NAME}/' ./deploy/Dockerfile"
->
->         sh "sed -i 's/\${PROJECT\_FILE}/${PROJECT\_FILE}/' ./deploy/Dockerfile"
->
->         sh "sed -i 's/\${PORT}/${PORT}/' ./deploy/Dockerfile"
->
->         sh\(returnStdout: true, script: "docker login --username=中快文化传媒 registry.cn-shanghai.aliyuncs.com -pZku123456"\)
->
->         docker.build\("${BUILD\_TAG}", "-f ./deploy/Dockerfile ."\).push\(\)
->
->     }
->
->     stage\('DEPLOY'\) {
->
->         withCredentials\(\[kubeconfigFile\(credentialsId: 'aliyun-k8s',variable: 'KUBECONFIG'\)\]\) {
->
->           sh\(returnStdout: true, script: "sed -i 's/\${ENV}/${ENV}/' ./deploy/Deployment.yaml"\)
->
->           sh\(returnStdout: true, script: "sed -i 's/\${PROJECT\_NAME}/${PROJECT\_NAME}/' ./deploy/Deployment.yaml"\)
->
->           sh\(returnStdout: true, script: "sed -i 's/\${PORT}/${PORT}/' ./deploy/Deployment.yaml"\)
->
->           sh\(returnStdout: true, script: "sed -i 's/\${NODE\_PORT}/${NODE\_PORT}/' ./deploy/Deployment.yaml"\)
->
->           sh\(returnStdout: true, script: "sed -i 's/\${VERSION}/v${BUILD\_NUMBER}/' ./deploy/Deployment.yaml"\)
->
->           sh 'kubectl apply -f  ./deploy/Deployment.yaml'
->
->         }
->
->     }
+> }
+> ```
 >
 > }
 
