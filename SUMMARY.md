@@ -271,6 +271,7 @@
     * [k8s](docker/jkins/k8s.md)
     * [binding-credentials](docker/jkins/binding-credentials.md)
     * [权限控制](docker/jkins/quan-xian-kong-zhi.md)
+    * [迁移](docker/jkins/qian-yi.md)
   * [四种网络模式](docker/fang-wen-su-zhu-ji.md)
   * dokcer-compose
   * [时区](docker/shi-qu.md)
