@@ -261,6 +261,7 @@
     * [istio](k8s/istio.md)
     * [services](k8s/services.md)
     * 阿里云相关
+    * [pod](k8s/pos.md)
   * [包压缩](docker/bao-ya-suo.md)
   * [jkins](docker/jkins.md)
     * [golang](docker/jkins/golang.md)
